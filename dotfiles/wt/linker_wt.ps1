@@ -9,7 +9,7 @@ if(!(Test-Path $TerminalPath)) {
 }
 
 # Create symlink to Windows Terminal settings.
-$TerminalProfileSource = Join-Path  "c:\users\max.harrison\source\personal\dotfiles\vscode" "settings.json"
+$TerminalProfileSource = Join-Path  "c:\users\max.harrison\source\personal\dotfiles\wt" "settings.json"
 $TerminalProfileDestination = Join-Path $TerminalPath "LocalState/settings.json";
 if(Test-Path $TerminalProfileDestination) {
     Remove-Item -Path $TerminalProfileDestination;
