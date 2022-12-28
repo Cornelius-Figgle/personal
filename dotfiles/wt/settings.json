@@ -4,6 +4,17 @@
     "actions": 
     [
         {
+            "command": "find",
+            "keys": "ctrl+f"
+        },
+        {
+            "command": 
+            {
+                "action": "newWindow"
+            },
+            "keys": "ctrl+n"
+        },
+        {
             "command": 
             {
                 "action": "copy",
@@ -14,17 +25,6 @@
         {
             "command": "paste",
             "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+f"
-        },
-        {
-            "command": 
-            {
-                "action": "newWindow"
-            },
-            "keys": "ctrl+n"
         },
         {
             "command": 
@@ -70,16 +70,16 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "quakeMode"
             },
-            "keys": "ctrl+t"
+            "keys": "win+`"
         },
         {
             "command": 
             {
-                "action": "quakeMode"
+                "action": "newTab"
             },
-            "keys": "win+`"
+            "keys": "ctrl+t"
         },
         {
             "command": "openNewTabDropdown",
@@ -192,7 +192,7 @@
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
