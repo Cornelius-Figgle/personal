@@ -186,13 +186,14 @@
             {
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": true,
-                "name": "Ubuntu",
+                "name": "Ubuntu VM",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu CLI",
+                "hidden": false,
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
             {
@@ -215,17 +216,9 @@
                 "useAcrylic": false
             },
             {
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
-                "elevate": true,
-                "guid": "{9bce8b71-365d-45a4-bc4a-7bbb1d5f6d14}",
-                "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "Adm Pwsh"
-            },
-            {
                 "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
-                "hidden": true,
-                "name": "Arch CLI",
+                "hidden": false,
+                "name": "Arch",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
