@@ -187,5 +187,6 @@
             "label": "Recent Issues",
             "query": "state:open repo:${owner}/${repository} sort:updated-desc"
         }
-    ]
+    ],
+    "terminal.integrated.gpuAcceleration": "on"
 }
