@@ -15,4 +15,6 @@ cd %UserProfile%
 "C:\Users\WDAGUtilityAccount\AppData\Local\Programs\Git\git-bash.exe"
 "C:\Users\WDAGUtilityAccount\AppData\Local\Programs\Git\git-cmd.exe"
 
+Regedit "C:\Users\WDAGUtilityAccount\scripts\no-close-cmd.reg"
+
 echo DOne
