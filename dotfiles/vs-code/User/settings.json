@@ -37,6 +37,7 @@
         "bestaudio",
         "Blumfield",
         "Boomstick",
+        "Carco",
         "Ceaton",
         "certifi",
         "classwizard",
@@ -65,10 +66,12 @@
         "Flamethrower",
         "Fournier",
         "fstrings",
+        "Fullimage",
         "futuro",
         "Gatligator",
         "Gatuma",
         "getmaxyx",
+        "getstarted",
         "getstr",
         "getsyx",
         "getwch",
@@ -137,6 +140,7 @@
         "roserton",
         "Seurel",
         "smth",
+        "Solum",
         "soundcloud",
         "spotipy",
         "stdscr",
@@ -147,6 +151,7 @@
         "taskmgr",
         "tcsh",
         "tqdm",
+        "Tricel",
         "typeq",
         "urllib",
         "venv",
@@ -154,6 +159,7 @@
         "Wifi",
         "wikiq",
         "windowsfilenames",
+        "Winterstoke",
         "workpath",
         "youtube",
         "youtusic"
@@ -191,5 +197,9 @@
             "query": "state:open repo:${owner}/${repository} sort:updated-desc"
         }
     ],
-    "terminal.integrated.gpuAcceleration": "on"
+    "terminal.integrated.gpuAcceleration": "on",
+    "cSpell.maxNumberOfProblems": 1000,
+    "cSpell.noSuggestDictionaries": [
+        "lorem-ipsum"
+    ]
 }
