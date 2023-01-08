@@ -79,6 +79,7 @@
         "getwche",
         "getyx",
         "gpio",
+        "HMFL",
         "Hmmss",
         "homeq",
         "idna",
