@@ -45,7 +45,7 @@ Sleep, 5000
 Send, {f}
 Return
 
-*F6:: Run %A_ScriptDir%\HW.ahk
+;*F6:: Run %A_ScriptDir%\HW.ahk
 
 toggle = 0
 #MaxThreadsPerHotkey 2
