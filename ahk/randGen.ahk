@@ -5,6 +5,9 @@ SetWorkingDir %A_ScriptDir%
 Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
 #SingleInstance On
 
+:*:/<::∠
+:*:=~::≈
+
 ~Esc::Send, {Ctrl Up}{Alt Up}{Shift Up}{Win Up}{LCtrl Up}{LAlt Up}{LShift Up}{LWin Up}{RCtrl Up}{RAlt Up}{RShift Up}{RWin Up}
 Return
 
