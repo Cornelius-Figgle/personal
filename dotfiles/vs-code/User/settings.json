@@ -214,5 +214,6 @@
     "cSpell.maxNumberOfProblems": 1000,
     "cSpell.noSuggestDictionaries": [
         "lorem-ipsum"
-    ]
+    ],
+    "workbench.iconTheme": "material-icon-theme"
 }
