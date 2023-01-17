@@ -28,6 +28,18 @@ Return
 *ScrollLock::Run, Notepad
 *Pause::Run ms-paint: 
 
+MediaKey(key) {
+	processName := "Spotify.exe"
+	if (WinExist("ahk_exe " . processName)) {
+		WinGetTitle, title, ahk_exe %processName%
+		;Send {%key%}
+		ControlSend, Edit1, {%key%}, %title%
+	} else {
+		MsgBox The process "%ProcessName%" doesn't exist
+	}
+	Return
+}
+
 NumpadHome::Volume_Down
 NumpadLeft::Media_Prev
 NumpadEnd::Browser_Back
