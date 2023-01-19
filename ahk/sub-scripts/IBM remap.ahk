@@ -5,7 +5,8 @@ SetWorkingDir %A_ScriptDir%  ; consistent start dir
 #InstallKeybdHook
 #KeyHistory 0
 
-Menu, Tray, Icon, "%A_ScriptDir%\..\icons\ibm.ico", , 0
+GrandParentOfFile := A_ScriptDir "\.."
+Menu, Tray, Icon, %GrandParentOfFile%\icons\ibm.ico, , 0
 
 ; =======================================
 ; Remap keys
@@ -28,19 +29,19 @@ Ins::AppsKey
 toggle = 0
 #MaxThreadsPerHotkey 2
 *F3::
-Toggle := !Toggle
-SendInput {ScrollLock}
-While Toggle{
-MouseMove, 0, -10, 0, R
-MouseMove, 0, 10, 0, R
-sleep 300000
-}
+	Toggle := !Toggle
+	SendInput {ScrollLock}
+	While Toggle{
+	MouseMove, 0, -10, 0, R
+	MouseMove, 0, 10, 0, R
+	sleep 300000
+	}
 Return
 
 *F1::
-Menu, Tray, Icon, "%A_ScriptDir%\..\icons\loading.ico", , 0
-Run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AutoHotkey\AutoHotkey Help File", , Max
-Menu, Tray, Icon, "%A_ScriptDir%\..\icons\ibm.ico", , 0
+	Menu, Tray, Icon, %GrandParentOfFile%\icons\loading.ico, , 0
+	Run, C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AutoHotkey\AutoHotkey Help File, , Max
+	Menu, Tray, Icon, %GrandParentOfFile%\icons\ibm.ico, , 0
 Return
 
 *F4::!F4

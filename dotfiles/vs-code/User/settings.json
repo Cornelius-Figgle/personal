@@ -185,6 +185,7 @@
     "cSpell.suggestionMenuType": "quickFix",
     "cSpell.checkOnlyEnabledFileTypes": false,
     "[python]": {
+        "editor.formatOnType": true
     },
     "editor.insertSpaces": false,
     "workbench.layoutControl.enabled": false,
