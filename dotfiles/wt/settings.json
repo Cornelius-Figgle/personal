@@ -4,17 +4,6 @@
     "actions": 
     [
         {
-            "command": "find",
-            "keys": "ctrl+f"
-        },
-        {
-            "command": 
-            {
-                "action": "newWindow"
-            },
-            "keys": "ctrl+n"
-        },
-        {
             "command": 
             {
                 "action": "copy",
@@ -25,6 +14,17 @@
         {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+f"
+        },
+        {
+            "command": 
+            {
+                "action": "newWindow"
+            },
+            "keys": "ctrl+n"
         },
         {
             "command": 
@@ -70,16 +70,16 @@
         {
             "command": 
             {
-                "action": "quakeMode"
+                "action": "newTab"
             },
-            "keys": "win+`"
+            "keys": "ctrl+t"
         },
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "quakeMode"
             },
-            "keys": "ctrl+t"
+            "keys": "win+`"
         },
         {
             "command": "openNewTabDropdown",
@@ -185,8 +185,8 @@
             },
             {
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": true,
-                "name": "Ubuntu VM",
+                "hidden": false,
+                "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
