@@ -222,5 +222,6 @@
     "cSpell.noSuggestDictionaries": [
         "lorem-ipsum"
     ],
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.accessibilitySupport": "off"
 }
