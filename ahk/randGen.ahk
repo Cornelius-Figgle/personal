@@ -52,28 +52,28 @@ Return
 ~^e:: Send {BackSpace}
 
 #IfWinActive methodmaths
-~PgDn::
-Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
-MouseMove, 1571, 186
-Sleep 200
-SendEvent {Blind}{LButton down}
-KeyWait PgDn
-SendEvent {Blind}{LButton up}
-Sleep 500
-Send {Tab}
-Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
-Return
+	~PgDn::
+		Menu, Tray, Icon, %A_ScriptDir%\icons\loading.ico, , 0
+		MouseMove, 1571, 186
+		Sleep 200
+		SendEvent {Blind}{LButton down}
+		KeyWait PgDn
+		SendEvent {Blind}{LButton up}
+		Sleep 500
+		Send {Tab}
+		Menu, Tray, Icon, %A_ScriptDir%\icons\random.ico, , 0
+	Return
 
 #IfWinActive methodmaths
-~PgUp::
-Menu,Tray,Icon,%A_ScriptDir%\icons\loading.ico,,0
-MouseMove, 1547, 183
-Sleep 200
-SendEvent {Blind}{LButton down}
-KeyWait PgUp
-SendEvent {Blind}{LButton up}
-Menu,Tray,Icon,%A_ScriptDir%\icons\random.ico,,0
-Return
+	~PgUp::
+		Menu, Tray, Icon, %A_ScriptDir%\icons\loading.ico, , 0
+		MouseMove, 1547, 183
+		Sleep 200
+		SendEvent {Blind}{LButton down}
+		KeyWait PgUp
+		SendEvent {Blind}{LButton up}
+		Menu, Tray, Icon, %A_ScriptDir%\icons\random.ico, , 0
+	Return
 
 #IfWinActive Excel
 ^+i::
