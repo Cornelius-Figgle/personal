@@ -226,5 +226,6 @@
     "editor.accessibilitySupport": "off",
     "update.showReleaseNotes": false,
     "git.openRepositoryInParentFolders": "always",
-    "editor.guides.bracketPairs": "active"
+    "editor.guides.bracketPairs": "active",
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
