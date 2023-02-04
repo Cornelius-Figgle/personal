@@ -223,5 +223,8 @@
         "lorem-ipsum"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "editor.accessibilitySupport": "off"
+    "editor.accessibilitySupport": "off",
+    "update.showReleaseNotes": false,
+    "git.openRepositoryInParentFolders": "always",
+    "editor.guides.bracketPairs": "active"
 }
