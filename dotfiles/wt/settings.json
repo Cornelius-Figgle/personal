@@ -4,6 +4,10 @@
     "actions": 
     [
         {
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+shift+t"
+        },
+        {
             "command": 
             {
                 "action": "copy",
@@ -25,19 +29,6 @@
                 "action": "newWindow"
             },
             "keys": "ctrl+n"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+h"
         },
         {
             "command": "closePane",
@@ -70,9 +61,15 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "keys": "ctrl+t"
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+h"
         },
         {
             "command": 
@@ -82,8 +79,11 @@
             "keys": "win+`"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "ctrl+shift+t"
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -99,6 +99,7 @@
     {
         "defaults": 
         {
+            "adjustIndistinguishableColors": "indexed",
             "antialiasingMode": "cleartype",
             "colorScheme": "One Half Dark",
             "cursorShape": "vintage",
@@ -174,7 +175,7 @@
                 "font": 
                 {
                     "face": "Cascadia Mono",
-                    "size": 12
+                    "size": 12.0
                 },
                 "guid": "{0186e3c1-0614-4ea5-b551-2d869d903e34}",
                 "hidden": false,
@@ -205,7 +206,7 @@
                 "font": 
                 {
                     "face": "Cascadia Mono",
-                    "size": 12
+                    "size": 12.0
                 },
                 "guid": "{6c33bb5a-b731-4d35-b206-89dbd7f8d3e2}",
                 "hidden": false,
@@ -458,5 +459,7 @@
     ],
     "startOnUserLogin": false,
     "tabWidthMode": "titleLength",
-    "theme": "dark"
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": false
 }

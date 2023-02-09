@@ -73,6 +73,7 @@ xterm*|rxvt*)
 esac
 
 alias cls='clear'
+eval "$(thefuck --alias)"
 alias ter='/media/srv/00\ Max/__serv/ubuntu/start_cmds.sh'
 alias mc='/media/srv/00\ Max/__serv/ubuntu/mc_start.sh'
 alias tmux-kill='sudo pkill tmux'
