@@ -75,7 +75,6 @@ esac
 alias cls='clear'
 
 eval "$(thefuck --alias)"
-eval "$(exec bash)"
 
 alias ter='/media/srv/00\ Max/__serv/ubuntu/start_cmds.sh'
 alias mc='/media/srv/00\ Max/__serv/ubuntu/mc_start.sh'
