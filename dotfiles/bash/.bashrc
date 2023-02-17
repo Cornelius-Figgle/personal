@@ -74,6 +74,7 @@ esac
 
 alias cls='clear'
 
+export PYTHONIOENCODING="utf-8"
 eval "$(thefuck --alias)"
 
 alias ter='/media/srv/00\ Max/__serv/ubuntu/start_cmds.sh'
