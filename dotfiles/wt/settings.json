@@ -35,6 +35,15 @@
             "keys": "ctrl+w"
         },
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -59,24 +68,8 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "toggleFocusMode",
             "keys": "ctrl+shift+h"
-        },
-        {
-            "command": 
-            {
-                "action": "quakeMode"
-            },
-            "keys": "win+`"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+`"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -159,30 +159,6 @@
                 "hidden": false,
                 "icon": "\\\\dc1\\Users\\Max.Harrison\\My Documents\\My Pictures\\Images\\ico\\python.ico",
                 "name": "Python"
-            },
-            {
-                "commandline": "cmd.exe /C \"FOR /L %N IN () DO glances --fs-free-space --process-short-name -1 --program --disable-plugin connections --disable-irix\"",
-                "guid": "{084999c7-4f96-43f8-8d14-b71536b3a071}",
-                "hidden": false,
-                "icon": "\\\\dc1\\Users\\Max.Harrison\\My Documents\\My Pictures\\Images\\ico\\glances.png",
-                "name": "Glances"
-            },
-            {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
-                "closeOnExit": "automatic",
-                "commandline": "pwsh -c \"ssh max@mimic2\"",
-                "font": 
-                {
-                    "face": "Cascadia Mono",
-                    "size": 12.0
-                },
-                "guid": "{0186e3c1-0614-4ea5-b551-2d869d903e34}",
-                "hidden": false,
-                "historySize": 9001,
-                "name": "Terraria Serv",
-                "padding": "8, 8, 8, 8",
-                "useAcrylic": false
             },
             {
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
