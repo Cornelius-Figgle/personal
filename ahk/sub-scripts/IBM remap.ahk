@@ -45,7 +45,7 @@ Return
 Return
 
 *F4::!F4
-*F9:: Run sndvol
+*F9:: Run control mmsys.cpl sounds
 *ScrollLock::Run, Notepad
 *Pause::Run ms-paint: 
 
