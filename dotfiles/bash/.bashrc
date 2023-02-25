@@ -77,8 +77,11 @@ alias cls='clear'
 export PYTHONIOENCODING="utf-8"
 eval "$(thefuck --alias)"
 
-alias ter='/media/srv/00\ Max/__serv/ubuntu/start_cmds.sh'
-alias mc='/media/srv/00\ Max/__serv/ubuntu/mc_start.sh'
+if [ "$HOSTNAME" = mimic2 ]; then
+    alias ter='/mnt/p/00\ Max/mimic/ter_start.sh'
+    alias mc='/mnt/p/00\ Max/mimic/mc_start.sh'
+fi
+
 alias tmux-kill='sudo pkill tmux'
 alias glances-light='glances --light --process-short-name -1 --program --disable-irix'
 

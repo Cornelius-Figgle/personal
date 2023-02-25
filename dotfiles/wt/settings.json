@@ -35,15 +35,6 @@
             "keys": "ctrl+w"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -68,15 +59,17 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+h"
-        },
-        {
             "command": 
             {
-                "action": "newTab"
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "keys": "ctrl+t"
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+h"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "quakeMode"
             },
             "keys": "win+`"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -196,7 +196,8 @@
                 "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
                 "hidden": false,
                 "name": "Arch",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Arch\\home\\max\\"
             }
         ]
     },
