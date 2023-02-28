@@ -256,5 +256,19 @@
     "git.openRepositoryInParentFolders": "always",
     "editor.guides.bracketPairs": "active",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "githubPullRequests.pullBranch": "never"
+    "githubPullRequests.pullBranch": "never",
+    "githubPullRequests.queries": [
+        {
+            "label": "Waiting For My Review",
+            "query": "is:open review-requested:${user}"
+        },
+        {
+            "label": "Assigned To Me",
+            "query": "is:open assignee:${user}"
+        },
+        {
+            "label": "Created By Me",
+            "query": "is:open author:${user}"
+        }
+    ]
 }
