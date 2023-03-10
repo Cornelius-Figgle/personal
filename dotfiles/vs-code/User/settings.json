@@ -271,5 +271,6 @@
             "label": "Created By Me",
             "query": "is:open author:${user}"
         }
-    ]
+    ],
+    "githubPullRequests.createOnPublishBranch": "never"
 }
