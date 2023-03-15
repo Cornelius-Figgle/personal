@@ -4,21 +4,18 @@ SendMode, Input
 SetBatchLines, -1
 SetWorkingDir, %A_ScriptDir%
 #KeyHistory, 0
-
 #Persistent
-; FileSetAttrib, -A, %A_ScriptFullPath% 
-; Set file attribute to avoid reloading on first run
-; When script changed thereafter and saved, will reload
 
 GrandParentOfFile := A_ScriptDir "\.."
 ; Menu, Tray, Icon, %GrandParentOfFile%\icons\ibm.ico, , 0
 
 
 ; bg thread for automatically skipping
+sleep, 5000
 While True {
 	if WinExist("Advertisement") || WinExist("Spotify Free") {  ; if advertisement window?
 		spotify_skip()
-		sleep, 10000  ; 10 seconds delay to stop application loop?
+		sleep, 5000  ; delay to stop application loop
 	}
 	sleep, 1000  ; only check every second to reduce resources impact
 }
@@ -39,9 +36,9 @@ spotify_skip() {
 	Sleep 1000
 	SoundSet, %currentVolume%
 	Send {Media_Play_Pause}  ; resume playback
-}
 
-#NumpadRight::spotify_skip()  ; manual skip
+	Return
+}
 
 #+w::
 	; checks if window can be found
