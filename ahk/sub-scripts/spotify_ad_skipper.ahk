@@ -16,7 +16,7 @@ GrandParentOfFile := A_ScriptDir "\.."
 
 ; bg thread for automatically skipping
 While True {
-	if WinExist("Advertisement") || WinExist("Spotify Free") {
+	if WinExist("Advertisement") || WinExist("Spotify Free") {  ; if advertisement window?
 		spotify_skip()
 		sleep, 10000  ; 10 seconds delay to stop application loop?
 	}
