@@ -14,7 +14,6 @@
         "*.wsb": "xml"
     },
     "terminal.integrated.defaultLocation": "editor",
-    "workbench.colorTheme": "Monokai Dimmed",
     "python.analysis.autoImportCompletions": false,
     "C_Cpp.autocompleteAddParentheses": true,
     "python.analysis.typeCheckingMode": "off",
@@ -144,6 +143,7 @@
         "noprogress",
         "nostdout",
         "nowindow",
+        "Numpad",
         "onefile",
         "OSSSSSSS",
         "outtmpl",
@@ -274,5 +274,6 @@
             "query": "is:open author:${user}"
         }
     ],
-    "githubPullRequests.createOnPublishBranch": "never"
+    "githubPullRequests.createOnPublishBranch": "never",
+    "workbench.colorTheme": "Monokai Dimmed"
 }
