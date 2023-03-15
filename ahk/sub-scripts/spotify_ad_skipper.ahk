@@ -18,6 +18,7 @@ GrandParentOfFile := A_ScriptDir "\.."
 While True {
 	if WinExist("Advertisement") || WinExist("Spotify Free") {
 		spotify_skip()
+		sleep, 5000
 	}
 }
 Return
