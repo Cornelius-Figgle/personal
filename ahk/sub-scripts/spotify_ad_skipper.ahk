@@ -15,7 +15,7 @@ sleep, 5000
 While True {
 	if WinExist("Advertisement") || WinExist("Spotify Free") {  ; if advertisement window?
 		spotify_skip()
-		sleep, 5000  ; delay to stop application loop
+		sleep, 10000  ; delay to stop application loop
 	}
 	sleep, 1000  ; only check every second to reduce resources impact
 }
