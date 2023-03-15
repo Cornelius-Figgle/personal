@@ -20,6 +20,7 @@ While True {
 		spotify_skip()
 		sleep, 5000
 	}
+	sleep, 1000  ; only check every second to reduce resources impact
 }
 Return
 
