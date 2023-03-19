@@ -13,7 +13,7 @@ path_base := "t:\personal\ahk\"
 
 RestartLoop(ExtToUse:=["lnk", "ahk"]) {
 	Loop ExtToUse.Length {
-		Loop Files, A_Startup . "\*." . ExtToUse[A_Index], "FR"
+		Loop Files, A_Startup . "\*." . ExtToUse[A_Index], "FR"  ; cycles through the startup folder
 			Run(A_LoopFileFullPath)
 	}
 }
