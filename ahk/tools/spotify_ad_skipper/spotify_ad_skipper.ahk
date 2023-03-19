@@ -7,7 +7,11 @@
 
 
 path_base := "t:\personal\ahk\"
-TraySetIcon(path_base . "icons\sp.ico")
+Try {
+	TraySetIcon(path_base . "icons\sp.ico")
+} catch {  ; if icons dir cannot be found
+	TraySetIcon(A_ScriptDir . "\sp.ico")
+}
 
 ; ===== main functions =======================================================
 
