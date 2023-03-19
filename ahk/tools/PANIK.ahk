@@ -11,7 +11,7 @@ TraySetIcon(path_base . "icons\exclam.ico")
 
 ; ===== main func ============================================================
 
-AHKPanic(Kill:=1, Pause:=0, Suspend:=0, SelfToo:=1) {
+AHKPanic(ShouldKill:=1, ShouldPause:=0, ShouldSuspend:=0, ShouldSelfToo:=1) {
 
     DetectHiddenWindows(true)
 
@@ -22,20 +22,20 @@ AHKPanic(Kill:=1, Pause:=0, Suspend:=0, SelfToo:=1) {
         ATitle := WinGetTitle("ahk_id" . ID)
 
         If !InStr(ATitle, A_ScriptFullPath) {
-			If Suspend
+			If ShouldSuspend
 				PostMessage(0x111, 65404, , , "ahk_id" . ID)  ; Suspend
-			If Pause
+			If ShouldPause
 				PostMessage(0x111, 65403, , , "ahk_id" . ID)  ; Pause
-			If Kill
+			If ShouldKill
 				WinClose("ahk_id" . ID)  ; Kill
 		}
     }
-    If SelfToo {
-        If Suspend
+    If ShouldSelfToo {
+        If ShouldSuspend
         	Suspend(-1)  ; Suspend
-        If Pause
+        If ShouldPause
         	Pause(-1)  ; Pause
-        If Kill
+        If ShouldKill
         	ExitApp  ; Kill
     }
 }
@@ -43,6 +43,4 @@ AHKPanic(Kill:=1, Pause:=0, Suspend:=0, SelfToo:=1) {
 ; ===== hotkeys for func =====================================================
 
 ~RButton & ~XButton1::
-+Esc:: {
-	AHKPanic(1, 0, 0, 1)
-}
++Esc::AHKPanic(1, 0, 0, 1)
