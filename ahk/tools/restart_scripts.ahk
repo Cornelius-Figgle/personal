@@ -20,5 +20,5 @@ RestartLoop(ExtToUse:=["lnk", "ahk"]) {
 
 ; ===== function call ========================================================
 
-if (!A_IsCompiled && A_LineFile == A_ScriptFullPath)  ; only call function if it was ran directly (ie not #Include'd)
+if (!A_IsCompiled and A_LineFile == A_ScriptFullPath) or A_IsCompiled  ; only call function if it was ran directly (ie not #Include'd)
 	RestartLoop()

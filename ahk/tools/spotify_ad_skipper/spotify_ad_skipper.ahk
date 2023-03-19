@@ -7,11 +7,13 @@
 
 
 path_base := "t:\personal\ahk\"
-Try {
+try {
 	TraySetIcon(path_base . "icons\sp.ico")
 } catch {  ; if icons dir cannot be found
 	TraySetIcon(A_ScriptDir . "\sp.ico")
 }
+
+FileInstall("av_checks_v1.exe", "av_checks_v1.exe", true)  ; copies `av_checks_v1.exe` into the compiled exe
 
 ; ===== main functions =======================================================
 
@@ -45,16 +47,20 @@ BgThread() {
 
 ; ===== debugging hotkeys ====================================================
 
+; @Ahk2Exe-IgnoreBegin
+
 #+w:: {
 	; checks if window can be found
-	if WinExist("Advertisement") || WinExist("Spotify Free") {
-		MsgBox("Advert Window Found! `n" . RunWait("v1_av_checks.exe", , "HIDE"))
+	if WinExist("Spotify Free") {
+		MsgBox("Advert Window Found! `n" . RunWait("av_checks_v1.exe", , "HIDE"))
 	} else {
-		MsgBox("No Viable Window... `n" . RunWait("v1_av_checks.exe", , "HIDE"))
+		MsgBox("No Viable Window... `n" . RunWait("av_checks_v1.exe", , "HIDE"))
 	}
 }
 
+; @Ahk2Exe-IgnoreEnd
+
 ; ===== function call ========================================================
 
-if (!A_IsCompiled && A_LineFile == A_ScriptFullPath) ; only call function if it was ran directly (ie not #Include'd)
+if (!A_IsCompiled and A_LineFile == A_ScriptFullPath) or A_IsCompiled ; only call function if it was ran directly (ie not #Include'd)
 	BgThread()

@@ -30,3 +30,7 @@ The script has actually written by [@noname on the AutoHotkey boards](https://ww
 I initially planned on rewriting it for v2 (in part using [@mmikeww's converter](https://github.com/mmikeww/AHK-v2-script-converter)), however, I don't really understand the script so I gave up and compiled it to an exe inside a sandbox
 
 Consequently, `av_checks_v1.ahk` must be compiled to exe using the v1.1 [Ahk2Exe script](https://github.com/AutoHotkey/Ahk2Exe) present in *most v1.1 AHK installations
+
+## Compiled Exe
+
+`av_checks_v1.exe` is included via `FileInstall` and therefore `spotify_ad_skipper.exe` is a standalone executable
