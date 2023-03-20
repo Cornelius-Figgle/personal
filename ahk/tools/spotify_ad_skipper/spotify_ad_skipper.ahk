@@ -29,6 +29,7 @@ SkipViaRestart() {
 }
 
 DetermineWhetherToSkip() {
+	Sleep(1000)
 	if WinExist("Spotify Free")
 		and WinExist("ahk_exe spotify.exe")
 		and WinGetID("ahk_exe spotify.exe") == WinGetID("Spotify Free")
