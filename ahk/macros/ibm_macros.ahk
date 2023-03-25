@@ -39,6 +39,8 @@ path_base := "t:\personal\ahk\"
 
 Pause::Run("ms-paint:")
 
+^#a::WinSetAlwaysOnTop(-1, "A")
+
 Toggle := 0
 #MaxThreadsPerHotkey 2
 *F3:: {
