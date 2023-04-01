@@ -1,4 +1,5 @@
 {
+    "zenMode.hideStatusBar": false,
     "editor.bracketPairColorization.enabled": true,
     "git.confirmSync": false,
     "git.autofetch": true,
