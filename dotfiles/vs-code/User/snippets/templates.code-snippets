@@ -66,7 +66,7 @@
 			"; ===== function call ========================================================",
 			"",
 			"if (!A_IsCompiled and A_LineFile == A_ScriptFullPath) or A_IsCompiled  ; only call function if it was ran directly (ie not #Include'd)",
-			"\tobj := ${2:PROJECTNAME}_(path_base)",
+			"\tobj := ${2:PROJECTNAME}_()",
 			"\tobj.start()"
 		],
 		"description": "for run.ahk"
@@ -92,7 +92,7 @@
 			"",
 			"; Persistent(true)",
 			"",
-			"; ===== main functions =======================================================",
+			"; ===== main class ===========================================================",
 			"",
 			"class ${2:PROJECTNAME}_ extends Object {",
 			"\t__New() {  ; note: sets class attributes",
@@ -111,6 +111,7 @@
 			"\t_Delete() {",
 			"\t}",
 			"",
+			"; === functions ==========================================================",
 			"",
 			"\tstart() {",
 			"\t}",
