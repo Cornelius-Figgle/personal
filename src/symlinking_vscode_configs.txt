@@ -1,0 +1,30 @@
+Microsoft Windows [Version 10.0.19044.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Max.Harrison>mklink /?
+Creates a symbolic link.
+
+MKLINK [[/D] | [/H] | [/J]] Link Target
+
+        /D      Creates a directory symbolic link.  Default is a file
+                symbolic link.
+        /H      Creates a hard link instead of a symbolic link.
+        /J      Creates a Directory Junction.
+        Link    Specifies the new symbolic link name.
+        Target  Specifies the path (relative or absolute) that the new link
+                refers to.
+
+C:\Users\Max.Harrison>mv C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets T:\personal\dotfiles\vs-code\User
+'mv' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Max.Harrison>move C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets T:\personal\dotfiles\vs-code\User
+Access is denied.
+
+C:\Users\Max.Harrison>move C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets c:\users\max.harrison\source\personal\dotfiles\vs-code\User
+        1 dir(s) moved.
+
+C:\Users\Max.Harrison>mklink /D C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets c:\users\max.harrison\source\personal\dotfiles\vs-code\User\snippets
+symbolic link created for C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets <<===>> c:\users\max.harrison\source\personal\dotfiles\vs-code\User\snippets
+
+C:\Users\Max.Harrison>
