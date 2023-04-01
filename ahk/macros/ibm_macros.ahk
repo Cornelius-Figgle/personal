@@ -48,7 +48,6 @@ Toggle := 0
 	Toggle := !Toggle
 	SetScrollLockState Toggle
 	While Toggle = 1 {
-		MsgBox("go")
 		MouseMove(0, -20, 0, "R")
 		MouseMove(0, 20, 0, "R")
 		Sleep(300000)
