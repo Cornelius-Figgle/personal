@@ -19,7 +19,7 @@ ahk is confusing, just created this to explain it as Python
 ```ahk2
 class SpAdSkpr_ extends Object {
     __New(some_param) {  ; called when class is invoked
-        this.TargetWindow := "ahk_exe spotify.exe"
+        this.TargetWindow := "ahk_exe Spotify.exe"
         this.ValidWindowTitles := ["Spotify Free", "Frank Joshua"]
 
         MsgBox(some_param)
