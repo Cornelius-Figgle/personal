@@ -23,3 +23,5 @@ ln -s /home/max/source/personal/dotfiles/bash/.bashrc /home/max/.bashrc
 ln -s /home/max/source/personal/dotfiles/bash/.profile /home/max/.profile
 ls -lash
 exec bash
+
+# curl -sSL https://install.python-poetry.org | python3 -
