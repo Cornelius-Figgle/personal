@@ -6,6 +6,7 @@
 sudo apt update
 sudo apt install git neofetch neovim thefuck python3-pip python3-venv  # long
 curl -sSL https://install.python-poetry.org | python3 -  # poetry being difficult, as usual
+poetry config virtualenvs.in-project true  # don't forget me
 exec bash  # reload $PATH
 
 # check versions (ie installs went fine)
@@ -31,3 +32,8 @@ ln -s /home/max/source/personal/dotfiles/bash/.bashrc /home/max/.bashrc
 ln -s /home/max/source/personal/dotfiles/bash/.profile /home/max/.profile
 ls -lash
 exec bash
+
+# install ROSA
+cd ~/source/ROSA
+ls
+poetry install
