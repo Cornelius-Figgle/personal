@@ -38,6 +38,5 @@ exec bash
 cd ~/source/ROSA
 ls
 sudo apt install python3-sdl2  # sdl2 for pygame 
-poetry install  
-# pygame fails, no sdl2
-# pyaudio fails, no portaudio 
+sudo apt install python3-pyaudio flac python3-gst-1.0  # python copy no worky
+poetry install
