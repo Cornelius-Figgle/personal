@@ -1,6 +1,6 @@
 #!/bin/bash
-
 # this is more intended as a command reference, but ig it could be ran directly
+
 
 # installs
 sudo apt update
