@@ -4,7 +4,8 @@
 
 # installs
 sudo apt update
-sudo apt install git neofetch neovim thefuck python3-pip python3-venv  # long
+sudo apt install git neofetch neovim thefuck  # programs
+sudo apt install python3-pip python3-venv  # pip
 curl -sSL https://install.python-poetry.org | python3 -  # poetry being difficult, as usual
 poetry config virtualenvs.in-project true  # don't forget me
 exec bash  # reload $PATH
@@ -36,4 +37,7 @@ exec bash
 # install ROSA
 cd ~/source/ROSA
 ls
-poetry install
+sudo apt install python3-sdl2  # sdl2 for pygame 
+poetry install  
+# pygame fails, no sdl2
+# pyaudio fails, no portaudio 
