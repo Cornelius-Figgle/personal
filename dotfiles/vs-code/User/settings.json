@@ -58,6 +58,8 @@
         "cscript",
         "ctypes",
         "cumul",
+        "CURRENTCONFIGHEIGHT",
+        "CURRENTCONFIGWIDTH",
         "datetime",
         "deathq",
         "decibility",
@@ -196,6 +198,7 @@
         "rech",
         "resp",
         "roserton",
+        "ROUNDLINE",
         "rxvt",
         "sastanin",
         "Seurel",
@@ -299,5 +302,6 @@
     "githubPullRequests.createOnPublishBranch": "never",
     "workbench.colorTheme": "Monokai Dimmed",
     "AutoHotkey2.AutoLibInclude": "All",
-    "AutoHotkey2.InterpreterPath": "C:\\Users\\Max.Harrison\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe"
+    "AutoHotkey2.InterpreterPath": "C:\\Users\\Max.Harrison\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe",
+    "tabnine.experimentalAutoImports": true
 }
