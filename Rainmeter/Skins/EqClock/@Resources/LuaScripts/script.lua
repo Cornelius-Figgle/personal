@@ -29,14 +29,16 @@ function calcDigitalPosition(whichVar)
 	local xPoint = radiusOfCircle * math.sin(math.rad(angleOfBisectionLine))
 	local yPoint = radiusOfCircle * math.cos(math.rad(angleOfBisectionLine))
 
-	-- rounding because integers are better
-	local xPointWithOffset = math.floor(xPoint + xOffset)
-	local yPointWithOffset = math.floor(yPoint + yOffset)
-
 	-- multiply by -1 to rotate by 180
 	-- matrices would be more elegant and prob better but I cba
-	local rotatedXPointWithOffset = math.floor(xPoint + xOffset)
-	local rotatedYPointWithOffset = math.floor(yPoint + yOffset)
+	local rotatedXPoint = xPoint * -1
+	local rotatedYPoint = yPoint * -1
+
+	-- we add an offset because rainmeter only uses positive numbers
+	-- so we offset by half the screen so our standard 4-quadrant graph is moved to a single quadrant
+	-- and rounding because integers are better
+	local rotatedXPointWithOffset = math.floor(rotatedXPoint + xOffset)
+	local rotatedYPointWithOffset = math.floor(yOffset - rotatedYPoint)
 
 	--[[
 		-- debugging local vars
