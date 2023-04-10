@@ -25,7 +25,7 @@ function calcDigitalPosition(whichVar)
 
 	-- magic
 	-- info: https://math.stackexchange.com/questions/260096/find-the-coordinates-of-a-point-on-a-circle
-	local radiusOfCircle = 70  -- random value to make the text fit
+	local radiusOfCircle = 30  -- random value to make the text fit
 	local xPoint = radiusOfCircle * math.sin(math.rad(angleOfBisectionLine))
 	local yPoint = radiusOfCircle * math.cos(math.rad(angleOfBisectionLine))
 
