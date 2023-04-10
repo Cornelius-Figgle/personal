@@ -175,6 +175,7 @@
         "postprocessor",
         "postprocessors",
         "preferredcodec",
+        "prob",
         "proc",
         "processcount",
         "processlist",
