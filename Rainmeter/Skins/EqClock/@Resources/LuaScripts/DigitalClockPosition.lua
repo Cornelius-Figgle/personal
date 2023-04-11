@@ -24,8 +24,8 @@
 
 	[StyleDateTimeDigital]
 	StringAlign=Left
-	X=[&MeasureCalcDigitalPosition:calcDigitalPosition('x')]
-	Y=[&MeasureCalcDigitalPosition:calcDigitalPosition('y')]
+	X=[&MeasureCalcDigitalPosition:calcDigitalPosition(1)]
+	Y=[&MeasureCalcDigitalPosition:calcDigitalPosition(2)]
 	FontColor=192,192,192,200
 	AntiAlias=1
 	ClipString=0
@@ -71,10 +71,18 @@ function calcDigitalPosition(whichVar)
 	-- retrieves the size of the Rainmeter skin
 	-- we add an offset because Rainmeter only uses positive numbers
 	-- so we offset by half the screen so our standard 4-quadrant graph is moved to a single quadrant
-	xOffset = SKIN:GetW() / 2
-	yOffset = SKIN:GetH() / 2
+	local xOffset = SKIN:GetW() / 2
+	local yOffset = SKIN:GetH() / 2
 	local rotatedXPointWithOffset = math.floor(rotatedXPoint + xOffset)
 	local rotatedYPointWithOffset = math.floor(yOffset - rotatedYPoint)
+
+	if rotatedXPointWithOffset > 220 then
+		local textAlign = 'Left'
+	else if rotatedXPointWithOffset < 220 then
+		local textAlign = 'Right'
+	else
+		local textAlign = 'Left'  -- default
+	end
 
 	--[[
 		-- debugging local vars
@@ -91,10 +99,12 @@ function calcDigitalPosition(whichVar)
 	-- rainmeter only accepts one return value
 	-- so we run the script twice and return a diff value
 	-- more info: https://forum.rainmeter.net/viewtopic.php?t=38703
-	if string.lower(whichVar) == 'x' then
+	if whichVar == 1 then
 		return rotatedXPointWithOffset
-	elseif string.lower(whichVar) == 'y' then
+	elseif whichVar == 2 then
 		return rotatedYPointWithOffset
+	elseif whichVar == 3 then
+		return textAlign
 	else
 		print('You need to define which variable you want!')
 		return 0
