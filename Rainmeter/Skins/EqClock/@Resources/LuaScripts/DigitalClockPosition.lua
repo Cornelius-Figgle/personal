@@ -23,7 +23,7 @@
 	Disabled=1
 
 	[StyleDateTimeDigital]
-	StringAlign=Left
+	StringAlign=[&MeasureCalcDigitalPosition:calcDigitalPosition(3)]
 	X=[&MeasureCalcDigitalPosition:calcDigitalPosition(1)]
 	Y=[&MeasureCalcDigitalPosition:calcDigitalPosition(2)]
 	FontColor=192,192,192,200
@@ -56,6 +56,13 @@ function calcDigitalPosition(whichVar)
 	-- we then have to add the smallest angle to find the bisection angle relative to the the North line
 	-- rather than relative to the hour/minute lines
 	local angleOfBisectionLine = math.abs(angleOfHourLine - angleOfMinuteLine) / 2 + math.min(angleOfHourLine, angleOfMinuteLine)
+	
+	-- if the bisection is more than 90, then the whole angle (between the 2 hands) must be more than 180
+	-- therefore it is a reflex angle, which means it is on the wrong side
+	-- so we flip it
+	if angleOfBisectionLine > 90 then
+		angleOfBisectionLine = (360 - math.abs(angleOfHourLine - angleOfMinuteLine)) / 2 + math.min(angleOfHourLine, angleOfMinuteLine)  -- til: don't redefine vars, it alters the scope
+	end
 
 	-- maths magic
 	-- more info: https://math.stackexchange.com/questions/260096/find-the-coordinates-of-a-point-on-a-circle
@@ -76,12 +83,14 @@ function calcDigitalPosition(whichVar)
 	local rotatedXPointWithOffset = math.floor(rotatedXPoint + xOffset)
 	local rotatedYPointWithOffset = math.floor(yOffset - rotatedYPoint)
 
+
+	local textAlign
 	if rotatedXPointWithOffset > 220 then
-		local textAlign = 'Left'
-	else if rotatedXPointWithOffset < 220 then
-		local textAlign = 'Right'
+		textAlign = 'Left'
+	elseif rotatedXPointWithOffset < 220 then
+		textAlign = 'Right'
 	else
-		local textAlign = 'Left'  -- default
+		textAlign = 'Left'  -- default
 	end
 
 	--[[
