@@ -13,3 +13,4 @@ fi
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+alias pip='pip3'
