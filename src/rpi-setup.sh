@@ -4,7 +4,7 @@
 
 # installs
 sudo apt update
-sudo apt install git neofetch neovim thefuck  # programs
+sudo apt install git gh neofetch neovim thefuck  # programs
 sudo apt install python3-pip python3-venv  # pip
 curl -sSL https://install.python-poetry.org | python3 -  # poetry being difficult, as usual
 poetry config virtualenvs.in-project true  # don't forget me
@@ -19,6 +19,14 @@ python3 --version
 python3 -m pip --version
 pip --version
 poetry --version
+gh --version
+
+# gh auth
+gh auth login  # follow setup (use key)
+git auth setup-git
+git config --global user.email "max@fullimage.net"
+git config --global user.name "Cornelius-Figgle"
+exec bash  # reload $PATH
 
 # gh clones 
 ls -lash
