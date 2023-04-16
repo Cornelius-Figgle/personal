@@ -257,7 +257,6 @@
         "MD034": false,
         "MD036": false
     },
-    "workbench.startupEditor": "none",
     "python.analysis.inlayHints.functionReturnTypes": true,
     "cSpell.useGitignore": false,
     "githubIssues.queries": [
