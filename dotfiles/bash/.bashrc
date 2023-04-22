@@ -134,4 +134,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH="$PATH:/home/max/.local/bin"
+export PATH="$PATH:/home/max/.local/bin:/home/max/.cargo/bin"

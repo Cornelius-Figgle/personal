@@ -35,6 +35,7 @@
     },
     "custom/power-menu": {
         "format": "⏻",
+        "tooltip-format": "Power Menu",
         "on-click": "sh ~/.config/waybar/scripts/powermenu.sh",
     },
 

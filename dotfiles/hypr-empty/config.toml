@@ -1,0 +1,2 @@
+command = "/bin/bash"
+args = ["/home/max/.config/waybar/scripts/launcher.sh"]
