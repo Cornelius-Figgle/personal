@@ -185,7 +185,7 @@ window#waybar.hidden {
 #battery.charging,
 #battery.full,
 #battery.plugged {
-  color: #26a65b;
+  color:  #6eb56c;
   /* background-color: #26a65b; */
 }
 
