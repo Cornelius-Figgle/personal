@@ -109,10 +109,11 @@ window#waybar.hidden {
 }
 
 #custom-power-menu {
-  border-radius: 9.5px;
+  /*border-radius: 9.5px;
   background-color: #1b242b;
   border-radius: 7.5px;
-  padding: 0 0px;
+  padding: 0 0px;*/
+  color: #bf616a;
 }
 
 #custom-launcher {
