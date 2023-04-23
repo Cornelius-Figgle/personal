@@ -75,7 +75,7 @@ esac
 alias cls='clear'
 
 export PYTHONIOENCODING="utf-8"
-eval "$(thefuck --alias)"
+# eval "$(thefuck --alias)"
 
 if [ "$HOSTNAME" = mimic2 ]; then
     alias ter='/mnt/p/00\ Max/mimic/ter_start.sh'
