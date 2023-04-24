@@ -59,8 +59,8 @@
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
         "interval" : 0.2,
-        "on-scroll-down": "~/.config/waybar/scripts/backlight_delta.sh /sys/class/backlight/intel_backlight/brightness down 50",
-        "on-scroll-up": "~/.config/waybar/scripts/backlight_delta.sh /sys/class/backlight/intel_backlight/brightness up 50",
+        "on-scroll-down": "~/.config/hypr/media_delta.sh bright down 50",
+        "on-scroll-up": "~/.config/hypr/media_delta.sh bright up 50",
         "on-click": "",
     },
     "network": {
