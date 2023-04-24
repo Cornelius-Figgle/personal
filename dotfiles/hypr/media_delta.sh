@@ -2,8 +2,8 @@
 
 
 # cli args
-op=$1  # {vol|mute|mic|bright|pwr}
-offset=$2  # {up|down|toggle}
+op=$1  # {vol|mute|mic|bright|media}
+offset=$2  # {up|down|toggle|pause|next|prev}
 value=$3  # <any>
 
 # vars
@@ -44,10 +44,8 @@ function bright {
 	fi
 }
 
-function pwr {
-	# this deserves to be kept seperate
-	# also I didn't write it anyways
-	~/.config/waybar/scripts/powermenu.sh
+function media {
+	# HELP
 }
 
 # runner
