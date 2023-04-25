@@ -82,6 +82,12 @@ if [ "$HOSTNAME" = mimic2 ]; then
     alias mc='/mnt/p/00\ Max/mimic/mc_start.sh'
 fi
 
+function svpush () {
+	git add .
+	git commit -m $1
+	git push
+}
+
 alias tmux-kill='sudo pkill tmux'
 alias glances-light='glances --light --process-short-name -1 --program --disable-irix'
 
