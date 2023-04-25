@@ -46,6 +46,7 @@ function bright {
 
 function media {
 	# HELP
+	echo no
 }
 
 # runner
