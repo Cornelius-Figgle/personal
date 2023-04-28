@@ -1,0 +1,14 @@
+HM
+
+ok so
+
+- install windows first (but leave free space)
+- then install arch
+
+
+| slot 		| current	| proposed		|
+| ------------- | ------------- | --------------------- |
+| SATA SSD 	| 256 (Win)	| 256 (Windows)		|
+| M.2 2242 SSD	| n/a		| 256 (Arch/Data)	|
+| 		| 		|  			|
+
