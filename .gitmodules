@@ -1,0 +1,3 @@
+[submodule "dotfiles/neofetch/neofetch-themes"]
+	path = dotfiles/neofetch/neofetch-themes
+	url = https://github.com/Chick2D/neofetch-themes.git
