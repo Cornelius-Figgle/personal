@@ -142,3 +142,4 @@ fi
 
 export PATH="$PATH:/home/max/.local/bin:/home/max/.cargo/bin"
 export XDG_SCREENSHOTS_DIR="/tmp/Screenshots"
+export EDITOR="nano"
