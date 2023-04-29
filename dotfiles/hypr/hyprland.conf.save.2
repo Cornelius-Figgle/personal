@@ -21,7 +21,7 @@ exec-once = wl-paste --type image --watch cliphist store  # stores only image da
 
 exec-once = waybar & hyprpaper & /home/max/.cargo/bin/hypr-empty 
 
-# exec-once = kitty ~/source/personal/src/STEG.sh
+exec-once = kitty bash -c echo "$(echo "$HOSTNAME runs arch btw" | cowsay -f stegosaurus)"; exec bash
 
 # Source a file (multi-file configs)
 # source = ~/.config/hypr/myColors.conf
