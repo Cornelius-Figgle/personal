@@ -1,0 +1,311 @@
+1682108212898	Sync.Status	INFO	Resetting Status.
+1682108212899	Sync.Status	DEBUG	Status.service: undefined => success.status_ok
+1682108212902	FirefoxAccounts	TRACE	initializing new storage manager
+1682108212902	FirefoxAccounts	TRACE	starting fetch of json user data
+1682108212903	Sync.SyncScheduler	TRACE	Setting SyncScheduler policy values to defaults.
+1682108212903	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1682108212904	Sync.Service	INFO	Loading Weave 1.114.0
+1682108212905	Sync.Engine.Clients	DEBUG	Engine constructed
+1682108212906	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1682108212909	Sync.Engine.Addons	DEBUG	Engine constructed
+1682108212916	FirefoxAccounts	TRACE	finished fetch of json user data - took: 14
+1682108212917	FirefoxAccounts	DEBUG	reading secure storage with existing: []
+1682108212917	FirefoxAccounts	TRACE	starting fetch of user data from the login manager
+1682108212919	FirefoxAccounts	DEBUG	secure read fetched items: ["scopedKeys","kSync","kXCS","kExtSync","kExtKbHash"]
+1682108212919	FirefoxAccounts	TRACE	initializing of new storage manager done
+1682108212922	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1682108212926	Sync.Engine.Passwords	DEBUG	Engine constructed
+1682108212943	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1682108212945	Sync.Engine.Prefs	DEBUG	Engine constructed
+1682108212978	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1682108212980	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1682108212998	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1682108213001	Sync.Engine.Forms	DEBUG	Engine constructed
+1682108213012	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1682108213014	Sync.Engine.History	DEBUG	Engine constructed
+1682108213026	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1682108213028	Sync.Engine.Tabs	DEBUG	Engine constructed
+1682108213036	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1682108213046	Sync.Engine.Tabs	INFO	Got a bridged engine!
+1682108213048	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1682108213050	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1682108213052	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1682108213054	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1682108213054	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+1682108213055	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1682108213055	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1682108213056	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1682108213060	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Initialized
+1682108213060	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1682108213060	FirefoxAccounts	DEBUG	getOAuthToken enter
+1682108213060	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1682108213061	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1682108213062	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1682108213064	Sync.Service	DEBUG	User-Agent: Firefox/112.0.1 (Linux x86_64) FxSync/1.114.0.20230418232857.desktop
+1682108213064	Sync.Service	INFO	Starting sync at 2023-04-21 21:16:53 in browser session vhgKOQoxnoMk
+1682108213064	Sync.Service	DEBUG	In sync: should login.
+1682108213064	Sync.Service	INFO	User logged in successfully - verifying login.
+1682108213065	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1682108213065	Sync.Status	DEBUG	Status.login: success.login => success.status_ok
+1682108213065	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1682108213065	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1682108213065	Sync.SyncAuthManager	INFO	Getting sync key
+1682108213065	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1682108213065	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1682108213065	FirefoxAccounts	DEBUG	getOAuthToken enter
+1682108213065	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1682108213065	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1682108213065	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1682108213066	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1682108213071	FirefoxAccounts	DEBUG	FxAccountsWebChannel registered: account_updates with origin https://accounts.firefox.com
+1682108213087	FirefoxAccounts	INFO	fetching updated device list
+1682108213093	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1680293813089
+1682108214538	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108214660	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108214834	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108215011	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108215185	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108215760	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108215914	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108216038	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108216205	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108216389	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108216579	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108216709	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108216802	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108216912	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108217116	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108217246	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108217395	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108217516	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108217628	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108217843	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108218018	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108218123	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108218222	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108218313	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1682108218313	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1682108218313	Services.Common.TokenServerClient	DEBUG	Successful token response
+1682108218314	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1682108218314	Sync.Status	DEBUG	Status.login: success.status_ok => success.login
+1682108218314	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1682108218314	Sync.SyncAuthManager	DEBUG	_findCluster returning https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/
+1682108218314	Sync.SyncAuthManager	DEBUG	Cluster value = https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/
+1682108218314	Sync.SyncAuthManager	DEBUG	Setting cluster to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/
+1682108218314	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/
+1682108218316	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1682108218534	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/collections
+1682108218534	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/configuration
+1682108218674	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/configuration
+1682108218674	Sync.Service	DEBUG	Fetching global metadata record
+1682108218786	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1682108218788	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1680293813089 200
+1682108218788	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1680293813089: code: 200 - Status text: OK
+1682108218788	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -788
+1682108218788	FirefoxAccounts	INFO	Got new device list: 667421bd2def7aaa5b60210a6a1ad937, 8134ba9fee5f74089ea77f4351a362c3
+1682108218789	FirefoxAccounts	DEBUG	FxAccountsPush loading service
+1682108218789	FirefoxAccounts	DEBUG	FxAccountsPush initialized
+1682108218836	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/meta/global
+1682108218836	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1681458558.01
+1682108218836	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108219082	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/meta/global
+1682108219082	Sync.Service	DEBUG	Weave Version: 1.114.0 Local Storage: 5 Remote Storage: 5
+1682108219082	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1682108219083	Sync.Service	INFO	Testing info/collections: {"history":1682107561.22,"passwords":1682095015.82,"prefs":1682095097.61,"meta":1681458558.01,"crypto":1681458549.83,"bookmarks":1682106933.74,"clients":1682107949.51,"tabs":1682107746.37,"forms":1682106754.71}
+1682108219083	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1682108219083	Sync.Service	INFO	collection keys reports that a key update is needed.
+1682108219083	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108219130	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108219283	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/crypto/keys
+1682108219283	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1682108219284	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1681458549.83.
+1682108219284	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1682108219284	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1682108219284	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1682108219284	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1682108219284	Sync.CollectionKeyManager	INFO	Bumping last modified to 1681458549.83
+1682108219284	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1682108219284	Sync.Status	DEBUG	Status.login: success.login => success.login
+1682108219284	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1682108219284	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/
+1682108219285	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1682108219286	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1682108219286	Sync.Status	INFO	Resetting Status.
+1682108219286	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1682108219286	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108219386	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108219488	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/collections
+1682108219489	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/configuration
+1682108219489	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108219604	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108219632	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/configuration
+1682108219632	Sync.Service	DEBUG	Fetching global metadata record
+1682108219632	Sync.Service	DEBUG	Weave Version: 1.114.0 Local Storage: 5 Remote Storage: 5
+1682108219632	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1682108219632	Sync.Service	INFO	Testing info/collections: {"clients":1682107949.51,"meta":1681458558.01,"forms":1682106754.71,"tabs":1682107746.37,"history":1682107561.22,"passwords":1682095015.82,"prefs":1682095097.61,"bookmarks":1682106933.74,"crypto":1681458549.83}
+1682108219632	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1681458549.83
+1682108219632	Sync.Synchronizer	DEBUG	Refreshing client list.
+1682108219633	Sync.Engine.Clients	DEBUG	First sync, uploading all items
+1682108219633	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1682108219634	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108219723	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108219807	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/clients?full=1&limit=1000
+1682108219809	Sync.Engine.Clients	INFO	Records: 1 applied, 1 successfully, 0 failed to apply, 0 newly failed to apply, 1 reconciled.
+1682108219809	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1682108220082	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108220229	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108220372	Sync.RemoteTabs	INFO	Generating tab list with filter
+1682108220716	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1682108221220	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1682108227873	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227873	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227873	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227874	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227874	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227874	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227874	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227874	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227875	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227875	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227875	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227875	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227875	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227875	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227875	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227876	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227876	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227876	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227876	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227876	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227876	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227876	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227877	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227877	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227877	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227877	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227877	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227877	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227877	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227877	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227878	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227878	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227878	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227878	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227878	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227879	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227879	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227879	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227879	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227879	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227879	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227879	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227879	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227879	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227879	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227879	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227880	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227880	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227880	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227880	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227880	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227880	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227880	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227880	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227880	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227880	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227880	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227880	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227880	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227880	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227881	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227881	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227881	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227881	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227881	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227881	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227881	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227881	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227881	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227881	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227881	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227881	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227882	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227882	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227882	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227882	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227882	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227882	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227882	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227882	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227882	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227882	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227882	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227882	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227883	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227883	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227883	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108227883	Sync.Engine.Clients	WARN	Couldn't find associated FxA device, falling back to client name
+1682108227883	Sync.RemoteTabs	DEBUG	Processing client: {"id":"8z03_hnu5vKu","type":"client","name":"max’s Firefox on archlive1","clientType":"desktop","lastModified":1681458554100,"tabs":[]}
+1682108227883	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 1 tabs.
+1682108228506	FirefoxAccounts	TRACE	Our push subscription looks OK
+1682108228506	FirefoxAccounts	INFO	updating the cache
+1682108228507	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1682108234301	Sync.Engine.Clients	INFO	Uploading 1 outgoing records
+1682108234304	Sync.Engine.Clients	INFO	Posting 1 records of 550 bytes with batch=true
+1682108234304	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108234305	Sync.Collection	DEBUG	POST Length: 550
+1682108234541	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/clients?batch=true&commit=true
+1682108234544	Sync.SyncScheduler	DEBUG	Client count: 0 -> 2
+1682108234544	Sync.Synchronizer	INFO	Updating enabled engines: 2 clients.
+1682108234545	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1682108234546	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1682108234546	Sync.Engine.Prefs	INFO	Uploading 1 outgoing records
+1682108234553	Sync.Engine.Prefs	INFO	Posting 1 records of 16339 bytes with batch=true
+1682108234553	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108234554	Sync.Collection	DEBUG	POST Length: 16339
+1682108234762	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/prefs?batch=true&commit=true
+1682108234765	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1682108234765	Sync.Engine.Passwords	INFO	Uploading 1 outgoing records
+1682108234767	Sync.Engine.Passwords	INFO	Posting 1 records of 625 bytes with batch=true
+1682108234767	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682108234768	Sync.Collection	DEBUG	POST Length: 625
+1682108235059	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/passwords?batch=true&commit=true
+1682108235060	Sync.Engine.Tabs	INFO	Can't do full tabs sync as a quick-write is currently running
+1682108235520	Sync.SyncScheduler	DEBUG	Next sync in 90000 ms. (why=schedule)
+1682108236419	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1682108247763	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID cDEsSl06pZDJ matches existing
+1682108247763	Sync.Engine.Bookmarks	ERROR	Bookmark sync failed, 17166.763000011444s elapsed since last run; running Places maintenance
+1682108247793	Sync.Telemetry	DEBUG	recording event: {"object":"maintenance","method":"run","value":"bookmarks"}
+1682108247793	Sync.Status	DEBUG	Status for engine bookmarks: error.engine.reason.unknown_fail
+1682108247793	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1682108247793	Sync.ErrorHandler	DEBUG	bookmarks failed: Error: places.sqlite#1: cannot execute operation BookmarkSyncUtils: pushChanges, the connection is already closing(resource://gre/modules/Sqlite.sys.mjs:409:13) JS Stack trace: executeBeforeShutdown@Sqlite.sys.mjs:409:13
+executeBeforeShutdown@Sqlite.sys.mjs:1581:33
+withConnectionWrapper@PlacesUtils.sys.mjs:1480:15
+observe@AsyncShutdown.sys.mjs:576:16
+1682108247794	Sync.Status	DEBUG	Status for engine addons: error.engine.reason.unknown_fail
+1682108247794	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1682108247794	Sync.ErrorHandler	DEBUG	addons was interrupted due to the application shutting down
+1682108247794	Sync.Synchronizer	INFO	addons was interrupted by shutdown; no other engines will sync
+1682108247794	Sync.Synchronizer	INFO	Aborting sync for failure in addons
+1682108247796	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1682108247796	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1682108247796	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1682108247796	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1682108247796	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1682108247796	Sync.Synchronizer	INFO	Sync completed at 2023-04-21 21:17:27 after 28.51 secs.
+1682108247796	Sync.Declined	DEBUG	Handling remote declined: []
+1682108247796	Sync.Declined	DEBUG	Handling local declined: []
+1682108247797	Sync.Declined	DEBUG	Declined changed? false
+1682108247797	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1682108247797	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1682108247797	Sync.ErrorHandler	WARN	Failed to dump addons: [Exception... "AddonManager is not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: getAddonsByTypes :: line 2934"  data: no] Stack trace: getAddonsByTypes()@resource://gre/modules/AddonManager.jsm:2934
+getAddonsByTypes()@resource://gre/modules/AddonManager.jsm:4302
+_dumpAddons()@resource://services-sync/policies.sys.mjs:954
+resetFileLog()@resource://services-sync/policies.sys.mjs:973
+observe()@resource://services-sync/policies.sys.mjs:925
+observe()@resource://services-common/observers.sys.mjs:131
+notify()@resource://services-common/observers.sys.mjs:83
+notify()@resource://services-sync/util.sys.mjs:185
+WrappedNotify()@resource://services-sync/util.sys.mjs:192
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:576
+1682108247798	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)

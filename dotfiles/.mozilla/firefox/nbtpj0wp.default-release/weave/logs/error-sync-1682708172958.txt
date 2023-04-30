@@ -1,0 +1,122 @@
+1682707623346	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1682708144547	Sync.SyncScheduler	DEBUG	Global Score threshold hit, triggering sync.
+1682708144548	Sync.Service	DEBUG	User-Agent: Firefox/112.0.1 (Linux x86_64) FxSync/1.114.0.20230418232857.desktop
+1682708144548	Sync.Service	INFO	Starting sync at 2023-04-28 19:55:44 in browser session wzzc7Zmo-UUX
+1682708144549	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1682708144552	Sync.Status	INFO	Resetting Status.
+1682708144552	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1682708144553	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1682708144553	FirefoxAccounts	DEBUG	getOAuthToken enter
+1682708144554	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1682708144554	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1682708144554	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1682708144767	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/collections
+1682708144768	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/configuration
+1682708144974	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/info/configuration
+1682708144974	Sync.Service	DEBUG	Fetching global metadata record
+1682708144975	Sync.Service	DEBUG	Weave Version: 1.114.0 Local Storage: 5 Remote Storage: 5
+1682708144975	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1682708144975	Sync.Service	INFO	Testing info/collections: {"passwords":1682108234.83,"crypto":1681458549.83,"clients":1682706965.26,"tabs":1682707618.43,"prefs":1682240248.67,"meta":1681458558.01,"forms":1682707012.71,"bookmarks":1682706739.41,"history":1682707623.19}
+1682708144975	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1681458549.83
+1682708144975	Sync.Synchronizer	DEBUG	Refreshing client list.
+1682708144975	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1682708145172	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/clients?full=1&limit=1000
+1682708145174	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 2 reconciled.
+1682708145175	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1682708145175	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1682708145176	Sync.Synchronizer	INFO	Updating enabled engines: 2 clients.
+1682708145177	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1682708145177	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1682708145178	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1682708145179	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1682708145179	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1682708145365	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1682708146510	Sync.Engine.Tabs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1682708146511	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1682708146512	Sync.Engine.Tabs	INFO	Posting 1 records of 1667 bytes with batch=true
+1682708146512	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682708146513	Sync.Collection	DEBUG	POST Length: 1667
+1682708146709	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/tabs?batch=true&commit=true
+1682708149384	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID cDEsSl06pZDJ matches existing
+1682708149387	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1682708149387	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1682708149388	Sync.Engine.Bookmarks.Mirror	DEBUG	Building local tree
+1682708149389	Sync.Engine.Bookmarks.Mirror	DEBUG	Building remote tree
+1682708149389	Sync.Engine.Bookmarks.Mirror	DEBUG	Building merged tree
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying merged tree
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Updating local items in Places
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Cleaning up observer notifications left from last sync
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting Places for new items
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Updating origins for new URLs
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging apply remote item ops
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging change GUID ops
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging apply new local structure ops
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing tombstones for revived items
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting new tombstones for non-syncable and invalid items
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing local items
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Changing GUIDs
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying remote items
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Recording item added notifications for new items
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Recording item changed notifications for existing items
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing old keywords
+1682708149390	Sync.Engine.Bookmarks.Mirror	DEBUG	Removing old tags
+1682708149391	Sync.Engine.Bookmarks.Mirror	DEBUG	Upserting new items
+1682708149391	Sync.Engine.Bookmarks.Mirror	DEBUG	Flagging frecencies for recalculation
+1682708149391	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting new keywords for new URLs
+1682708149391	Sync.Engine.Bookmarks.Mirror	DEBUG	Inserting new tags for new URLs
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Updating origins for changed URLs
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Applying new local structure
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Resetting change counters for items that shouldn't be uploaded
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Bumping change counters for items that should be uploaded
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Flagging applied remote items as merged
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging items to upload
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Cleaning up staged items left from last sync
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging items with older local dates added
+1682708149392	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging remaining locally changed items for upload
+1682708149393	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging structure to upload
+1682708149393	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging tags to upload
+1682708149393	Sync.Engine.Bookmarks.Mirror	DEBUG	Staging tombstones to upload
+1682708149393	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 6.292ms
+1682708149394	Sync.Engine.Bookmarks.Mirror	DEBUG	Notifying Places observers
+1682708149396	Sync.Engine.Bookmarks.Mirror	DEBUG	Notifying Places observers took 2.250ms
+1682708149396	Sync.Engine.Bookmarks.Mirror	DEBUG	Fetching records for local items to upload
+1682708149400	Sync.Engine.Bookmarks.Mirror	DEBUG	Fetching records for local items to upload took 3.619ms
+1682708149400	Sync.Engine.Bookmarks	INFO	Uploading 2 outgoing records
+1682708149403	Sync.Engine.Bookmarks	INFO	Posting 2 records of 1228 bytes with batch=true
+1682708149403	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1682708149403	Sync.Collection	DEBUG	POST Length: 1228
+1682708149679	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/204949897/storage/bookmarks?batch=true&commit=true
+1682708150148	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1682708172785	Sync.Engine.Bookmarks	ERROR	Bookmark sync failed, 599925.7850000858s elapsed since last run; running Places maintenance
+1682708172955	Sync.Telemetry	DEBUG	recording event: {"object":"maintenance","method":"run","value":"bookmarks"}
+1682708172956	Sync.Status	DEBUG	Status for engine bookmarks: error.engine.reason.unknown_fail
+1682708172956	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed_partial
+1682708172956	Sync.ErrorHandler	DEBUG	bookmarks failed: Error: Connection closed before committing the transaction.(resource://gre/modules/Sqlite.sys.mjs:766:19) JS Stack trace: executeTransaction/promise</transactionPromise<@Sqlite.sys.mjs:766:19
+observe@AsyncShutdown.sys.mjs:576:16
+1682708172957	Sync.Status	DEBUG	Status for engine addons: error.engine.reason.unknown_fail
+1682708172957	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1682708172957	Sync.ErrorHandler	DEBUG	addons was interrupted due to the application shutting down
+1682708172957	Sync.Synchronizer	INFO	addons was interrupted by shutdown; no other engines will sync
+1682708172957	Sync.Synchronizer	INFO	Aborting sync for failure in addons
+1682708172957	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1682708172957	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1682708172957	Sync.Doctor	INFO	Skipping check of tabs - disabled via preferences
+1682708172957	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1682708172957	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1682708172957	Sync.Synchronizer	INFO	Sync completed at 2023-04-28 19:56:12 after 28.41 secs.
+1682708172957	Sync.Declined	DEBUG	Handling remote declined: []
+1682708172957	Sync.Declined	DEBUG	Handling local declined: []
+1682708172957	Sync.Declined	DEBUG	Declined changed? false
+1682708172957	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1682708172957	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1682708172958	Sync.ErrorHandler	WARN	Failed to dump addons: [Exception... "AddonManager is not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: getAddonsByTypes :: line 2934"  data: no] Stack trace: getAddonsByTypes()@resource://gre/modules/AddonManager.jsm:2934
+getAddonsByTypes()@resource://gre/modules/AddonManager.jsm:4302
+_dumpAddons()@resource://services-sync/policies.sys.mjs:954
+resetFileLog()@resource://services-sync/policies.sys.mjs:973
+observe()@resource://services-sync/policies.sys.mjs:925
+observe()@resource://services-common/observers.sys.mjs:131
+notify()@resource://services-common/observers.sys.mjs:83
+notify()@resource://services-sync/util.sys.mjs:185
+WrappedNotify()@resource://services-sync/util.sys.mjs:192
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:576
+1682708172958	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
