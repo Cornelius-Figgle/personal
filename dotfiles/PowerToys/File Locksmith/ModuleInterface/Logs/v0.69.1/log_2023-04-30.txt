@@ -1,0 +1,2 @@
+[2023-04-30 09:54:30.717979] [p-6268] [t-13912] [info] FileLocksmith logger is initialized
+[2023-04-30 09:54:31.143373] [p-6268] [t-13912] [info] File Locksmith enabled

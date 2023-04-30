@@ -1,0 +1,20 @@
+[2023-04-30 09:54:32.0034 INFO Awake.Program] Launching Awake...
+[2023-04-30 09:54:32.0034 INFO Awake.Program] 0.69.1.0
+[2023-04-30 09:54:32.0034 INFO Awake.Program] Build: NOBLE_SIX_02162023
+[2023-04-30 09:54:32.0034 INFO Awake.Program] OS: Microsoft Windows NT 10.0.19044.0
+[2023-04-30 09:54:32.0034 INFO Awake.Program] OS Build: Windows 10 Pro 21H2 19041.1.amd64fre.vb_release.191206-1406
+[2023-04-30 09:54:32.0823 INFO Awake.Program] {}
+[2023-04-30 09:54:32.0823 INFO Awake.Program] Parsing parameters...
+[2023-04-30 09:54:32.1146 INFO Awake.Program] Parameter setup complete. Proceeding to the rest of the app initiation...
+[2023-04-30 09:54:32.2013 INFO Awake.Program] The value for --use-pt-config is: True
+[2023-04-30 09:54:32.2013 INFO Awake.Program] The value for --display-on is: False
+[2023-04-30 09:54:32.2013 INFO Awake.Program] The value for --time-limit is: 0
+[2023-04-30 09:54:32.2013 INFO Awake.Program] The value for --pid is: 6268
+[2023-04-30 09:54:32.2013 INFO Awake.Program] The value for --expire is: 
+[2023-04-30 09:54:32.2268 INFO Awake.Program] Reading configuration file: C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Awake\settings.json
+[2023-04-30 09:54:32.2268 INFO Awake.Core.TrayHelper] Setting up the tray.
+[2023-04-30 09:54:32.3313 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-04-30 09:54:32.3313 INFO Awake.Program] Operating in passive mode (computer's standard power plan). No custom keep awake settings enabled.
+[2023-04-30 09:54:32.3313 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-04-30 09:54:32.3313 INFO Awake.Core.APIHelper] Thread is clean.
+[2023-04-30 09:54:32.3313 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.

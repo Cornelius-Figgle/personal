@@ -1,0 +1,4 @@
+[09:57:52.9984818] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\settings.json does not exists.
+[09:57:53.0005650] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133273186726960675\settings.json, dryRun:True.

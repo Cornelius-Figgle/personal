@@ -1,0 +1,37 @@
+[2023-04-30 09:54:31.167676] [p-12960] [t-21652] [info] fancyzones logger is initialized
+[2023-04-30 09:54:31.229059] [p-12960] [t-21652] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-04-30 09:54:31.229106] [p-12960] [t-20908] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-04-30 09:54:31.229265] [p-12960] [t-21652] [warning] Failed to read from settings file
+[2023-04-30 09:54:31.229294] [p-12960] [t-21652] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-04-30 09:54:31.229785] [p-12960] [t-21652] [info] layout-templates.json file is missing or malformed
+[2023-04-30 09:54:31.230160] [p-12960] [t-21652] [info] custom-layouts.json file is missing or malformed
+[2023-04-30 09:54:31.238133] [p-12960] [t-21652] [info] layout-hotkeys.json file is missing or malformed
+[2023-04-30 09:54:31.238567] [p-12960] [t-21652] [info] applied-layouts.json file is missing or malformed
+[2023-04-30 09:54:31.238798] [p-12960] [t-21652] [error] app-zone-history.json file is missing or malformed
+[2023-04-30 09:54:31.239376] [p-12960] [t-21652] [info] default-layouts.json file is missing or malformed
+[2023-04-30 09:54:31.294346] [p-12960] [t-20908] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-04-30 09:54:31.294477] [p-12960] [t-20908] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-04-30 09:54:31.296914] [p-12960] [t-21652] [info] AppZoneHistory Sync virtual desktops: current {463380A5-BFDE-434A-9789-6664C0B86C63}
+[2023-04-30 09:54:31.297102] [p-12960] [t-21652] [info] AppliedLayouts Sync virtual desktops: current {463380A5-BFDE-434A-9789-6664C0B86C63}
+[2023-04-30 09:54:31.297159] [p-12960] [t-21652] [info] Identifying monitors
+[2023-04-30 09:54:31.297993] [p-12960] [t-21652] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#ACR02BE#5&13da9c9&0&UID513#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-04-30 09:54:31.298613] [p-12960] [t-21652] [info] Get display device for display \\.\DISPLAY2 : \\?\DISPLAY#VSE0001#5&13da9c9&0&UID514#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-04-30 09:54:31.632823] [p-12960] [t-21652] [info] InstanceName: DISPLAY\ACR02BE\5&13da9c9&0&UID513_0
+[2023-04-30 09:54:31.632874] [p-12960] [t-21652] [info] Serial number: 277951783
+[2023-04-30 09:54:31.633010] [p-12960] [t-21652] [info] InstanceName: DISPLAY\VSE0001\5&13da9c9&0&UID514_0
+[2023-04-30 09:54:31.633038] [p-12960] [t-21652] [info] Serial number: 00000000000
+[2023-04-30 09:54:31.633610] [p-12960] [t-21652] [info] Display changed, type: Initialization
+[2023-04-30 09:54:31.633638] [p-12960] [t-21652] [debug] Update work areas, update windows positions: false
+[2023-04-30 09:54:31.633662] [p-12960] [t-21652] [info] Identifying monitors
+[2023-04-30 09:54:31.634186] [p-12960] [t-21652] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#ACR02BE#5&13da9c9&0&UID513#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-04-30 09:54:31.634601] [p-12960] [t-21652] [info] Get display device for display \\.\DISPLAY2 : \\?\DISPLAY#VSE0001#5&13da9c9&0&UID514#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-04-30 09:54:31.638311] [p-12960] [t-21652] [info] InstanceName: DISPLAY\ACR02BE\5&13da9c9&0&UID513_0
+[2023-04-30 09:54:31.638344] [p-12960] [t-21652] [info] Serial number: 277951783
+[2023-04-30 09:54:31.638445] [p-12960] [t-21652] [info] InstanceName: DISPLAY\VSE0001\5&13da9c9&0&UID514_0
+[2023-04-30 09:54:31.638466] [p-12960] [t-21652] [info] Serial number: 00000000000
+[2023-04-30 09:54:31.639568] [p-12960] [t-21652] [info] Creating new ZonesOverlay window, hWnd = 0x90b70
+[2023-04-30 09:54:31.662270] [p-12960] [t-21652] [info] Initialize layout on ACR02BE_5&13da9c9&0&UID513_1_277951783_{463380A5-BFDE-434A-9789-6664C0B86C63}, work area rect = 1920x1040
+[2023-04-30 09:54:31.662309] [p-12960] [t-21652] [info] Set default layout on ACR02BE_5&13da9c9&0&UID513_1_277951783_{463380A5-BFDE-434A-9789-6664C0B86C63}
+[2023-04-30 09:54:31.663219] [p-12960] [t-21652] [info] Creating new ZonesOverlay window, hWnd = 0xa0b12
+[2023-04-30 09:54:31.665845] [p-12960] [t-21652] [info] Initialize layout on VSE0001_5&13da9c9&0&UID514_2_00000000000_{463380A5-BFDE-434A-9789-6664C0B86C63}, work area rect = 1920x1040
+[2023-04-30 09:54:31.665939] [p-12960] [t-21652] [info] Set default layout on VSE0001_5&13da9c9&0&UID514_2_00000000000_{463380A5-BFDE-434A-9789-6664C0B86C63}

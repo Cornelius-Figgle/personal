@@ -1,0 +1,5 @@
+[2023-04-30 09:54:30.711475] [p-6268] [t-13912] [info] PastePlain logger is initialized
+[2023-04-30 09:54:30.712209] [p-6268] [t-13912] [info] PastePlain settings are empty
+[2023-04-30 09:54:30.712256] [p-6268] [t-13912] [info] PastePlain is going to use default shortcut
+[2023-04-30 09:54:31.176988] [p-6268] [t-13912] [trace] PastePlain::enable()
+[2023-04-30 09:54:31.306025] [p-6268] [t-21692] [info] Send settings telemetry

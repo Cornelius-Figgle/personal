@@ -1,0 +1,6 @@
+[2023-04-30 09:54:30.658227] [p-6268] [t-13912] [info] ColorPicker logger is initialized
+[2023-04-30 09:54:30.658969] [p-6268] [t-13912] [info] ColorPicker settings are empty
+[2023-04-30 09:54:30.659020] [p-6268] [t-13912] [info] ColorPicker is going to use default shortcut
+[2023-04-30 09:54:31.078257] [p-6268] [t-13912] [trace] ColorPicker::enable()
+[2023-04-30 09:54:31.078315] [p-6268] [t-13912] [trace] Starting ColorPicker process
+[2023-04-30 09:54:31.114726] [p-6268] [t-13912] [trace] Successfully started the Color Picker process

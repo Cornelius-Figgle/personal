@@ -1,0 +1,8 @@
+[09:54:31.5187919] [Info] Program::Main
+    Color Picker started with pid=5356
+[09:54:32.3402817] [Info] App::OnStartup
+    Color Picker started from the PowerToys Runner. Runner pid=6268
+[09:54:32.4982091] [Info] UserSettings::LoadSettingsFromJson
+    ColorPicker settings.json was missing, creating a new one
+[09:54:33.2062147] [Info] UserSettings::SendSettingsTelemetry
+    Sending settings telemetry
