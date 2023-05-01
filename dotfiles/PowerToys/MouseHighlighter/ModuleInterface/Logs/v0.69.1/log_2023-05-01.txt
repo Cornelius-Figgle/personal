@@ -1,0 +1,9 @@
+[2023-05-01 17:33:56.115481] [p-9020] [t-11100] [info] mouse-highlighter logger is initialized
+[2023-05-01 17:33:56.116947] [p-9020] [t-11100] [info] Mouse Highlighter settings are empty
+[2023-05-01 17:33:56.117031] [p-9020] [t-11100] [info] Mouse Highlighter is going to use default shortcut
+[2023-05-01 17:33:56.801788] [p-9020] [t-1756] [info] Starting a highlighter instance.
+[2023-05-01 17:33:56.806894] [p-9020] [t-1756] [info] Initialized the highlighter instance.
+[2023-05-01 18:04:36.811484] [p-9020] [t-11100] [info] Switching activation mode.
+[2023-05-01 18:04:36.811671] [p-9020] [t-1756] [info] Starting draw mode.
+[2023-05-01 18:04:43.138301] [p-9020] [t-11100] [info] Switching activation mode.
+[2023-05-01 18:04:43.138357] [p-9020] [t-1756] [info] Stopping draw mode.

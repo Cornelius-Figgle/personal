@@ -1,0 +1,10 @@
+[2023-05-01 17:33:56.078594] [p-9020] [t-11100] [info] shortcut-guide logger is initialized
+[2023-05-01 17:33:56.080945] [p-9020] [t-11100] [info] Shortcut Guide settings are empty
+[2023-05-01 17:33:56.081029] [p-9020] [t-11100] [info] Shortcut Guide is going to use default shortcut
+[2023-05-01 17:33:56.081125] [p-9020] [t-11100] [trace] GetHotkeyEx()
+[2023-05-01 17:33:56.901943] [p-9020] [t-11100] [info] Shortcut Guide is enabling
+[2023-05-01 17:33:56.902013] [p-9020] [t-11100] [trace] GetHotkeyEx()
+[2023-05-01 17:33:57.134744] [p-9020] [t-4144] [trace] Send settings telemetry
+[2023-05-01 17:33:57.264833] [p-9020] [t-4144] [trace] Started SG process with pid=9812
+[2023-05-01 18:06:57.829960] [p-9020] [t-11100] [trace] OnHotkeyEx()
+[2023-05-01 18:06:57.873022] [p-9020] [t-11100] [trace] Started SG process with pid=10988

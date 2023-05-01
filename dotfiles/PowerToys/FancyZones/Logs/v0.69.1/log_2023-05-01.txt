@@ -1,0 +1,128 @@
+[2023-05-01 17:33:56.656153] [p-1800] [t-11484] [info] fancyzones logger is initialized
+[2023-05-01 17:33:56.812209] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-01 17:33:56.812725] [p-1800] [t-11484] [warning] Failed to read from settings file
+[2023-05-01 17:33:56.812784] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-01 17:33:56.814123] [p-1800] [t-11484] [info] layout-templates.json file is missing or malformed
+[2023-05-01 17:33:56.814932] [p-1800] [t-11484] [info] custom-layouts.json file is missing or malformed
+[2023-05-01 17:33:56.815686] [p-1800] [t-11484] [info] layout-hotkeys.json file is missing or malformed
+[2023-05-01 17:33:56.819083] [p-1800] [t-11484] [info] applied-layouts.json file is missing or malformed
+[2023-05-01 17:33:56.819636] [p-1800] [t-11484] [error] app-zone-history.json file is missing or malformed
+[2023-05-01 17:33:56.820538] [p-1800] [t-11484] [info] default-layouts.json file is missing or malformed
+[2023-05-01 17:33:56.867362] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:33:56.913872] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:33:56.914023] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:33:56.916596] [p-1800] [t-11484] [info] Identifying monitors
+[2023-05-01 17:33:56.917097] [p-1800] [t-11484] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#CMN14A3#4&bebb6e9&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-01 17:33:57.497505] [p-1800] [t-11484] [info] InstanceName: DISPLAY\CMN14A3\4&bebb6e9&0&UID265988_0
+[2023-05-01 17:33:57.497579] [p-1800] [t-11484] [info] Serial number: 0
+[2023-05-01 17:33:57.498254] [p-1800] [t-11484] [info] No Virtual Desktop Id found in registry
+[2023-05-01 17:33:57.510132] [p-1800] [t-11484] [info] Display changed, type: Initialization
+[2023-05-01 17:33:57.510197] [p-1800] [t-11484] [debug] Update work areas, update windows positions: false
+[2023-05-01 17:33:57.510225] [p-1800] [t-11484] [info] Identifying monitors
+[2023-05-01 17:33:57.510711] [p-1800] [t-11484] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#CMN14A3#4&bebb6e9&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-01 17:33:57.538608] [p-1800] [t-11484] [info] InstanceName: DISPLAY\CMN14A3\4&bebb6e9&0&UID265988_0
+[2023-05-01 17:33:57.538668] [p-1800] [t-11484] [info] Serial number: 0
+[2023-05-01 17:33:57.539883] [p-1800] [t-11484] [info] Creating new ZonesOverlay window, hWnd = 0xf0338
+[2023-05-01 17:33:57.711295] [p-1800] [t-11484] [info] Initialize layout on CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, work area rect = 1600x860
+[2023-05-01 17:33:57.711367] [p-1800] [t-11484] [info] Set default layout on CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}
+[2023-05-01 17:37:45.495990] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {00000000-0000-0000-0000-000000000000}
+[2023-05-01 17:37:47.619888] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {00000000-0000-0000-0000-000000000000}
+[2023-05-01 17:37:48.677165] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {00000000-0000-0000-0000-000000000000}
+[2023-05-01 17:37:51.482605] [p-1800] [t-11484] [info] No Virtual Desktop Id found in registry
+[2023-05-01 17:37:51.533491] [p-1800] [t-11484] [info] Display changed, type: VirtualDesktop
+[2023-05-01 17:37:51.533542] [p-1800] [t-11484] [debug] Update work areas, update windows positions: false
+[2023-05-01 17:37:51.533572] [p-1800] [t-11484] [info] Freeing ZonesOverlay window into pool, hWnd = 0xf0338
+[2023-05-01 17:37:51.534221] [p-1800] [t-11484] [info] Identifying monitors
+[2023-05-01 17:37:51.534727] [p-1800] [t-11484] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#CMN14A3#4&bebb6e9&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-01 17:37:51.577903] [p-1800] [t-11484] [info] InstanceName: DISPLAY\CMN14A3\4&bebb6e9&0&UID265988_0
+[2023-05-01 17:37:51.577990] [p-1800] [t-11484] [info] Serial number: 0
+[2023-05-01 17:37:51.578824] [p-1800] [t-11484] [info] Reusing ZonesOverlay window from pool, hWnd = 0xf0338
+[2023-05-01 17:37:51.579679] [p-1800] [t-11484] [info] Initialize layout on CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, work area rect = 1600x860
+[2023-05-01 17:37:53.887289] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {00000000-0000-0000-0000-000000000000}
+[2023-05-01 17:38:09.115531] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {00000000-0000-0000-0000-000000000000}
+[2023-05-01 17:47:19.321720] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Enter
+[2023-05-01 17:47:19.321982] [p-1800] [t-7812] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:47:19.322013] [p-1800] [t-7812] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:47:19.322109] [p-1800] [t-7812] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:47:19.322116] [p-1800] [t-11484] [info] Identifying monitors
+[2023-05-01 17:47:19.322631] [p-1800] [t-11484] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#CMN14A3#4&bebb6e9&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-01 17:47:19.374153] [p-1800] [t-11484] [info] InstanceName: DISPLAY\CMN14A3\4&bebb6e9&0&UID265988_0
+[2023-05-01 17:47:19.374215] [p-1800] [t-11484] [info] Serial number: 0
+[2023-05-01 17:47:19.374753] [p-1800] [t-7812] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:47:19.374796] [p-1800] [t-7812] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:47:19.376743] [p-1800] [t-7812] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:47:19.670499] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Exit
+[2023-05-01 17:53:52.105105] [p-1800] [t-11484] [error] Custom layout not found
+[2023-05-01 17:53:58.133476] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 17:54:05.895398] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 17:54:14.356661] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 17:54:16.966067] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 17:54:21.062827] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 17:55:41.555066] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Enter
+[2023-05-01 17:55:41.555360] [p-1800] [t-3508] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:55:41.555393] [p-1800] [t-3508] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:55:41.555488] [p-1800] [t-3508] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:55:41.555494] [p-1800] [t-11484] [info] Identifying monitors
+[2023-05-01 17:55:41.556103] [p-1800] [t-11484] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#CMN14A3#4&bebb6e9&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-01 17:55:41.591478] [p-1800] [t-11484] [info] InstanceName: DISPLAY\CMN14A3\4&bebb6e9&0&UID265988_0
+[2023-05-01 17:55:41.591646] [p-1800] [t-11484] [info] Serial number: 0
+[2023-05-01 17:55:41.592204] [p-1800] [t-3508] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:55:41.592257] [p-1800] [t-3508] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:55:41.593606] [p-1800] [t-3508] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:55:41.633182] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Exit
+[2023-05-01 17:55:52.216308] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 17:56:02.406431] [p-1800] [t-7532] [trace] Local\FancyZones-ToggleEditorEvent-1e174338-06a3-472b-874d-073b21c62f14 event was signaled
+[2023-05-01 17:56:02.406594] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Enter
+[2023-05-01 17:56:02.406807] [p-1800] [t-8124] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:56:02.406839] [p-1800] [t-8124] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:56:02.406915] [p-1800] [t-8124] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:56:02.406920] [p-1800] [t-11484] [info] Identifying monitors
+[2023-05-01 17:56:02.407419] [p-1800] [t-11484] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#CMN14A3#4&bebb6e9&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-01 17:56:02.422968] [p-1800] [t-11484] [info] InstanceName: DISPLAY\CMN14A3\4&bebb6e9&0&UID265988_0
+[2023-05-01 17:56:02.423036] [p-1800] [t-11484] [info] Serial number: 0
+[2023-05-01 17:56:02.423759] [p-1800] [t-8124] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:56:02.423811] [p-1800] [t-8124] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:56:02.425378] [p-1800] [t-8124] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:56:02.458998] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Exit
+[2023-05-01 17:58:14.041327] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-01 17:58:14.044008] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-01 17:58:16.070801] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-01 17:58:16.073076] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-01 17:58:24.161378] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-01 17:58:24.163612] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-01 17:58:32.264164] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-01 17:58:32.266792] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-01 17:58:36.292539] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-01 17:58:36.294919] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-01 17:58:47.898748] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 17:58:55.389379] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Enter
+[2023-05-01 17:58:55.389641] [p-1800] [t-8644] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:58:55.389673] [p-1800] [t-8644] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:58:55.389768] [p-1800] [t-8644] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:58:55.389775] [p-1800] [t-11484] [info] Identifying monitors
+[2023-05-01 17:58:55.390293] [p-1800] [t-11484] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#CMN14A3#4&bebb6e9&0&UID265988#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-01 17:58:55.404083] [p-1800] [t-11484] [info] InstanceName: DISPLAY\CMN14A3\4&bebb6e9&0&UID265988_0
+[2023-05-01 17:58:55.404143] [p-1800] [t-11484] [info] Serial number: 0
+[2023-05-01 17:58:55.414057] [p-1800] [t-8644] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:58:55.414146] [p-1800] [t-8644] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 17:58:55.415559] [p-1800] [t-8644] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 17:58:55.451461] [p-1800] [t-11484] [trace] FancyZones::ToggleEditor Exit
+[2023-05-01 17:59:28.687660] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:00:08.674571] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:00:34.512854] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 18:00:34.512935] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 18:01:15.369196] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:01:16.615665] [p-1800] [t-11484] [info] Add app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:01:21.577808] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:01:22.957919] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:01:23.638189] [p-1800] [t-11484] [info] Restore window size
+[2023-05-01 18:01:55.113267] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-01 18:01:55.115772] [p-1800] [t-11484] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-01 18:07:37.771124] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 18:07:37.771203] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 18:07:41.177619] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:08:02.341244] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 18:08:02.341307] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-01 18:08:42.555327] [p-1800] [t-11484] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{4112171E-7178-491D-ABD5-D03B103A9966}, layout: {3FB0D733-F0AE-4F81-9190-7C4554AF36D6}
+[2023-05-01 18:14:18.551453] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-01 18:14:18.551537] [p-1800] [t-4264] [trace] OnThreadExecutor::worker_thread(loop) Enter

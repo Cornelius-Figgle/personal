@@ -1,0 +1,4 @@
+[2023-05-01 17:33:56.139771] [p-9020] [t-11100] [info] TextExtractor logger is initialized
+[2023-05-01 17:33:56.902154] [p-9020] [t-11100] [trace] TextExtractor::enable()
+[2023-05-01 17:33:56.902224] [p-9020] [t-11100] [trace] Starting TextExtractor process
+[2023-05-01 17:33:57.013876] [p-9020] [t-11100] [trace] Successfully started the TextExtractor process

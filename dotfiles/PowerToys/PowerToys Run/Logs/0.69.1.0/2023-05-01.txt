@@ -302,3 +302,15 @@ Settings were changed. Read settings.
 [2023-05-01 18:06:09.3258] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::88]
 Successfully read new settings. retryCount=1
 
+[2023-05-01 18:06:13.6798] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::68]
+Settings were changed. Read settings.
+
+[2023-05-01 18:06:13.7095] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::88]
+Successfully read new settings. retryCount=1
+
+[2023-05-01 18:06:13.7095] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::68]
+Settings were changed. Read settings.
+
+[2023-05-01 18:06:13.7095] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::88]
+Successfully read new settings. retryCount=1
+

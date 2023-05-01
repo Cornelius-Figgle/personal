@@ -1,0 +1,4 @@
+[2023-05-01 17:33:56.181052] [p-9020] [t-11100] [info] hosts logger is initialized
+[2023-05-01 17:33:56.612105] [p-9020] [t-11100] [trace] HostsModuleInterface::enable()
+[2023-05-01 18:03:07.979361] [p-9020] [t-11100] [trace] Starting Hosts process
+[2023-05-01 18:03:10.361702] [p-9020] [t-11100] [error] Hosts failed to start. unknown error

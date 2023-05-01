@@ -1,0 +1,10 @@
+[2023-05-01 17:33:56.128999] [p-9020] [t-11100] [info] mouse-pointer-crosshairs logger is initialized
+[2023-05-01 17:33:56.130395] [p-9020] [t-11100] [info] Mouse Pointer Crosshairs settings are empty
+[2023-05-01 17:33:56.130471] [p-9020] [t-11100] [info] Mouse Pointer Crosshairs  is going to use default shortcut
+[2023-05-01 18:05:10.629393] [p-9020] [t-4444] [info] Starting a crosshairs instance.
+[2023-05-01 18:05:10.637895] [p-9020] [t-4444] [info] Initialized the crosshairs instance.
+[2023-05-01 18:05:10.684709] [p-9020] [t-11100] [info] Applying settings.
+[2023-05-01 18:05:13.596522] [p-9020] [t-11100] [info] Switching activation mode.
+[2023-05-01 18:05:13.596794] [p-9020] [t-4444] [info] Start drawing crosshairs.
+[2023-05-01 18:05:20.523721] [p-9020] [t-11100] [info] Switching activation mode.
+[2023-05-01 18:05:20.523782] [p-9020] [t-4444] [info] Stop drawing crosshairs.

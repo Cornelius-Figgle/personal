@@ -1,0 +1,13 @@
+[2023-05-01 17:33:56.109862] [p-9020] [t-11100] [info] find-my-mouse logger is initialized
+[2023-05-01 17:33:56.111042] [p-9020] [t-11100] [info] Find My Mouse settings are empty
+[2023-05-01 17:33:56.648472] [p-9020] [t-10940] [info] Starting a sonar instance.
+[2023-05-01 17:33:56.655531] [p-9020] [t-10940] [info] Initialized the sonar instance.
+[2023-05-01 18:03:44.957241] [p-9020] [t-11100] [info] Applying settings.
+[2023-05-01 18:03:47.510798] [p-9020] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2023-05-01 18:03:48.140142] [p-9020] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2023-05-01 18:03:52.939621] [p-9020] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2023-05-01 18:04:11.630367] [p-9020] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2023-05-01 18:04:12.168408] [p-9020] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2023-05-01 18:04:19.078359] [p-9020] [t-10940] [info] Focusing the sonar on the mouse cursor.
+[2023-05-01 18:04:26.903602] [p-9020] [t-11100] [info] Applying settings.
+[2023-05-01 18:05:03.305721] [p-9020] [t-10940] [info] Focusing the sonar on the mouse cursor.
