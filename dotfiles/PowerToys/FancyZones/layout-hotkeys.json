@@ -1,3 +1,16 @@
 {
-  "layout-hotkeys": []
+  "layout-hotkeys": [
+    {
+      "key": 0,
+      "layout-id": "{3FB0D733-F0AE-4F81-9190-7C4554AF36D6}"
+    },
+    {
+      "key": 1,
+      "layout-id": "{3849200C-3DC3-455C-93A6-97FFAAFD49B2}"
+    },
+    {
+      "key": 2,
+      "layout-id": "{F6A3A59C-5524-4174-BB35-934D6AEB412A}"
+    }
+  ]
 }

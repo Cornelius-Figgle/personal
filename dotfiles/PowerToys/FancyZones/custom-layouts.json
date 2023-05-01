@@ -5,13 +5,11 @@
       "name": "FAKE-HYPR",
       "type": "grid",
       "info": {
-        "rows": 4,
+        "rows": 2,
         "columns": 2,
         "rows-percentage": [
-          2430,
-          2558,
-          2396,
-          2616
+          4988,
+          5012
         ],
         "columns-percentage": [
           6077,
@@ -25,14 +23,61 @@
           [
             0,
             2
-          ],
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{3849200C-3DC3-455C-93A6-97FFAAFD49B2}",
+      "name": "16x9",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 2,
+        "rows-percentage": [
+          7814,
+          2186
+        ],
+        "columns-percentage": [
+          6900,
+          3100
+        ],
+        "cell-child-map": [
           [
             0,
-            3
+            2
           ],
           [
+            1,
+            2
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{F6A3A59C-5524-4174-BB35-934D6AEB412A}",
+      "name": "SINGLE-FOCUS",
+      "type": "grid",
+      "info": {
+        "rows": 1,
+        "columns": 2,
+        "rows-percentage": [
+          10000
+        ],
+        "columns-percentage": [
+          6897,
+          3103
+        ],
+        "cell-child-map": [
+          [
             0,
-            4
+            1
           ]
         ],
         "show-spacing": true,

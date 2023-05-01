@@ -25,8 +25,8 @@ Player=CAD
 HideWhenNotPlaying=0
 ;
 ; The size of the circle, to make it into an ellipse just give RadiusY a number
-Radius=172
-RadiusY=172
+Radius=86
+RadiusY=86
 ;
 ; Color of shapes/lines/bars. ItemColor2 is for MultiLineExtrude
 ; You can also input gradient in the format COLOR:PCT|COLOR2:PCT2
@@ -42,7 +42,7 @@ ItemWidth=4
 NumOfItems=48
 ;
 ; How much to extrude line/bar/shape or max shape size for ShapeBubble
-ExtrudeMax=96
+ExtrudeMax=48
 ExtrudeMin=0
 ;
 ; Whether the line/bar/shape extrudes inwards or not
