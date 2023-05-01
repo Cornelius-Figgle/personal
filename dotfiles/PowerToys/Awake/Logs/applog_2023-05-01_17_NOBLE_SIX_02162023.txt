@@ -1,0 +1,87 @@
+[2023-05-01 17:33:57.5047 INFO Awake.Program] Launching Awake...
+[2023-05-01 17:33:57.5158 INFO Awake.Program] 0.69.1.0
+[2023-05-01 17:33:57.5158 INFO Awake.Program] Build: NOBLE_SIX_02162023
+[2023-05-01 17:33:57.5158 INFO Awake.Program] OS: Microsoft Windows NT 10.0.19045.0
+[2023-05-01 17:33:57.5158 INFO Awake.Program] OS Build: Windows 10 Pro 22H2 19041.1.amd64fre.vb_release.191206-1406
+[2023-05-01 17:33:57.7710 INFO Awake.Program] {}
+[2023-05-01 17:33:57.7710 INFO Awake.Program] Parsing parameters...
+[2023-05-01 17:33:57.8656 INFO Awake.Program] Parameter setup complete. Proceeding to the rest of the app initiation...
+[2023-05-01 17:33:58.3494 INFO Awake.Program] The value for --use-pt-config is: True
+[2023-05-01 17:33:58.3494 INFO Awake.Program] The value for --display-on is: False
+[2023-05-01 17:33:58.3494 INFO Awake.Program] The value for --time-limit is: 0
+[2023-05-01 17:33:58.3494 INFO Awake.Program] The value for --pid is: 9020
+[2023-05-01 17:33:58.3494 INFO Awake.Program] The value for --expire is: 
+[2023-05-01 17:33:58.5043 INFO Awake.Program] Reading configuration file: C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Awake\settings.json
+[2023-05-01 17:33:58.5414 INFO Awake.Core.TrayHelper] Setting up the tray.
+[2023-05-01 17:33:59.0892 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-05-01 17:33:59.0892 INFO Awake.Program] Operating in passive mode (computer's standard power plan). No custom keep awake settings enabled.
+[2023-05-01 17:33:59.1274 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:33:59.1274 INFO Awake.Core.APIHelper] Thread is clean.
+[2023-05-01 17:33:59.1274 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:01.7271 INFO Awake.Program] Detected a settings file change. Updating configuration...
+[2023-05-01 17:39:01.7271 INFO Awake.Program] Resetting keep-awake to normal state due to settings change.
+[2023-05-01 17:39:01.7271 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-05-01 17:39:01.7429 INFO Awake.Program] Expirable keep-awake. Expected expiration date/time: 2023-04-30 09:54:32 +01:00 with display on setting set to False.
+[2023-05-01 17:39:01.7429 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:01.7429 INFO Awake.Core.APIHelper] Thread is clean.
+[2023-05-01 17:39:01.7429 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:01.7429 ERROR Awake.Core.APIHelper] The specified target date and time is not in the future.
+[2023-05-01 17:39:01.7429 ERROR Awake.Core.APIHelper] Current time: 2023-05-01 17:39:01	Target time: 2023-04-30 09:54:32 +01:00
+[2023-05-01 17:39:01.8222 INFO Awake.Program] Detected a settings file change. Updating configuration...
+[2023-05-01 17:39:01.8222 INFO Awake.Program] Resetting keep-awake to normal state due to settings change.
+[2023-05-01 17:39:01.8222 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-05-01 17:39:01.8222 INFO Awake.Program] Expirable keep-awake. Expected expiration date/time: 2023-04-30 09:54:32 +01:00 with display on setting set to False.
+[2023-05-01 17:39:01.8222 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:01.8222 INFO Awake.Core.APIHelper] Thread is clean.
+[2023-05-01 17:39:01.8222 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:01.8222 ERROR Awake.Core.APIHelper] The specified target date and time is not in the future.
+[2023-05-01 17:39:01.8222 ERROR Awake.Core.APIHelper] Current time: 2023-05-01 17:39:01	Target time: 2023-04-30 09:54:32 +01:00
+[2023-05-01 17:39:06.4537 INFO Awake.Program] Detected a settings file change. Updating configuration...
+[2023-05-01 17:39:06.4537 INFO Awake.Program] Resetting keep-awake to normal state due to settings change.
+[2023-05-01 17:39:06.4537 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-05-01 17:39:06.4537 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:06.4537 INFO Awake.Core.APIHelper] Thread is clean.
+[2023-05-01 17:39:06.4537 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:06.4537 INFO Awake.Core.APIHelper] Initiated indefinite keep awake in background thread: 10464. Screen on: False
+[2023-05-01 17:39:06.4923 INFO Awake.Program] Detected a settings file change. Updating configuration...
+[2023-05-01 17:39:06.4923 INFO Awake.Program] Resetting keep-awake to normal state due to settings change.
+[2023-05-01 17:39:06.4923 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-05-01 17:39:06.4923 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:06.4923 INFO Awake.Core.APIHelper] Confirmed background thread cancellation when disabling explicit keep awake.
+[2023-05-01 17:39:06.4923 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:06.4923 INFO Awake.Core.APIHelper] Initiated indefinite keep awake in background thread: 5832. Screen on: False
+[2023-05-01 17:39:11.1589 INFO Awake.Program] Detected a settings file change. Updating configuration...
+[2023-05-01 17:39:11.1589 INFO Awake.Program] Resetting keep-awake to normal state due to settings change.
+[2023-05-01 17:39:11.1589 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-05-01 17:39:11.1589 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:11.1589 INFO Awake.Core.APIHelper] Confirmed background thread cancellation when disabling explicit keep awake.
+[2023-05-01 17:39:11.1589 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:11.1589 INFO Awake.Core.APIHelper] Initiated indefinite keep awake in background thread: 10464. Screen on: True
+[2023-05-01 17:39:14.8671 INFO Awake.Program] Received a signal to end the process. Making sure we quit...
+[2023-05-01 17:39:14.8671 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:14.8671 INFO Awake.Core.APIHelper] Confirmed background thread cancellation when disabling explicit keep awake.
+[2023-05-01 17:39:14.8671 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:16.3298 INFO Awake.Program] Launching Awake...
+[2023-05-01 17:39:16.3298 INFO Awake.Program] 0.69.1.0
+[2023-05-01 17:39:16.3298 INFO Awake.Program] Build: NOBLE_SIX_02162023
+[2023-05-01 17:39:16.3298 INFO Awake.Program] OS: Microsoft Windows NT 10.0.19045.0
+[2023-05-01 17:39:16.3444 INFO Awake.Program] OS Build: Windows 10 Pro 22H2 19041.1.amd64fre.vb_release.191206-1406
+[2023-05-01 17:39:16.4215 INFO Awake.Program] {}
+[2023-05-01 17:39:16.4215 INFO Awake.Program] Parsing parameters...
+[2023-05-01 17:39:16.4726 INFO Awake.Program] Parameter setup complete. Proceeding to the rest of the app initiation...
+[2023-05-01 17:39:16.6138 INFO Awake.Program] The value for --use-pt-config is: True
+[2023-05-01 17:39:16.6138 INFO Awake.Program] The value for --display-on is: False
+[2023-05-01 17:39:16.6138 INFO Awake.Program] The value for --time-limit is: 0
+[2023-05-01 17:39:16.6138 INFO Awake.Program] The value for --pid is: 9020
+[2023-05-01 17:39:16.6138 INFO Awake.Program] The value for --expire is: 
+[2023-05-01 17:39:16.6466 INFO Awake.Program] Reading configuration file: C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Awake\settings.json
+[2023-05-01 17:39:16.6466 INFO Awake.Core.TrayHelper] Setting up the tray.
+[2023-05-01 17:39:16.8175 INFO Awake.Program] Identified custom time shortcuts for the tray: 0
+[2023-05-01 17:39:16.8175 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:16.8175 INFO Awake.Core.APIHelper] Thread is clean.
+[2023-05-01 17:39:16.8175 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.
+[2023-05-01 17:39:16.8276 INFO Awake.Core.APIHelper] Initiated indefinite keep awake in background thread: 2632. Screen on: True
+[2023-05-01 17:39:18.0179 INFO Awake.Program] Received a signal to end the process. Making sure we quit...
+[2023-05-01 17:39:18.0179 INFO Awake.Core.APIHelper] Attempting to ensure that the thread is properly cleaned up...
+[2023-05-01 17:39:18.0179 INFO Awake.Core.APIHelper] Confirmed background thread cancellation when disabling explicit keep awake.
+[2023-05-01 17:39:18.0179 INFO Awake.Core.APIHelper] Instantiating of new token source and thread token completed.

@@ -4,16 +4,16 @@
     "actions": 
     [
         {
-            "command": "openNewTabDropdown",
-            "keys": "ctrl+shift+t"
-        },
-        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+shift+t"
         },
         {
             "command": "paste",
@@ -24,15 +24,15 @@
             "keys": "ctrl+f"
         },
         {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
             "command": 
             {
                 "action": "newWindow"
             },
             "keys": "ctrl+n"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -136,18 +136,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{f9484256-f244-5b30-9594-cdd95be23f74}",
-                "hidden": true,
-                "name": "Dev Cmd",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{717a2bd3-3aa7-5272-844f-378a0efb9475}",
-                "hidden": false,
-                "name": "Dev Ps",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
@@ -159,19 +147,6 @@
                 "hidden": false,
                 "icon": "\\\\dc1\\Users\\Max.Harrison\\My Documents\\My Pictures\\Images\\ico\\python.ico",
                 "name": "Python"
-            },
-            {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
             },
             {
                 "altGrAliasing": true,
@@ -193,11 +168,16 @@
                 "useAcrylic": false
             },
             {
-                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
-                "hidden": true,
-                "name": "Arch",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "\\\\wsl$\\Arch\\home\\max\\"
+                "guid": "{7936f946-2f9d-5a5b-b736-cb81c9f98b39}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{1bee4d00-6313-5c23-accc-d588313d3adc}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },

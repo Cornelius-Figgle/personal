@@ -1,0 +1,4 @@
+[18:06:22.1590143] [Info] Program::Arguments
+    QuickAccent started from the PowerToys Runner. Runner pid=9020
+[18:06:30.4255494] [Info] SettingsService::ReadSettings
+    QuickAccent settings.json was missing, creating a new one

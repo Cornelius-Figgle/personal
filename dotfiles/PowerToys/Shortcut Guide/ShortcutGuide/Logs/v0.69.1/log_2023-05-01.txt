@@ -1,0 +1,10 @@
+[2023-05-01 17:33:57.335102] [p-9812] [t-6484] [info] shortcut-guide logger is initialized
+[2023-05-01 17:33:57.498385] [p-9812] [t-6484] [trace] Starting Shortcut Guide
+[2023-05-01 17:33:57.498629] [p-9812] [t-6484] [trace] Sending settings telemetry
+[2023-05-01 18:06:57.901884] [p-10988] [t-11404] [info] shortcut-guide logger is initialized
+[2023-05-01 18:06:57.994742] [p-10988] [t-11404] [trace] Starting Shortcut Guide
+[2023-05-01 18:06:57.995699] [p-10988] [t-11404] [info] Overlay Window is creating
+[2023-05-01 18:07:05.475000] [p-10988] [t-11404] [trace] ESC key was pressed
+[2023-05-01 18:07:05.475344] [p-10988] [t-11404] [trace] Terminating process
+[2023-05-01 18:07:05.478363] [p-10988] [t-11404] [trace] D2DOverlayWindow::on_hide()
+[2023-05-01 18:07:05.479016] [p-10988] [t-11404] [trace] Duration: 7237. Close Type: ESC_PRESSED

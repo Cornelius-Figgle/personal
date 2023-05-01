@@ -1,0 +1,52 @@
+[18:04:53.0896730] [Info] MainForm::ShowThumbnail
+    screen[0] = "\\.\DISPLAY1"
+	primary      = True
+	bounds       = {X=0,Y=0,Width=1600,Height=900}
+	working area = {X=0,Y=0,Width=1600,Height=860}
+[18:04:53.1224031] [Info] MainForm::ShowThumbnail
+    Layout config
+-------------
+virtual screen     = {Left=0,Top=0,Width=1600,Height=900}
+activated location = {X=633,Y=363}
+activated screen   = 0
+maximum form size  = {Width=1600,Height=1200}
+form padding       = {Left=5,Top=5,Right=5,Bottom=5}
+preview padding    = {Left=0,Top=0,Right=0,Bottom=0}
+[18:04:53.1344915] [Info] MainForm::ShowThumbnail
+    Layout info
+-----------
+form bounds      = {Left=0,Top=0,Width=1592.2222222222222222222222222,Height=900}
+preview bounds   = {Left=0,Top=0,Width=1582.2222222222222222222222222,Height=890}
+activated screen = {Left=0,Top=0,Width=1600,Height=900}
+[18:04:54.9520446] [Info] MainForm::Thumbnail_Click
+    Reporting mouse event args
+	button   = Left
+	location = {X=1128,Y=99}
+[18:04:54.9541896] [Info] MainForm::Thumbnail_Click
+    scaled location = {X=1140.6741573033707865168539326,Y=100.11235955056179775280898876}
+[18:04:58.3779036] [Info] MainForm::ShowThumbnail
+    screen[0] = "\\.\DISPLAY1"
+	primary      = True
+	bounds       = {X=0,Y=0,Width=1600,Height=900}
+	working area = {X=0,Y=0,Width=1600,Height=860}
+[18:04:58.4015128] [Info] MainForm::ShowThumbnail
+    Layout config
+-------------
+virtual screen     = {Left=0,Top=0,Width=1600,Height=900}
+activated location = {X=1139,Y=99}
+activated screen   = 0
+maximum form size  = {Width=1600,Height=1200}
+form padding       = {Left=5,Top=5,Right=5,Bottom=5}
+preview padding    = {Left=0,Top=0,Right=0,Bottom=0}
+[18:04:58.4090050] [Info] MainForm::ShowThumbnail
+    Layout info
+-----------
+form bounds      = {Left=7.7777777777777777777777778,Top=0,Width=1592.2222222222222222222222222,Height=900}
+preview bounds   = {Left=0,Top=0,Width=1582.2222222222222222222222222,Height=890}
+activated screen = {Left=0,Top=0,Width=1600,Height=900}
+[18:05:04.3829463] [Info] MainForm::Thumbnail_Click
+    Reporting mouse event args
+	button   = Left
+	location = {X=1216,Y=94}
+[18:05:04.3840885] [Info] MainForm::Thumbnail_Click
+    scaled location = {X=1229.6629213483146067415730337,Y=95.05617977528089887640449438}

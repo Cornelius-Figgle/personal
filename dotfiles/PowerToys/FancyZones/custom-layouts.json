@@ -1,0 +1,44 @@
+{
+  "custom-layouts": [
+    {
+      "uuid": "{3FB0D733-F0AE-4F81-9190-7C4554AF36D6}",
+      "name": "FAKE-HYPR",
+      "type": "grid",
+      "info": {
+        "rows": 4,
+        "columns": 2,
+        "rows-percentage": [
+          2430,
+          2558,
+          2396,
+          2616
+        ],
+        "columns-percentage": [
+          6077,
+          3923
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    }
+  ]
+}
