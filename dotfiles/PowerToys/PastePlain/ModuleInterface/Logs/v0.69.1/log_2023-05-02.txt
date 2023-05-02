@@ -1,0 +1,2 @@
+[2023-05-02 08:48:11.705540] [p-9152] [t-6204] [info] PastePlain logger is initialized
+[2023-05-02 08:48:14.006039] [p-9152] [t-6204] [trace] PastePlain::enable()

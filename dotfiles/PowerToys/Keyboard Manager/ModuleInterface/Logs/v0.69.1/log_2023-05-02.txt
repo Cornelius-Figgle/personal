@@ -1,0 +1,1 @@
+[2023-05-02 08:48:08.040905] [p-9152] [t-6204] [info] keyboard-manager logger is initialized
