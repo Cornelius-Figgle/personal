@@ -471,3 +471,30 @@ PluginManager.QueryForPlugin Window Walker. Query cost - 144 milliseconds
 [2023-05-02 16:46:58.2474] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
 PluginManager.QueryForPlugin Windows Indexer. Query cost - 599 milliseconds
 
+[2023-05-02 16:47:01.6509] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Program. Query cost - 142 milliseconds
+
+[2023-05-02 16:47:01.6549] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Window Walker. Query cost - 144 milliseconds
+
+[2023-05-02 16:47:01.8224] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Program. Query cost - 151 milliseconds
+
+[2023-05-02 16:47:01.9650] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Program. Query cost - 123 milliseconds
+
+[2023-05-02 16:47:01.9650] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Window Walker. Query cost - 129 milliseconds
+
+[2023-05-02 16:47:02.0934] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Window Walker. Query cost - 103 milliseconds
+
+[2023-05-02 16:47:02.1513] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Program. Query cost - 162 milliseconds
+
+[2023-05-02 16:47:02.2307] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Window Walker. Query cost - 62 milliseconds
+
+[2023-05-02 16:47:02.2900] [WARN] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\Plugin\PluginManager.cs::207]
+PluginManager.QueryForPlugin Program. Query cost - 121 milliseconds
+

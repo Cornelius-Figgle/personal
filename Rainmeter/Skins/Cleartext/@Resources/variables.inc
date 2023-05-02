@@ -9,7 +9,7 @@ alignRight=1
 activePlugin=NowPlaying
 
 topTextWidth=152
-bottomTextWidth=43
+bottomTextWidth=330
 
 ; 0 = MUSIC, 2 = WEBNOWPLAYING
 MusicSwitch=0
