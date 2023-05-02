@@ -35,15 +35,6 @@
             "keys": "ctrl+n"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -68,15 +59,17 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+h"
-        },
-        {
             "command": 
             {
-                "action": "newTab"
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "keys": "ctrl+t"
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+h"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "quakeMode"
             },
             "keys": "win+`"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -169,13 +169,13 @@
             },
             {
                 "guid": "{7936f946-2f9d-5a5b-b736-cb81c9f98b39}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "guid": "{1bee4d00-6313-5c23-accc-d588313d3adc}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             }

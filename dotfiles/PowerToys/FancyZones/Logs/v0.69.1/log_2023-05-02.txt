@@ -82,3 +82,43 @@
 [2023-05-02 10:10:13.764316] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
 [2023-05-02 10:15:27.206703] [p-4416] [t-10144] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
 [2023-05-02 10:15:28.582999] [p-4416] [t-10144] [info] Add app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 13:01:52.126862] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 13:01:52.129610] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 13:01:54.226407] [p-4416] [t-10144] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 13:01:56.089014] [p-4416] [t-10144] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 13:01:57.340048] [p-4416] [t-10144] [info] Add app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 13:02:46.703843] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 13:02:46.703902] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 13:02:50.679725] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 13:02:50.679881] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 13:04:12.867359] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 13:04:12.867416] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 13:04:18.168468] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 13:04:18.168537] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 13:04:38.168969] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 13:04:38.169027] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 13:04:43.346999] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 13:04:43.347059] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 14:38:14.778169] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 14:38:14.778280] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 14:39:22.055669] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 14:39:22.084673] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 14:39:39.694685] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 14:39:39.694763] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 15:23:09.932930] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 15:23:09.933151] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 15:25:57.739164] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 15:25:57.739226] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 15:26:13.663763] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 15:26:13.663829] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 15:26:16.445599] [p-4416] [t-10144] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 15:26:19.034514] [p-4416] [t-10144] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 15:26:20.535642] [p-4416] [t-10144] [info] Add app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 15:30:02.790382] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 15:30:02.790468] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 15:30:04.740639] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 15:30:04.740836] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-02 15:30:06.346009] [p-4416] [t-10144] [info] Remove app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 15:30:07.274941] [p-4416] [t-10144] [info] Add app zone history, device: CMN14A3_4&bebb6e9&0&UID265988_1_0_{00000000-0000-0000-0000-000000000000}, layout: {F6A3A59C-5524-4174-BB35-934D6AEB412A}
+[2023-05-02 15:30:45.721856] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-02 15:30:45.721921] [p-4416] [t-9144] [trace] OnThreadExecutor::worker_thread(loop) Enter
