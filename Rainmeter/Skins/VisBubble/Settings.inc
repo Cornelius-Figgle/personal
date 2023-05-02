@@ -25,8 +25,8 @@ Player=CAD
 HideWhenNotPlaying=0
 ;
 ; The size of the circle, to make it into an ellipse just give RadiusY a number
-Radius=86
-RadiusY=86
+Radius=96
+RadiusY=96
 ;
 ; Color of shapes/lines/bars. ItemColor2 is for MultiLineExtrude
 ; You can also input gradient in the format COLOR:PCT|COLOR2:PCT2

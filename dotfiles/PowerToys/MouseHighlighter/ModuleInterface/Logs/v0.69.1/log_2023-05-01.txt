@@ -7,3 +7,6 @@
 [2023-05-01 18:04:36.811671] [p-9020] [t-1756] [info] Starting draw mode.
 [2023-05-01 18:04:43.138301] [p-9020] [t-11100] [info] Switching activation mode.
 [2023-05-01 18:04:43.138357] [p-9020] [t-1756] [info] Stopping draw mode.
+[2023-05-01 18:32:16.449619] [p-3908] [t-1204] [info] mouse-highlighter logger is initialized
+[2023-05-01 18:32:17.009150] [p-3908] [t-2176] [info] Starting a highlighter instance.
+[2023-05-01 18:32:17.018348] [p-3908] [t-2176] [info] Initialized the highlighter instance.

@@ -8,3 +8,6 @@
 [2023-05-01 18:05:13.596794] [p-9020] [t-4444] [info] Start drawing crosshairs.
 [2023-05-01 18:05:20.523721] [p-9020] [t-11100] [info] Switching activation mode.
 [2023-05-01 18:05:20.523782] [p-9020] [t-4444] [info] Stop drawing crosshairs.
+[2023-05-01 18:32:16.510610] [p-3908] [t-1204] [info] mouse-pointer-crosshairs logger is initialized
+[2023-05-01 18:32:17.009052] [p-3908] [t-2060] [info] Starting a crosshairs instance.
+[2023-05-01 18:32:17.024265] [p-3908] [t-2060] [info] Initialized the crosshairs instance.

@@ -134,3 +134,6 @@
 [2023-05-01 18:08:05.041375] [p-9020] [t-11100] [info] isApplied of HKCU\Software\Classes\CLSID\{D8BB9942-93BD-412D-87E4-33FAB214DC1A}\DisplayName:Pdf Thumbnail Provider: RegOpenKeyExW failed: unknown error
 [2023-05-01 18:08:12.215229] [p-9020] [t-11100] [info] isApplied of HKCU\Software\Classes\CLSID\{D8BB9942-93BD-412D-87E4-33FAB214DC1A}\DisplayName:Pdf Thumbnail Provider: RegOpenKeyExW failed: unknown error
 [2023-05-01 18:08:12.224983] [p-9020] [t-11100] [info] isApplied of HKCU\Software\Classes\CLSID\{D8BB9942-93BD-412D-87E4-33FAB214DC1A}\DisplayName:Pdf Thumbnail Provider: RegOpenKeyExW failed: unknown error
+[2023-05-01 18:32:16.197681] [p-3908] [t-1204] [info] FileExplorer logger is initialized
+[2023-05-01 18:32:16.198179] [p-3908] [t-1204] [info] Initializing PowerPreviewModule
+[2023-05-01 18:32:16.253757] [p-3908] [t-1204] [info] isApplied of HKCU\Software\Classes\CLSID\{D8BB9942-93BD-412D-87E4-33FAB214DC1A}\DisplayName:Pdf Thumbnail Provider: RegOpenKeyExW failed: unknown error

@@ -4,3 +4,5 @@
 [2023-05-01 18:06:20.845589] [p-9020] [t-11100] [trace] PowerToys QuickAccent launching: modules\PowerAccent\PowerToys.PowerAccent.exe 9020
 [2023-05-01 18:08:12.167960] [p-9020] [t-11100] [trace] Disabling QuickAccent... true
 [2023-05-01 18:08:12.168089] [p-9020] [t-11100] [trace] Signaled exit event for PowerToys QuickAccent.
+[2023-05-01 18:32:16.533367] [p-3908] [t-1204] [info] QuickAccent logger is initialized
+[2023-05-01 18:32:16.534176] [p-3908] [t-1204] [info] Launcher object is constructing
