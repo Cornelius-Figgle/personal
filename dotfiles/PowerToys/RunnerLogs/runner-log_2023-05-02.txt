@@ -59,3 +59,6 @@
 [2023-05-02 08:48:14.079668] [p-9152] [t-6204] [trace] shift+win+/ shortcut registered
 [2023-05-02 08:48:14.080080] [p-9152] [t-6204] [info] start_enabled_powertoys: Enabling powertoy TextExtractor
 [2023-05-02 10:48:08.119019] [p-9152] [t-5652] [trace] Version is up to date
+[2023-05-02 15:36:56.646828] [p-4472] [t-13752] [info] runner logger is initialized
+[2023-05-02 15:36:56.647305] [p-4472] [t-13752] [info] Running powertoys with cmd args: 
+[2023-05-02 15:36:56.647890] [p-4472] [t-13752] [error] Can't convert string value= to ESettingsWindowNames

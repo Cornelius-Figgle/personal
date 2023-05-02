@@ -1,0 +1,106 @@
+[15:37:00.7814318] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\settings.json does not exists.
+[15:37:00.7905439] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\settings.json, dryRun:True.
+[15:37:00.8181954] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\AlwaysOnTop\settings.json does not exists.
+[15:37:00.8222243] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\AlwaysOnTop\settings.json, dryRun:True.
+[15:37:00.8427351] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Awake\settings.json does not exists.
+[15:37:00.8453952] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Awake\settings.json, dryRun:True.
+[15:37:00.8614540] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\ColorPicker\settings.json does not exists.
+[15:37:00.8621907] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\ColorPicker\settings.json, dryRun:True.
+[15:37:00.8761741] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\FancyZones\custom-layouts.json does not exists.
+[15:37:00.8775960] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\FancyZones\custom-layouts.json, dryRun:True.
+[15:37:00.8848754] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\FancyZones\layout-hotkeys.json does not exists.
+[15:37:00.8853602] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\FancyZones\layout-hotkeys.json, dryRun:True.
+[15:37:00.8964809] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\FancyZones\layout-templates.json does not exists.
+[15:37:00.8969017] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\FancyZones\layout-templates.json, dryRun:True.
+[15:37:00.9125982] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\FancyZones\settings.json does not exists.
+[15:37:00.9129433] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\FancyZones\settings.json, dryRun:True.
+[15:37:00.9237840] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\File Explorer\settings.json does not exists.
+[15:37:00.9246968] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\File Explorer\settings.json, dryRun:True.
+[15:37:00.9349421] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\File Locksmith\file-locksmith-settings.json does not exists.
+[15:37:00.9427321] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\File Locksmith\file-locksmith-settings.json, dryRun:True.
+[15:37:00.9511745] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\FindMyMouse\settings.json does not exists.
+[15:37:00.9521514] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\FindMyMouse\settings.json, dryRun:True.
+[15:37:00.9641075] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Hosts\settings.json does not exists.
+[15:37:00.9647985] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Hosts\settings.json, dryRun:True.
+[15:37:00.9666678] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Image Resizer\image-resizer-settings.json does not exists.
+[15:37:00.9675944] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Image Resizer\image-resizer-settings.json, dryRun:True.
+[15:37:00.9811770] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Image Resizer\settings.json does not exists.
+[15:37:00.9817193] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Image Resizer\settings.json, dryRun:True.
+[15:37:00.9927789] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Keyboard Manager\settings.json does not exists.
+[15:37:00.9935564] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Keyboard Manager\settings.json, dryRun:True.
+[15:37:01.0086691] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Measure Tool\settings.json does not exists.
+[15:37:01.0099917] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Measure Tool\settings.json, dryRun:True.
+[15:37:01.0180834] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\MouseHighlighter\settings.json does not exists.
+[15:37:01.0190089] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\MouseHighlighter\settings.json, dryRun:True.
+[15:37:01.0294947] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\MouseJump\settings.json does not exists.
+[15:37:01.0308742] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\MouseJump\settings.json, dryRun:True.
+[15:37:01.0487076] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\MousePointerCrosshairs\settings.json does not exists.
+[15:37:01.0496270] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\MousePointerCrosshairs\settings.json, dryRun:True.
+[15:37:01.0602832] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\PastePlain\settings.json does not exists.
+[15:37:01.0613956] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\PastePlain\settings.json, dryRun:True.
+[15:37:01.0783024] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\PowerRename\power-rename-settings.json does not exists.
+[15:37:01.0792933] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\PowerRename\power-rename-settings.json, dryRun:True.
+[15:37:01.1019529] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\PowerToys Run\settings.json does not exists.
+[15:37:01.1078592] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\PowerToys Run\settings.json, dryRun:True.
+[15:37:01.1189608] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\QuickAccent\settings.json does not exists.
+[15:37:01.1208337] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\QuickAccent\settings.json, dryRun:True.
+[15:37:01.1309661] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Shortcut Guide\settings.json does not exists.
+[15:37:01.1319817] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Shortcut Guide\settings.json, dryRun:True.
+[15:37:01.1470151] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\TextExtractor\settings.json does not exists.
+[15:37:01.1483038] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\TextExtractor\settings.json, dryRun:True.
+[15:37:01.1581721] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings, C:\Users\Max.Harrison\AppData\Local\Microsoft\PowerToys\Video Conference\settings.json does not exists.
+[15:37:01.1588951] [Info] SettingsBackupAndRestoreUtils::BackupSettingsInternal
+    BackupSettings writing, C:\Users\Max.Harrison\AppData\Local\Temp\settings_133275118206672596\Video Conference\settings.json, dryRun:True.
+[15:37:01.1953967] [Info] SettingsBackupAndRestoreUtils::BackupSettings
+    BackupSettings took 710
