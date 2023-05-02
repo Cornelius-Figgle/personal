@@ -113,3 +113,46 @@
     FancyZones Editor disposed
 [16:02:20.4298626] [Info] App::OnExit
     FancyZones Editor exited
+[16:41:19.9324475] [Trace] FancyZonesEditorIO::ParseParams
+[16:41:19.9431434] [Trace] FancyZonesEditorIO::ReadFile
+[16:41:20.1263747] [Trace] FancyZonesEditorIO::ParseAppliedLayouts
+[16:41:20.1273223] [Trace] FancyZonesEditorIO::ReadFile
+[16:41:20.1894495] [Trace] FancyZonesEditorIO::SetAppliedLayouts
+[16:41:20.1931772] [Trace] FancyZonesEditorIO::ParseCustomLayouts
+[16:41:20.1939265] [Trace] FancyZonesEditorIO::ReadFile
+[16:41:20.2414677] [Trace] FancyZonesEditorIO::SetCustomLayouts
+[16:41:20.2597315] [Trace] FancyZonesEditorIO::ParseLayoutHotkeys
+[16:41:20.2603819] [Trace] FancyZonesEditorIO::ReadFile
+[16:41:20.2984715] [Trace] FancyZonesEditorIO::SetLayoutHotkeys
+[16:41:20.3086256] [Trace] FancyZonesEditorIO::ParseLayoutTemplates
+[16:41:20.3092570] [Trace] FancyZonesEditorIO::ReadFile
+[16:41:20.3482735] [Trace] FancyZonesEditorIO::SetTemplateLayouts
+[16:41:20.3501612] [Trace] FancyZonesEditorIO::ParseDefaultLayouts
+[16:41:20.3527034] [Trace] Overlay::Show
+[16:41:20.3914671] [Trace] Overlay::ShowLayout
+[16:41:20.6821786] [Info] LayoutPreview::OnLoaded
+    Loaded SINGLE-FOCUS
+[16:41:22.0417834] [Info] LayoutPreview::OnLoaded
+    Loaded No layout
+[16:41:22.0434092] [Info] LayoutPreview::OnLoaded
+    Loaded Focus
+[16:41:22.0453366] [Info] LayoutPreview::OnLoaded
+    Loaded Columns
+[16:41:22.0479869] [Info] LayoutPreview::OnLoaded
+    Loaded Rows
+[16:41:22.0500416] [Info] LayoutPreview::OnLoaded
+    Loaded Grid
+[16:41:22.0532777] [Info] LayoutPreview::OnLoaded
+    Loaded Priority Grid
+[16:41:22.0556839] [Info] LayoutPreview::OnLoaded
+    Loaded FAKE-HYPR
+[16:41:22.0595459] [Info] LayoutPreview::OnLoaded
+    Loaded 16x9
+[16:41:22.0618395] [Info] LayoutPreview::OnLoaded
+    Loaded SINGLE-FOCUS
+[16:41:28.3629474] [Trace] MainWindow::OnClosing
+[16:41:28.3658542] [Trace] FancyZonesEditorIO::SerializeAppliedLayouts
+[16:41:28.5405614] [Info] App::Dispose
+    FancyZones Editor disposed
+[16:41:28.5411194] [Info] App::OnExit
+    FancyZones Editor exited

@@ -1,1 +1,21 @@
-{"applied-layouts":[{"device":{"monitor":"CMN14A3","monitor-instance":"4&bebb6e9&0&UID265988","serial-number":"0","monitor-number":1,"virtual-desktop":"{00000000-0000-0000-0000-000000000000}"},"applied-layout":{"uuid":"{F6A3A59C-5524-4174-BB35-934D6AEB412A}","type":"custom","show-spacing":true,"spacing":16,"zone-count":2,"sensitivity-radius":20}}]}
+{
+  "applied-layouts": [
+    {
+      "device": {
+        "monitor": "CMN14A3",
+        "monitor-instance": "4\u0026bebb6e9\u00260\u0026UID265988",
+        "monitor-number": 1,
+        "serial-number": "0",
+        "virtual-desktop": "{00000000-0000-0000-0000-000000000000}"
+      },
+      "applied-layout": {
+        "uuid": "{F6A3A59C-5524-4174-BB35-934D6AEB412A}",
+        "type": "custom",
+        "show-spacing": true,
+        "spacing": 16,
+        "zone-count": 2,
+        "sensitivity-radius": 20
+      }
+    }
+  ]
+}
