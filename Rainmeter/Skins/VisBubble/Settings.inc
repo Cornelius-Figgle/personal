@@ -42,7 +42,7 @@ ItemWidth=4
 NumOfItems=48
 ;
 ; How much to extrude line/bar/shape or max shape size for ShapeBubble
-ExtrudeMax=96
+ExtrudeMax=48
 ExtrudeMin=0
 ;
 ; Whether the line/bar/shape extrudes inwards or not
