@@ -1,4 +1,0 @@
-[2023-05-01 18:06:30.416462] [p-5172] [t-4244] [info] PowerAccent logger is initialized
-[2023-05-01 18:07:49.801846] [p-5172] [t-4244] [debug] Show toolbar. Letter: 84, Trigger: 32
-[2023-05-01 18:07:50.051867] [p-5172] [t-4244] [debug] Next toolbar position - space
-[2023-05-01 18:07:50.056423] [p-5172] [t-4244] [debug] Hide toolbar event and input char

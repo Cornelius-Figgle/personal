@@ -1,6 +1,0 @@
-[2023-05-02 08:48:10.895003] [p-9152] [t-6204] [info] find-my-mouse logger is initialized
-[2023-05-02 08:48:13.932701] [p-9152] [t-444] [info] Starting a sonar instance.
-[2023-05-02 08:48:13.983769] [p-9152] [t-444] [info] Initialized the sonar instance.
-[2023-05-02 09:54:07.039097] [p-9152] [t-444] [info] Focusing the sonar on the mouse cursor.
-[2023-05-02 09:55:04.645878] [p-9152] [t-444] [info] Focusing the sonar on the mouse cursor.
-[2023-05-02 09:55:09.267439] [p-9152] [t-444] [info] Focusing the sonar on the mouse cursor.

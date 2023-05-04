@@ -1,2 +1,0 @@
-[2023-05-02 08:48:08.092430] [p-9152] [t-6204] [info] powerrename logger is initialized
-[2023-05-02 08:48:14.007518] [p-9152] [t-6204] [info] PowerRename enabled

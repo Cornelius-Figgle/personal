@@ -3,5 +3,7 @@
 v1_archive/
 *.exe
 
+#powertoys :(
 dotfiles/PowerToys/**/*log_*.*
 dotfiles/PowerToys/**/Logs/
+dotfiles/PowerToys/**/**/Logs/

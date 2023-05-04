@@ -1,3 +1,0 @@
-[2023-04-30 09:54:30.683665] [p-6268] [t-13912] [info] mouse-jump logger is initialized
-[2023-04-30 09:54:30.684368] [p-6268] [t-13912] [info] MouseJump settings are empty
-[2023-04-30 09:54:30.684424] [p-6268] [t-13912] [info] MouseJump is going to use default shortcut

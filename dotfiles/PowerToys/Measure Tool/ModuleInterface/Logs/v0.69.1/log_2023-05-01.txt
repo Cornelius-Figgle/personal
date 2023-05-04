@@ -1,7 +1,0 @@
-[2023-05-01 17:33:56.175725] [p-9020] [t-11100] [info] Measure Tool logger is initialized
-[2023-05-01 17:33:56.176822] [p-9020] [t-11100] [info] MeasureTool settings are empty
-[2023-05-01 17:33:56.176882] [p-9020] [t-11100] [info] MeasureTool is going to use default shortcut
-[2023-05-01 18:06:31.914869] [p-9020] [t-11100] [trace] MeasureTool hotkey pressed
-[2023-05-01 18:06:31.915033] [p-9020] [t-11100] [trace] Starting MeasureTool process
-[2023-05-01 18:06:32.010138] [p-9020] [t-11100] [trace] Successfully started the Measure Tool process
-[2023-05-01 18:32:16.636008] [p-3908] [t-1204] [info] Measure Tool logger is initialized

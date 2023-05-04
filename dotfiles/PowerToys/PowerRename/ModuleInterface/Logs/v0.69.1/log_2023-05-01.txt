@@ -1,4 +1,0 @@
-[2023-05-01 17:33:56.073847] [p-9020] [t-11100] [info] powerrename logger is initialized
-[2023-05-01 17:33:56.772030] [p-9020] [t-11100] [info] PowerRename enabled
-[2023-05-01 18:32:16.357080] [p-3908] [t-1204] [info] powerrename logger is initialized
-[2023-05-01 18:32:17.007890] [p-3908] [t-1204] [info] PowerRename enabled

@@ -1,2 +1,0 @@
-[2023-05-04 11:45:24.291486] [p-12704] [t-18188] [trace] Send settings telemetry
-[2023-05-04 11:45:24.329241] [p-12704] [t-18188] [trace] Started SG process with pid=15764

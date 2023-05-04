@@ -1,7 +1,0 @@
-[2023-05-01 17:33:56.156902] [p-9020] [t-11100] [info] PastePlain logger is initialized
-[2023-05-01 17:33:56.157968] [p-9020] [t-11100] [info] PastePlain settings are empty
-[2023-05-01 17:33:56.158026] [p-9020] [t-11100] [info] PastePlain is going to use default shortcut
-[2023-05-01 17:33:56.771925] [p-9020] [t-11100] [trace] PastePlain::enable()
-[2023-05-01 17:33:57.134615] [p-9020] [t-4144] [info] Send settings telemetry
-[2023-05-01 18:32:16.570715] [p-3908] [t-1204] [info] PastePlain logger is initialized
-[2023-05-01 18:32:17.007016] [p-3908] [t-1204] [trace] PastePlain::enable()

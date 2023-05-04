@@ -1,3 +1,0 @@
-[2023-04-30 09:54:30.692971] [p-6268] [t-13912] [info] mouse-pointer-crosshairs logger is initialized
-[2023-04-30 09:54:30.693646] [p-6268] [t-13912] [info] Mouse Pointer Crosshairs settings are empty
-[2023-04-30 09:54:30.693695] [p-6268] [t-13912] [info] Mouse Pointer Crosshairs  is going to use default shortcut

@@ -1,2 +1,0 @@
-[2023-05-01 17:33:56.030586] [p-9020] [t-11100] [info] imageresizer logger is initialized
-[2023-05-01 18:32:16.276633] [p-3908] [t-1204] [info] imageresizer logger is initialized
