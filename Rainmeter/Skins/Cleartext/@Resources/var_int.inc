@@ -1,22 +1,22 @@
 [Variables]
 
-name_lastgroup_sint=g_update
+name_lastgroup_sint=g_text
 
 ; --- ADAPTIVE HIDE
 color_btn_adaptivehide_sint=128,128,128,255
 bool_btn_adaptivehide_sint=off
 
 ; --- SCROLLING
-color_btn_scrolling_sint=255,179,41,255
-bool_btn_scrolling_sint=on
+color_btn_scrolling_sint=128,128,128,255
+bool_btn_scrolling_sint=off
 
 ; --- STOW
 color_btn_stow_sint=128,128,128,255
 bool_btn_stow_sint=off
 
 ; --- TRIM TEXT
-color_btn_trim_sint=128,128,128,255
-bool_btn_trim_sint=off
+color_btn_trim_sint=255,179,41,255
+bool_btn_trim_sint=on
 
 ; --- PLAYER
 
