@@ -1,0 +1,41 @@
+[2023-05-03 11:45:24.265582] [p-18008] [t-18012] [info] fancyzones logger is initialized
+[2023-05-03 11:45:24.356851] [p-18008] [t-18012] [trace] FancyZonesSettings::LoadSettings Enter
+[2023-05-03 11:45:24.356893] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-03 11:45:24.382974] [p-18008] [t-18012] [trace] FancyZonesSettings::LoadSettings Exit
+[2023-05-03 11:45:24.414292] [p-18008] [t-18012] [info] default-layouts.json file is missing or malformed
+[2023-05-03 11:45:24.418378] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-03 11:45:24.442214] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-03 11:45:24.444409] [p-18008] [t-18012] [info] AppZoneHistory Sync virtual desktops: current {463380A5-BFDE-434A-9789-6664C0B86C63}
+[2023-05-03 11:45:24.445379] [p-18008] [t-18012] [info] AppliedLayouts Sync virtual desktops: current {463380A5-BFDE-434A-9789-6664C0B86C63}
+[2023-05-03 11:45:24.446374] [p-18008] [t-18012] [info] Identifying monitors
+[2023-05-03 11:45:24.447491] [p-18008] [t-18012] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#ACR02BE#5&13da9c9&0&UID513#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-03 11:45:24.448048] [p-18008] [t-18012] [info] Get display device for display \\.\DISPLAY2 : \\?\DISPLAY#VSE0001#5&13da9c9&0&UID514#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-03 11:45:24.481313] [p-18008] [t-18012] [info] InstanceName: DISPLAY\ACR02BE\5&13da9c9&0&UID513_0
+[2023-05-03 11:45:24.486810] [p-18008] [t-18012] [info] Serial number: 277951783
+[2023-05-03 11:45:24.487446] [p-18008] [t-18012] [info] InstanceName: DISPLAY\VSE0001\5&13da9c9&0&UID514_0
+[2023-05-03 11:45:24.487907] [p-18008] [t-18012] [info] Serial number: 00000000000
+[2023-05-03 11:45:24.490790] [p-18008] [t-18012] [info] Display changed, type: Initialization
+[2023-05-03 11:45:24.520050] [p-18008] [t-18012] [debug] Update work areas, update windows positions: false
+[2023-05-03 11:45:24.535448] [p-18008] [t-18012] [info] Identifying monitors
+[2023-05-03 11:45:24.536245] [p-18008] [t-18012] [info] Get display device for display \\.\DISPLAY1 : \\?\DISPLAY#ACR02BE#5&13da9c9&0&UID513#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-03 11:45:24.537107] [p-18008] [t-18012] [info] Get display device for display \\.\DISPLAY2 : \\?\DISPLAY#VSE0001#5&13da9c9&0&UID514#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2023-05-03 11:45:24.541353] [p-18008] [t-18012] [info] InstanceName: DISPLAY\ACR02BE\5&13da9c9&0&UID513_0
+[2023-05-03 11:45:24.541506] [p-18008] [t-18012] [info] Serial number: 277951783
+[2023-05-03 11:45:24.541758] [p-18008] [t-18012] [info] InstanceName: DISPLAY\VSE0001\5&13da9c9&0&UID514_0
+[2023-05-03 11:45:24.542024] [p-18008] [t-18012] [info] Serial number: 00000000000
+[2023-05-03 11:45:24.543322] [p-18008] [t-18012] [info] Creating new ZonesOverlay window, hWnd = 0x106ae
+[2023-05-03 11:45:24.604210] [p-18008] [t-18012] [info] Initialize layout on ACR02BE_5&13da9c9&0&UID513_1_277951783_{463380A5-BFDE-434A-9789-6664C0B86C63}, work area rect = 1920x1040
+[2023-05-03 11:45:24.604648] [p-18008] [t-18012] [info] Set default layout on ACR02BE_5&13da9c9&0&UID513_1_277951783_{463380A5-BFDE-434A-9789-6664C0B86C63}
+[2023-05-03 11:45:24.610027] [p-18008] [t-18012] [info] Creating new ZonesOverlay window, hWnd = 0x106b2
+[2023-05-03 11:45:24.621691] [p-18008] [t-18012] [info] Initialize layout on VSE0001_5&13da9c9&0&UID514_2_00000000000_{463380A5-BFDE-434A-9789-6664C0B86C63}, work area rect = 1920x1040
+[2023-05-03 11:45:24.622545] [p-18008] [t-18012] [info] Set default layout on VSE0001_5&13da9c9&0&UID514_2_00000000000_{463380A5-BFDE-434A-9789-6664C0B86C63}
+[2023-05-03 11:45:30.125368] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-03 11:45:30.134094] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-03 11:55:24.608676] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-03 11:55:24.608800] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-03 11:55:33.449795] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-03 11:55:33.449845] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-03 11:56:01.965310] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-03 11:56:01.965400] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
+[2023-05-03 11:56:06.816561] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Exit
+[2023-05-03 11:56:06.816609] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
