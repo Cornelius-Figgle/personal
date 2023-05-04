@@ -1,0 +1,1 @@
+[2023-05-03 11:45:22.265356] [p-12704] [t-12708] [info] mouse-jump logger is initialized

@@ -1,0 +1,1 @@
+[2023-05-03 11:45:24.043401] [p-17920] [t-17924] [info] always-on-top logger is initialized

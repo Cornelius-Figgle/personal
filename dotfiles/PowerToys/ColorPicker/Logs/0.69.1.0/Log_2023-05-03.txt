@@ -1,0 +1,8 @@
+[11:45:26.5137799] [Info] Program::Main
+    Color Picker started with pid=17972
+[11:45:29.2824856] [Info] App::OnStartup
+    Color Picker started from the PowerToys Runner. Runner pid=12704
+[11:45:32.1243167] [Info] UserSettings::SendSettingsTelemetry
+    Sending settings telemetry
+[11:45:24.2875373] [Info] UserSettings::SendSettingsTelemetry
+    Sending settings telemetry

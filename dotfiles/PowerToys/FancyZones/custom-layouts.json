@@ -2,7 +2,7 @@
   "custom-layouts": [
     {
       "uuid": "{3FB0D733-F0AE-4F81-9190-7C4554AF36D6}",
-      "name": "FAKE-HYPR",
+      "name": "SINGLE-FOCUS",
       "type": "grid",
       "info": {
         "rows": 2,

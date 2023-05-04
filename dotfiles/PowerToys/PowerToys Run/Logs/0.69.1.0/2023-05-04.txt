@@ -31,3 +31,9 @@ Skipping update of the environment variable [TMP] for the PT Run process. This v
 [2023-05-04 11:45:48.5252] [INFO] [C:\a\_work\1\s\src\modules\launcher\Wox.Infrastructure\Stopwatch.cs::50]
 EnvironmentHelper.UpdateEnvironment - Duration cost <0ms>
 
+[2023-05-04 18:17:55.8473] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::68]
+Settings were changed. Read settings.
+
+[2023-05-04 18:17:55.8473] [INFO] [C:\a\_work\1\s\src\modules\launcher\PowerLauncher\SettingsReader.cs::88]
+Successfully read new settings. retryCount=1
+

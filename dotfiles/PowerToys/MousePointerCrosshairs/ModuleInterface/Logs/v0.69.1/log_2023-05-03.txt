@@ -1,0 +1,3 @@
+[2023-05-03 11:45:22.573068] [p-12704] [t-12708] [info] mouse-pointer-crosshairs logger is initialized
+[2023-05-03 11:45:24.264078] [p-12704] [t-18064] [info] Starting a crosshairs instance.
+[2023-05-03 11:45:24.291430] [p-12704] [t-18064] [info] Initialized the crosshairs instance.
