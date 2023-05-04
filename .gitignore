@@ -2,3 +2,6 @@
 *.webm
 v1_archive/
 *.exe
+
+dotfiles/PowerToys/**/*log_*.*
+dotfiles/PowerToys/**/Logs/

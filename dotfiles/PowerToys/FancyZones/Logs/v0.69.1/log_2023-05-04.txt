@@ -1,6 +1,0 @@
-[2023-05-04 18:17:24.498953] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Exit
-[2023-05-04 18:17:24.501295] [p-18008] [t-18112] [trace] OnThreadExecutor::worker_thread(loop) Enter
-[2023-05-04 18:17:56.605724] [p-18008] [t-18012] [info] Set default layout on ACR02BE_5&13da9c9&0&UID513_1_277951783_{463380A5-BFDE-434A-9789-6664C0B86C63}
-[2023-05-04 18:17:56.610343] [p-18008] [t-18012] [info] Set default layout on VSE0001_5&13da9c9&0&UID514_2_00000000000_{463380A5-BFDE-434A-9789-6664C0B86C63}
-[2023-05-04 18:17:56.614003] [p-18008] [t-18012] [trace] FancyZonesSettings::LoadSettings Enter
-[2023-05-04 18:17:56.615711] [p-18008] [t-18012] [trace] FancyZonesSettings::LoadSettings Exit

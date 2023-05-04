@@ -1,1 +1,0 @@
-[2023-05-02 08:48:13.836887] [p-1760] [t-2532] [info] always-on-top logger is initialized

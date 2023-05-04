@@ -1,2 +1,0 @@
-[18:06:30.4255494] [Info] SettingsService::ReadSettings
-    QuickAccent settings.json was missing, creating a new one

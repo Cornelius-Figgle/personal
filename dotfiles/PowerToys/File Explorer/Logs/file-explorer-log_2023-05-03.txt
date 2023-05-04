@@ -1,3 +1,0 @@
-[2023-05-03 11:45:12.725254] [p-12704] [t-12708] [info] FileExplorer logger is initialized
-[2023-05-03 11:45:12.780779] [p-12704] [t-12708] [info] Initializing PowerPreviewModule
-[2023-05-03 11:45:13.199310] [p-12704] [t-12708] [info] isApplied of HKCU\Software\Classes\CLSID\{D8BB9942-93BD-412D-87E4-33FAB214DC1A}\DisplayName:Pdf Thumbnail Provider: RegOpenKeyExW failed: unknown error
