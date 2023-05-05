@@ -3,6 +3,9 @@
 $env:PYTHONIOENCODING="utf-8"
 # iex "$(thefuck --alias)"
 
+Function prompt {
+    "$($( get-item $PWD ).FullName.Replace($HOME, '~')) $ "
+}
 
 
 # section: functions / aliases
