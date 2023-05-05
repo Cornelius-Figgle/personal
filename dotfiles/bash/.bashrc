@@ -104,11 +104,23 @@ if ! shopt -oq posix; then
 fi
 
 
+# note: find path to the directory of the script
+# info: https://stackoverflow.com/a/179231/19860022
+pushd . > '/dev/null';
+SCRIPT_PATH="${BASH_SOURCE[0]:-$0}";
+while [ -h "$SCRIPT_PATH" ]; do
+    cd "$( dirname -- "$SCRIPT_PATH"; )";
+    SCRIPT_PATH="$( readlink -f -- "$SCRIPT_PATH"; )";
+done
+cd "$( dirname -- "$SCRIPT_PATH"; )" > '/dev/null';
+SCRIPT_PATH="$( pwd; )";
+popd  > '/dev/null';
 
 
-if [ -f ./submodules/aliases.sh ]; then
-    . ./submodules/aliases.sh
+# note: imports
+if [ -f $SCRIPT_PATH/submodules/aliases.sh ]; then
+    . $SCRIPT_PATH/submodules/aliases.sh
 fi
-if [ -f ./submodules/variables.sh ]; then
-    . ./submodules/variables.sh
+if [ -f $SCRIPT_PATH/submodules/variables.sh ]; then
+    . $SCRIPT_PATH/submodules/variables.sh
 fi
