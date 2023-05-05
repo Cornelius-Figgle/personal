@@ -4,17 +4,21 @@
 
 # section: hostname functions ------------------------------------------------
 
+function NightCrawler {
+	sleep 0.1
+}
+
 function quandale-butterson {
+	sleep 0.1
+}
+
+function arnold-krimmler {
 	sleep 0.1
 }
 
 function mimic3 {
 	glances -s &
 	/mnt/p/00\ Max/mimic/mc_start.sh &
-}
-
-function arnold-krimmler {
-	sleep 0.1
 }
 
 
