@@ -13,6 +13,10 @@ function mimic3 {
 	/mnt/p/00\ Max/mimic/mc_start.sh &
 }
 
+function arnold-krimmler {
+	sleep 0.1
+}
+
 
 # section: main --------------------------------------------------------------
 

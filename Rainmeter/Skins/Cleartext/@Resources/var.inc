@@ -22,7 +22,7 @@ bool_texttrim=0
 
 ; --- ACTIVE LOW SWITCHES AND CONFIGURATIONS
 
-bool_scroll=1
+bool_scroll=0
 
 ; --- NAMING
 
