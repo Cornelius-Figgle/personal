@@ -23,7 +23,7 @@ Function svpush {
 }
 
 Function ln {
-    if ($args[0] -eq "/D" -Or $args[0] -eq "/d" -Or $args[0] -eq "-D" -Or $args[0] -eq "-d") {
+    if ($args[0] -ieq "/d" -Or $args[0] -ieq "-d" -Or $args[0] -ieq "/sd" -Or $args[0] -ieq "-sd" -Or $args[0] -ieq "/ds" -Or $args[0] -ieq "-ds") {
         # note: if directory (i cba to do actual stuff)
         cmd /c mklink /D $args[2] $args[1]
     } else {
