@@ -7,3 +7,6 @@ v1_archive/
 dotfiles/PowerToys/**/*log_*.*
 dotfiles/PowerToys/**/Logs/
 dotfiles/PowerToys/**/**/Logs/
+
+dotfiles/PowerToys/FancyZones/app-zone-history.json
+dotfiles/PowerToys/FancyZones/applied-layouts.json
