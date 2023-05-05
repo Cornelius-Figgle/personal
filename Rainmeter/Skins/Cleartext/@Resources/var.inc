@@ -2,7 +2,7 @@
 
 ; --- SIZES (Backwards-compatible)
 
-skinSize=400
+skinSize=350
 lastSetWidth=525
 
 ; --- TEXT CUSTOMIZATIONS

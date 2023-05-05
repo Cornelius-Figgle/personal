@@ -2,76 +2,76 @@
 
 ; --- PROGRESS BAR
 orientation_progressbar=Vertical
-width_progressbar=2
-height_progressbar=100
-xpos_progressbar=448
-ypos_progressbar=12
+width_progressbar=1.75
+height_progressbar=87.5
+xpos_progressbar=392
+ypos_progressbar=10.5
 
 ; --- NOW
-xpos_now=458
-ypos_now=44
+xpos_now=400.75
+ypos_now=38.5
 
 ; --- PLAYING
-xpos_playing=458
-ypos_playing=58
+xpos_playing=400.75
+ypos_playing=50.75
 
 ; --- NOW PLAYING FOR CENTER
-xpos_nowplaying=276
-ypos_nowplaying=18
+xpos_nowplaying=241.5
+ypos_nowplaying=15.75
 
 ; --- UPDATE INDICATOR
-xpos_indicator=504
-ypos_indicator=47
+xpos_indicator=441
+ypos_indicator=41.125
 
 ; --- TIME
-xpos_time=458
-ypos_time=14
+xpos_time=400.75
+ypos_time=12.25
 
 ; --- PROGRESS
-xpos_progress=458
-ypos_progress=26
+xpos_progress=400.75
+ypos_progress=22.75
 
 ; --- SETTINGS
-xpos_settings=486
-ypos_settings=26
+xpos_settings=425.25
+ypos_settings=22.75
 
 ; --- PLAY BUTTON
-xpos_play=492
-ypos_play=94
+xpos_play=430.5
+ypos_play=82.25
 
 ; --- PREVIOUS BUTTON
-xpos_prev=458
-ypos_prev=80
+xpos_prev=400.75
+ypos_prev=70
 
 ; --- NEXT BUTTON
-xpos_next=458
-ypos_next=94
+xpos_next=400.75
+ypos_next=82.25
 
 ; --- INTERFACE
 align_interface=Left
 
 ; --- REGULAR: CONTAINERS
-xpos_container_reg=4
-ypos_containertop_reg=22
-ypos_containerbtm_reg=57
-width_container_reg=435
+xpos_container_reg=3.5
+ypos_containertop_reg=19.25
+ypos_containerbtm_reg=49.875
+width_container_reg=380.625
 
 ; --- STANDARD: CONTAINERS
-width_container_std=435
-width_container_scroll=512
-height_container_std=44
+width_container_std=380.625
+width_container_scroll=448
+height_container_std=38.5
 
 ; --- CONTAINER TEXT
-xpos_containertext=436
+xpos_containertext=381.5
 ypos_containertextbtm=0
-ypos_containertexttop=48
+ypos_containertexttop=42
 align_containertext_supposed=Right
 
 ; PURE --------------
 
 ; --- PURE, UPDATE INDICATOR
-pure_xpos_indicator=437
+pure_xpos_indicator=382.375
 
 ; --- PURE, REGULAR: CONTAINERS
-pure_ypos_containertop_reg=18
-pure_ypos_containerbtm_reg=53
+pure_ypos_containertop_reg=15.75
+pure_ypos_containerbtm_reg=46.375
