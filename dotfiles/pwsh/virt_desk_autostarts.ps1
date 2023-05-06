@@ -60,27 +60,27 @@ function quandale-butterson {
 
 	$oldDesktop = Get-CurrentDesktop
 
-	@'# note: names of virtual desktops to create
+	# note: names of virtual desktops to create
 	# note: and apps to launch on creation
 	$definedDesks = @{
-		"main"=@("wt.exe");
-		"browser"=@("C:\Program Files\Google\Chrome\Application\chrome.exe");
-		"music"=@("spotify.exe");
-		"msging"=@("explorer.exe"); #, "phone link");
-		"rd"=@("explorer.exe");
-		"management"=@("wt.exe");
+		"main"=@("wt");
+		"browser"=@("chrome");
+		"music"=@("spotify");
+		"msging"=@("whatsapp"); #, "phone link");
+		"rd"=@("explorer");
+		"management"=@("wt");
 	}
 	foreach($item in $definedDesks.GetEnumerator()) {
 		Request-NamedDesktop $item.Key | Switch-Desktop
-		Start-Process $((Get-Command $item.Value).Path)
+		Start-Process $( $item.Value )
+		Start-Sleep 1.5
 	}
 
 	# note: and remove the first one
-	Remove-Desktop -Verbose $oldDesktop
+	# Remove-Desktop -Verbose $oldDesktop
 
 	# note: go back to the start
-	Switch-Desktop 0
-	'@
+	# Switch-Desktop 0
 }
 
 if (! $Args[0] ) {
