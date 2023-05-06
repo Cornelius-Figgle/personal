@@ -35,6 +35,15 @@
             "keys": "ctrl+n"
         },
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -59,24 +68,8 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "toggleFocusMode",
             "keys": "ctrl+shift+h"
-        },
-        {
-            "command": 
-            {
-                "action": "quakeMode"
-            },
-            "keys": "win+`"
         },
         {
             "command": 
@@ -84,15 +77,22 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+`"
         }
     ],
     "alwaysShowNotificationIcon": false,
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
     "experimental.rendering.forceFullRepaint": false,
-    "firstWindowPreference": "persistedWindowLayout",
+    "firstWindowPreference": "defaultProfile",
     "initialCols": 144,
     "initialRows": 38,
     "profiles": 
@@ -107,7 +107,8 @@
             "scrollbarState": "hidden",
             "snapOnInput": false,
             "startingDirectory": "%USERPROFILE%",
-            "suppressApplicationTitle": true
+            "suppressApplicationTitle": true,
+            "useAtlasEngine": false
         },
         "list": 
         [
@@ -166,18 +167,6 @@
                 "name": "Adm Cmd",
                 "padding": "8, 8, 8, 8",
                 "useAcrylic": false
-            },
-            {
-                "guid": "{7936f946-2f9d-5a5b-b736-cb81c9f98b39}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{1bee4d00-6313-5c23-accc-d588313d3adc}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
