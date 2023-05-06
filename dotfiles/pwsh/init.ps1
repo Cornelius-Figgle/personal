@@ -1,4 +1,4 @@
-# note: pwsh config management & autocreation
+# note: pwsh config management & auto-creation
 
 $CONFIG_DATA = @'
 # note: btw this file should be created automatically if it doesn't already exist
@@ -25,14 +25,14 @@ $SYS_CFG_PATH = $PROFILE.CurrentUserCurrentHost
 if ($Env:PWSH_CFG_IS_GOOD -ne $true) {
     # note: if our file doesn't exist
 
-    echo "making sys config now"
+    Write-Output "making sys config now"
 
-    echo $CONFIG_DATA | Out-File -FilePath $SYS_CFG_PATH  # note: writes the file data to the config
+    Write-Output $CONFIG_DATA | Out-File -FilePath $SYS_CFG_PATH  # note: writes the file data to the config
 
-    echo "sys config file written"
-    echo "reloading pwsh profile now"
+    Write-Output "sys config file written"
+    Write-Output "reloading pwsh profile now"
 
     & $profile  # note: reloads profile
 } else {
-    echo "sys config not created, env var `SYS_CFG_PATH` is set!"
+    Write-Output "sys config not created, env var `SYS_CFG_PATH` is set!"
 }

@@ -11,16 +11,16 @@ Function prompt {
 # section: functions / aliases
 
 Function glncs {
-    glances --fs-free-space --process-short-name --percpu --program --disable-irix
+    (glances --fs-free-space --process-short-name --percpu --program --disable-irix)
 }
 # New-Alias -Name glances -Value glncs
 
 Function svpush {
-    git add .
+    (git add .)
     if ($?) {
-        git commit -m $args[0]
+        (git commit -m $args[0])
         if ($?) {
-            git push
+            (git push)
         }
     }
 }
@@ -28,8 +28,8 @@ Function svpush {
 Function ln {
     if ($args[0] -ieq "/d" -Or $args[0] -ieq "-d" -Or $args[0] -ieq "/sd" -Or $args[0] -ieq "-sd" -Or $args[0] -ieq "/ds" -Or $args[0] -ieq "-ds") {
         # note: if directory (i cba to do actual stuff)
-        cmd /c mklink /D $args[2] $args[1]
+        (cmd /c mklink /D $args[2] $args[1])
     } else {
-        cmd /c mklink $args[1] $args[0]
+        (cmd /c mklink $args[1] $args[0])
     }
 }
