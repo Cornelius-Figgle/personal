@@ -1,9 +1,9 @@
 {
-  "PreviousHotkey": "",
-  "Hotkey": "Alt \u002B Space",
+  "PreviousHotkey": "Alt \u002B Space",
+  "Hotkey": "Win \u002B R",
   "UseCentralizedKeyboardHook": false,
   "SearchQueryResultsWithDelay": true,
-  "SearchInputDelayFast": 0,
+  "SearchInputDelayFast": 30,
   "SearchInputDelay": 150,
   "SearchQueryTuningEnabled": true,
   "SearchWaitForSlowResults": false,
@@ -20,7 +20,7 @@
   "WindowLeft": 200,
   "WindowTop": 198,
   "MaxResultsToShow": 8,
-  "ActivateTimes": 4,
+  "ActivateTimes": 29,
   "CustomPluginHotkeys": [],
   "DontPromptUpdateMsg": false,
   "EnableUpdateLog": false,
@@ -34,7 +34,7 @@
   "RememberLastLaunchLocation": false,
   "IgnoreHotkeysOnFullscreen": false,
   "StartedFromPowerToysRunner": true,
-  "GenerateThumbnailsFromFiles": true,
+  "GenerateThumbnailsFromFiles": false,
   "Proxy": {
     "Enabled": false,
     "Port": 0
