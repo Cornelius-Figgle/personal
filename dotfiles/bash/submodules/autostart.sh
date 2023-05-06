@@ -36,5 +36,6 @@ function mimic3 {
 		$1 &&
 	fi
 } || {
-    # save log for exception 
+    # save log for exception
+	sleep 0.1
 }
