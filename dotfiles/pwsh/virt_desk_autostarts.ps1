@@ -57,10 +57,34 @@ function quandale-butterson {
 		# note: bc the desktops are re-indexed when one is removed
 		Remove-Desktop -Verbose 0
 	}
+
+	$oldDesktop = Get-CurrentDesktop
+
+	@'# note: names of virtual desktops to create
+	# note: and apps to launch on creation
+	$definedDesks = @{
+		"main"=@("wt.exe");
+		"browser"=@("C:\Program Files\Google\Chrome\Application\chrome.exe");
+		"music"=@("spotify.exe");
+		"msging"=@("explorer.exe"); #, "phone link");
+		"rd"=@("explorer.exe");
+		"management"=@("wt.exe");
+	}
+	foreach($item in $definedDesks.GetEnumerator()) {
+		Request-NamedDesktop $item.Key | Switch-Desktop
+		Start-Process $((Get-Command $item.Value).Path)
+	}
+
+	# note: and remove the first one
+	Remove-Desktop -Verbose $oldDesktop
+
+	# note: go back to the start
+	Switch-Desktop 0
+	'@
 }
 
 if (! $Args[0] ) {
-	( $(HOSTNAME.EXE) )
+	( . $(HOSTNAME.EXE) )  # note: `$env:HOSTNAME` trims the output fsr
 } else {
-	( $Args[1] )
+	( . $Args[1] )  # note: allows us to pass a hostname through the cli args
 }

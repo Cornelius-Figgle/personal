@@ -1,30 +1,25 @@
 [0]
 Meter=String
 MeterStyle=s
-Text=256
-LeftMouseDownAction=[!SetVariable FFTSize "256" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables FFTSize "256" "D:\Documents\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption FFTSize_Select Text "256" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
+Text=Default
+LeftMouseDownAction=[!SetVariable AudioDeviceID "" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables AudioDeviceID "" "c:\users\max.harrison\source\personal\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption AudioDeviceID_Select Text "Default" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
 [1]
 Meter=String
 MeterStyle=s
-Text=512
-LeftMouseDownAction=[!SetVariable FFTSize "512" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables FFTSize "512" "D:\Documents\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption FFTSize_Select Text "512" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
+Text=Speakers (High Definition Audio Device)
+LeftMouseDownAction=[!SetVariable AudioDeviceID "{0.0.0.00000000}.{212b75c4-3811-4f8d-a239-1b617ada8cf2}" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables AudioDeviceID "{0.0.0.00000000}.{212b75c4-3811-4f8d-a239-1b617ada8cf2}" "c:\users\max.harrison\source\personal\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption AudioDeviceID_Select Text "Speakers (High Definition Audio Device)" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
 [2]
 Meter=String
 MeterStyle=s
-Text=1024
-LeftMouseDownAction=[!SetVariable FFTSize "1024" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables FFTSize "1024" "D:\Documents\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption FFTSize_Select Text "1024" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
+Text=Speakers (High Definition Audio Device)
+LeftMouseDownAction=[!SetVariable AudioDeviceID "{0.0.0.00000000}.{40739e20-4927-4e33-a16f-044186947f7f}" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables AudioDeviceID "{0.0.0.00000000}.{40739e20-4927-4e33-a16f-044186947f7f}" "c:\users\max.harrison\source\personal\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption AudioDeviceID_Select Text "Speakers (High Definition Audio Device)" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
 [3]
 Meter=String
 MeterStyle=s
-Text=2048
-LeftMouseDownAction=[!SetVariable FFTSize "2048" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables FFTSize "2048" "D:\Documents\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption FFTSize_Select Text "2048" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
+Text=Headphones (EarFun Air Stereo)
+LeftMouseDownAction=[!SetVariable AudioDeviceID "{0.0.0.00000000}.{4eb5c7ed-0b4e-493b-8f2a-e58fcebeb17d}" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables AudioDeviceID "{0.0.0.00000000}.{4eb5c7ed-0b4e-493b-8f2a-e58fcebeb17d}" "c:\users\max.harrison\source\personal\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption AudioDeviceID_Select Text "Headphones (EarFun Air Stereo)" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
 [4]
 Meter=String
 MeterStyle=s
-Text=3072
-LeftMouseDownAction=[!SetVariable FFTSize "3072" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables FFTSize "3072" "D:\Documents\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption FFTSize_Select Text "3072" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
-[5]
-Meter=String
-MeterStyle=s
-Text=4096
-LeftMouseDownAction=[!SetVariable FFTSize "4096" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables FFTSize "4096" "D:\Documents\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption FFTSize_Select Text "4096" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
+Text=Headset (EarFun Air Hands-Free AG Audio)
+LeftMouseDownAction=[!SetVariable AudioDeviceID "{0.0.0.00000000}.{f7177d1d-0788-45fd-9fff-71b84b37987e}" "#ROOTCONFIG#\SettingsWindow"][!WriteKeyValue Variables AudioDeviceID "{0.0.0.00000000}.{f7177d1d-0788-45fd-9fff-71b84b37987e}" "c:\users\max.harrison\source\personal\Rainmeter\Skins\VisBubble\Settings.inc"][!SetOption AudioDeviceID_Select Text "Headset (EarFun Air Hands-Free AG Audio)" "#ROOTCONFIG#\SettingsWindow"][!Refresh "#ROOTCONFIG#\SettingsWindow"][!DeactivateConfig]
