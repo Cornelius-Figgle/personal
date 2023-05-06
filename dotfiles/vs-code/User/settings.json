@@ -39,6 +39,7 @@
         "bestaudio",
         "Blumfield",
         "Boomstick",
+        "butterson",
         "Carco",
         "Ceaton",
         "certifi",
@@ -118,6 +119,7 @@
         "jasonlong",
         "Keybd",
         "Kipps",
+        "krimmler",
         "Kurolight's",
         "lesspipe",
         "Lexikos",
@@ -215,6 +217,7 @@
         "stylesheet",
         "Stynger",
         "suppressmsgboxes",
+        "svpush",
         "tagline",
         "TARGETWINDOW",
         "taskmgr",
@@ -283,7 +286,7 @@
     "update.showReleaseNotes": false,
     "git.openRepositoryInParentFolders": "always",
     "editor.guides.bracketPairs": "active",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "githubPullRequests.pullBranch": "never",
     "githubPullRequests.queries": [
         {
