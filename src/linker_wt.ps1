@@ -2,6 +2,8 @@
 # Install.ps1 #
 ###############
 
+# i hate git sometimes
+
 # Make sure Windows Terminal have been installed.
 $TerminalPath = "C:\Users\Max.Harrison\AppData\Local\Microsoft\Windows Terminal"  # old: c:\users\max.harrison\appdata\local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe";
 if(!(Test-Path $TerminalPath)) {
