@@ -3,7 +3,5 @@
   "ReplaceWinR": false,
   "LeaveShellOpen": false,
   "RunAsAdministrator": false,
-  "Count": {
-    "nano %APPDATA%\\glances\\glances.conf": 1
-  }
+  "Count": {}
 }

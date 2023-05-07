@@ -3,14 +3,14 @@
 ###############
 
 # Make sure Windows Terminal have been installed.
-$TerminalPath = "c:\users\max.harrison\appdata\local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe";
+$TerminalPath = "C:\Users\Max.Harrison\AppData\Local\Microsoft\Windows Terminal"  # old: c:\users\max.harrison\appdata\local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe";
 if(!(Test-Path $TerminalPath)) {
     Throw "Windows Terminal have not been installed."
 }
 
 # Create symlink to Windows Terminal settings.
 $TerminalProfileSource = Join-Path  "c:\users\max.harrison\source\personal\dotfiles\wt" "settings.json"
-$TerminalProfileDestination = Join-Path $TerminalPath "LocalState/settings.json";
+$TerminalProfileDestination = Join-Path $TerminalPath "settings.json";  # old: LocalState/settings.json";
 if(Test-Path $TerminalProfileDestination) {
     Remove-Item -Path $TerminalProfileDestination;
 }
