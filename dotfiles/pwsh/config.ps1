@@ -10,10 +10,8 @@ Function prompt {
 
 # section: functions / aliases
 
-Function glncs {
-    (glances --percpu --program --disable-irix --separator)
-}
-# New-Alias -Name glances -Value glncs
+Function glncs { (glances --percpu --disable-irix --separator --programs) }
+New-Alias -Name glances -Value glncs
 
 Function svpush {
     (git add .)

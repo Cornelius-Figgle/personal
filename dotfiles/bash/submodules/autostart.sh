@@ -17,7 +17,7 @@ function arnold-krimmler {
 }
 
 function mimic3 {
-	glances -s &
+	glances --percpu --disable-irix --separator --programs -w -2 &
 	/mnt/p/00\ Max/mimic/mc_start.sh &
 }
 
