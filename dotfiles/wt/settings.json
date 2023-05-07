@@ -4,16 +4,16 @@
     "actions": 
     [
         {
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+shift+t"
+        },
+        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": "ctrl+shift+t"
         },
         {
             "command": "paste",
@@ -24,15 +24,15 @@
             "keys": "ctrl+f"
         },
         {
-            "command": "closePane",
-            "keys": "ctrl+w"
-        },
-        {
             "command": 
             {
                 "action": "newWindow"
             },
             "keys": "ctrl+n"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -167,6 +167,36 @@
                 "name": "Adm Cmd",
                 "padding": "8, 8, 8, 8",
                 "useAcrylic": false
+            },
+            {
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "name": "Arch",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{f9484256-f244-5b30-9594-cdd95be23f74}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{717a2bd3-3aa7-5272-844f-378a0efb9475}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
