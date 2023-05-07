@@ -11,7 +11,7 @@ Function prompt {
 # section: functions / aliases
 
 Function glncs {
-    (glances --fs-free-space --process-short-name --percpu --program --disable-irix)
+    (glances --percpu --program --disable-irix --separator)
 }
 # New-Alias -Name glances -Value glncs
 
