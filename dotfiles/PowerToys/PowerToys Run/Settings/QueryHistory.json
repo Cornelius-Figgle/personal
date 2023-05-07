@@ -1,3 +1,32 @@
 {
-  "Items": []
+  "Items": [
+    {
+      "Query": "notepad",
+      "ExecutedDateTime": "2023-05-06T09:21:42.7257942+01:00"
+    },
+    {
+      "Query": "notep",
+      "ExecutedDateTime": "2023-05-06T09:23:13.8526831+01:00"
+    },
+    {
+      "Query": "ping",
+      "ExecutedDateTime": "2023-05-06T09:24:19.3497033+01:00"
+    },
+    {
+      "Query": "time",
+      "ExecutedDateTime": "2023-05-06T09:25:21.1060624+01:00"
+    },
+    {
+      "Query": "//\\\\dc1\\PUblic\\",
+      "ExecutedDateTime": "2023-05-06T09:26:37.7748033+01:00"
+    },
+    {
+      "Query": "wt",
+      "ExecutedDateTime": "2023-05-06T09:28:31.1487412+01:00"
+    },
+    {
+      "Query": "scoop",
+      "ExecutedDateTime": "2023-05-06T09:44:23.7905126+01:00"
+    }
+  ]
 }
