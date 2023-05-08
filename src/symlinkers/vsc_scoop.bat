@@ -1,8 +1,8 @@
-del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\Preferences"
-del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\languagepacks.json" 
-del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\settings.json"
-del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\tasks.json"
-del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\keybindings.json"
+del /q "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\Preferences"
+del /q "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\languagepacks.json" 
+del /q "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\settings.json"
+del /q "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\tasks.json"
+del /q "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\keybindings.json"
 
 mklink "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\Preferences" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\Preferences"
 mklink "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\languagepacks.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\languagepacks.json"
