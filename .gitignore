@@ -10,3 +10,7 @@ dotfiles/PowerToys/**/**/Logs/
 
 dotfiles/PowerToys/FancyZones/app-zone-history.json
 dotfiles/PowerToys/FancyZones/applied-layouts.json
+
+dotfiles/PowerToys/PowerToys Run/Settings/QueryHistory.json
+dotfiles/PowerToys/PowerToys Run/Settings/UserSelectedRecord.json
+dotfiles/PowerToys/PowerToys Run/Settings/ImageCache.json

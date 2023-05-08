@@ -1,6 +1,6 @@
 [Variables]
 
-name_lastgroup_sint=g_features
+name_lastgroup_sint=g_text
 
 ; --- ADAPTIVE HIDE
 color_btn_adaptivehide_sint=128,128,128,255
@@ -15,8 +15,8 @@ color_btn_stow_sint=128,128,128,255
 bool_btn_stow_sint=off
 
 ; --- TRIM TEXT
-color_btn_trim_sint=128,128,128,255
-bool_btn_trim_sint=off
+color_btn_trim_sint=255,179,41,255
+bool_btn_trim_sint=on
 
 ; --- PLAYER
 

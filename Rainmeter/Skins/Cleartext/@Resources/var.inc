@@ -18,7 +18,7 @@ bool_alignright=1
 bool_aligncenter=0
 bool_adaptivehide=0
 bool_stow=0
-bool_texttrim=0
+bool_texttrim=1
 
 ; --- ACTIVE LOW SWITCHES AND CONFIGURATIONS
 

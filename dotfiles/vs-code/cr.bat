@@ -1,9 +1,11 @@
-mklink "C:\Users\Max.Harrison\AppData\Roaming\Code\Preferences" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\Preferences"
+del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\Preferences"
+del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\languagepacks.json" 
+del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\settings.json"
+del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\tasks.json"
+del "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\keybindings.json"
 
-mklink "C:\Users\Max.Harrison\AppData\Roaming\Code\languagepacks.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\languagepacks.json"
-
-mklink "C:\Users\Max.Harrison\AppData\Roaming\Code\User\settings.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\User\settings.json"
-
-mklink "C:\Users\Max.Harrison\AppData\Roaming\Code\User\tasks.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\User\tasks.json"
-
-mklink "C:\Users\Max.Harrison\AppData\Roaming\Code\User\keybindings.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\User\keybindings.json"
+mklink "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\Preferences" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\Preferences"
+mklink "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\languagepacks.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\languagepacks.json"
+mklink "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\settings.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\User\settings.json"
+mklink "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\tasks.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\User\tasks.json"
+mklink "C:\Users\Max.Harrison\scoop\persist\vscode\data\user-data\User\keybindings.json" "C:\Users\Max.Harrison\source\personal\dotfiles\vs-code\User\keybindings.json"
