@@ -1,0 +1,1 @@
+C:/users/max.harrison/source/personal/dotfiles/pwsh/init.ps1
