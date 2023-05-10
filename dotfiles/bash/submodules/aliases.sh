@@ -15,5 +15,6 @@ fi
 alias glances='glances --percpu --disable-irix --separator --programs'
 
 alias pip='python3 -m pip'
+alias venv='python3 -m venv'
 alias python='python3'
 alias py='python3'
