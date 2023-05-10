@@ -16,7 +16,7 @@ New-Alias -Name py -Value python-alias-fn
 # section: functions / aliases
 
 Function glances-alias-fn { (glances --percpu --disable-irix --separator --programs @args) }
-New-Alias -Name glances -Value glances-alias-fn
+# New-Alias -Name glances -Value glances-alias-fn
 
 Function svpush {
     (git add .)
