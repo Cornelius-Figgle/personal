@@ -13,3 +13,7 @@ if [ $HOSTNAME = mimic3 ]; then
 fi
 
 alias glances='glances --percpu --disable-irix --separator --programs'
+
+alias pip='python3 -m pip'
+alias python='python3'
+alias py='python3'

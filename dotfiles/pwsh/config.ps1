@@ -3,15 +3,18 @@
 $env:PYTHONIOENCODING="utf-8"
 # iex "$(thefuck --alias)"
 
-Function prompt {
-    "$($( get-item $PWD ).FullName.Replace($HOME, '~')) $ "
-}
+Function prompt { "$($( get-item $PWD ).FullName.Replace($HOME, '~')) $ " }
 
+Function pip-alias-fn { (python3 -m pip @args) }
+New-Alias -Name pip -Value pip-alias-fn
+Function python-alias-fn { (python3 @args) }
+New-Alias -Name python -Value python-alias-fn
+New-Alias -Name py -Value python-alias-fn
 
 # section: functions / aliases
 
-Function glncs { (glances --percpu --disable-irix --separator --programs) }
-New-Alias -Name glances -Value glncs
+Function glances-alias-fn { (glances --percpu --disable-irix --separator --programs @args) }
+New-Alias -Name glances -Value glances-alias-fn
 
 Function svpush {
     (git add .)
