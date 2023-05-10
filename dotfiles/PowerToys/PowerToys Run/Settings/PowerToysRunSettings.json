@@ -1,5 +1,5 @@
 {
-  "PreviousHotkey": "Win \u002B R",
+  "PreviousHotkey": "Alt \u002B Space",
   "Hotkey": "Shift \u002B Win \u002B R",
   "UseCentralizedKeyboardHook": false,
   "SearchQueryResultsWithDelay": true,
@@ -20,7 +20,7 @@
   "WindowLeft": 200,
   "WindowTop": 198,
   "MaxResultsToShow": 8,
-  "ActivateTimes": 52,
+  "ActivateTimes": 54,
   "CustomPluginHotkeys": [],
   "DontPromptUpdateMsg": false,
   "EnableUpdateLog": false,
