@@ -15,3 +15,5 @@
 	recentrepo = C:/Users/Max.Harrison/source/personal
 [credential]
 	helper = manager
+[pull]
+	rebase = false
