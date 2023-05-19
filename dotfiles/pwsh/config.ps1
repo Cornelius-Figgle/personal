@@ -1,5 +1,7 @@
 # section: env vars
 
+$ProgressPreference='SilentlyContinue'
+
 $env:PYTHONIOENCODING="utf-8"
 # iex "$(thefuck --alias)"
 
