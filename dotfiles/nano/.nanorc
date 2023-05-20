@@ -239,7 +239,7 @@ set zap
 ## For all details, see 'man nanorc', section SYNTAX HIGHLIGHTING.
 
 ## To include most of the existing syntax definitions, you can do:
-include "C:/Users/Max.Harrison/scoop/apps/nano/current/syntax/*.nanorc"
+# include "C:/Users/Max.Harrison/scoop/apps/nano/current/syntax/*.nanorc"
 
 ## Or you can select just the ones you need.  For example:
 #include "C:/Users/Max.Harrison/scoop/apps/nano/current/syntax/html.nanorc"
@@ -329,4 +329,6 @@ bind ^K "{mark}{end}{zap}" main
 bind ^U "{mark}{home}{zap}" main
 bind ^Z undo main
 bind ^Y redo main
-include "C:/Users/Max.Harrison/scoop/apps/nano/current/syntax/*.nanorc"
+
+# include "C:/Users/Max.Harrison/scoop/apps/nano/current/syntax/*.nanorc"
+# include "/usr/share/nano/*.nanorc"

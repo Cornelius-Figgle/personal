@@ -124,3 +124,6 @@ fi
 if [ -f $SCRIPT_PATH/submodules/variables.sh ]; then
     . $SCRIPT_PATH/submodules/variables.sh
 fi
+if [ -h $SCRIPT_PATH/submodules/autostart.sh ]; then 
+	. $SCRIPT_PATH/submodules/autostart.sh
+fi
