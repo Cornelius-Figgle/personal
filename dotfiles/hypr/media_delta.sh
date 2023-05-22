@@ -35,10 +35,10 @@ function bright {
 	cur_value=$(cat $device)
 	if [[ $offset = up ]]; then
 		value=$(($cur_value+$value))
-	        echo $value > $device
+        echo $value > $device
 	elif [[ $offset = down ]]; then
-                value=$(($cur_value-$value))
-                echo $value > $device
+        value=$(($cur_value-$value))
+    	echo $value > $device
 	else
 		exit 2
 	fi
