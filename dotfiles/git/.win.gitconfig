@@ -1,0 +1,23 @@
+[core]
+	autocrlf = true
+	editor = code --wait
+	symlinks = true
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !'C:\\Users\\Max.Harrison\\scoop\\apps\\gh\\current\\bin\\gh.exe' auth git-credential
+[user]
+	name = Cornelius-Figgle
+	email = max@fullimage.net
+[gui]
+	recentrepo = C:/Users/Max.Harrison/source/personal
+[credential]
+	helper = manager
+[pull]
+	rebase = false
+[alias]
+	credential-manager = credential-manager-core
+[http]
+	postBuffer = 157286400

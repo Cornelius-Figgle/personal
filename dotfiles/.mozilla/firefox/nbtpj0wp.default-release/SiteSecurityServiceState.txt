@@ -10,6 +10,7 @@ code.visualstudio.com^partitionKey=%28http%2Cvisualstudio.com%29:HSTS	0	19470	17
 wiki.archlinux.org^partitionKey=%28http%2Carchlinux.org%29:HSTS	5	19501	1716490803103,1,1
 completion.amazon.co.uk^partitionKey=%28http%2Camazon.co.uk%29:HSTS	0	19475	1730183243561,1,1
 collector.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	9	19501	2316085664815,1,0
+www.freecodecamp.org^partitionKey=%28http%2Cfreecodecamp.org%29:HSTS	0	19501	1716496700713,1,1
 news.ycombinator.com^partitionKey=%28http%2Cycombinator.com%29:HSTS	0	19471	1713915349602,1,0
 bbs.archlinux.org^partitionKey=%28http%2Carchlinux.org%29:HSTS	2	19501	1716491394234,1,1
 stackauth.com^partitionKey=%28http%2Cstackauth.com%29:HSTS	0	19501	1700499600748,1,0
@@ -90,6 +91,7 @@ shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b30
 normandy.cdn.mozilla.net:HSTS	10	19501	1716483173586,1,0
 medium.com^partitionKey=%28http%2Cmedium.com%29:HSTS	0	19475	1698257464780,1,1
 unpkg.com^partitionKey=%28http%2Cunpkg.com%29:HSTS	0	19476	1714331159176,1,1
+images.pling.com^partitionKey=%28http%2Cpling.com%29:HSTS	0	19501	1748031478699,1,0
 git.sr.ht^partitionKey=%28http%2Csr.ht%29:HSTS	1	19472	1713904594796,1,1
 spclient.wg.spotify.com^partitionKey=%28http%2Cspotify.com%29:HSTS	0	19468	1713642229273,1,0
 www.partitionwizard.com^partitionKey=%28http%2Cpartitionwizard.com%29:HSTS	0	19475	1745781220794,1,1
