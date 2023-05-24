@@ -19,3 +19,5 @@
 	rebase = false
 [alias]
 	credential-manager = credential-manager-core
+[http]
+	postBuffer = 157286400

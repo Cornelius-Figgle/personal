@@ -18,3 +18,8 @@ alias glances='glances --percpu --disable-irix --separator --programs'
 # alias venv='python3 -m venv'
 # alias python='python3'
 # alias py='python3'
+
+alias pacman-backup='pacman -Qqe | grep -v "$(pacman -Qqm)"'
+alias aur-backup='pacman -Qqm'
+alias pacman-restore='xargs pacman -S --needed --noconfirm'
+alias aur-restore='echo "NO RESTORE LINE YET"'

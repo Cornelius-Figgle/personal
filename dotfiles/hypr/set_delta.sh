@@ -4,7 +4,7 @@ set_wallpaper() {
 
     monitor="eDP-1"
 
-    wallpaper_dir="~/Pictures/huleeb-cropped"
+    wallpaper_dir="/home/max/Pictures/huleeb-cropped"
 
     files=($wallpaper_dir/*)
 

@@ -302,7 +302,7 @@ bind ^S "{execute}| sed 's/\s\+$//' {enter}{savefile}" main
 #bind ^C copy main
 #bind ^V paste all
 #bind ^Q exit all
-bind ^S savefile main
+#bind ^S savefile main
 #bind ^W writeout main
 #bind ^O insert main
 #set multibuffer
