@@ -1,2 +1,1 @@
-{"timestamp":78311,"category":"nimbus_events","name":"enrollment","extra":{"enrollment_id":"6d1f249d-9a45-4627-addc-c73bd562f5b2","experiment":"vpn-spotlight-modal-phase-1","experiment_type":"nimbus","branch":"treatment-d"}}
-{"timestamp":1188671,"category":"nimbus_events","name":"exposure","extra":{"feature_id":"newtab","branch":"control","experiment":"use-additional-tiles-for-sponsored-shortcuts"}}
+{"timestamp":187309,"category":"nimbus_events","name":"exposure","extra":{"experiment":"use-additional-tiles-for-sponsored-shortcuts","feature_id":"newtab","branch":"control"}}
