@@ -4,6 +4,6 @@ export XDG_SCREENSHOTS_DIR="/tmp/Screenshots"
 export EDITOR="nano"
 
 export PYTHONIOENCODING="utf-8"
-# eval "$(thefuck --alias)"
+eval "$(thefuck --alias)"
 
 PS1='\w \$ '
