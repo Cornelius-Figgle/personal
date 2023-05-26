@@ -13,7 +13,13 @@ try {
     . "$HOME\source\personal\dotfiles\pwsh\config.ps1"
 } catch [System.Exception] {
     # note: if file not found
-    throw
+    try {
+        # note: copy in main config
+        . "T:\source\personal\dotfiles\pwsh\config.ps1"
+    } catch [System.Exception] {
+        # note: if file still not found
+        throw
+    }
 }
 
 $Env:PWSH_CFG_IS_GOOD = $true
@@ -22,8 +28,9 @@ $Env:PWSH_CFG_IS_GOOD = $true
 $SYS_CFG_PATH = $PROFILE.CurrentUserCurrentHost
 
 
-if ($Env:PWSH_CFG_IS_GOOD -ne $true) {
+if ($Env:PWSH_CFG_IS_GOOD -ne $true -or $args[0] -ieq "-f") {
     # note: if our file doesn't exist
+    # note: or we specify force
 
     Write-Output "making sys config now"
 
