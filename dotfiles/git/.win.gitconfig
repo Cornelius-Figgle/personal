@@ -3,10 +3,10 @@
 	editor = code --wait
 	symlinks = true
 [credential "https://github.com"]
-	helper =
-	helper = !/usr/bin/gh auth git-credential
+	helper = 
+	helper = !'C:\\Users\\Max.Harrison\\scoop\\apps\\gh\\current\\bin\\gh.exe' auth git-credential
 [credential "https://gist.github.com"]
-	helper =
+	helper = 
 	helper = !'C:\\Users\\Max.Harrison\\scoop\\apps\\gh\\current\\bin\\gh.exe' auth git-credential
 [user]
 	name = Cornelius-Figgle
