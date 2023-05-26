@@ -6,7 +6,7 @@
 ; Persistent(true)
 
 
-path_base := "t:\personal\ahk\"
+path_base := "t:\source\personal\ahk\"
 TraySetIcon(path_base . "icons\ibm.ico")
 
 ; ===== macro setups =========================================================
