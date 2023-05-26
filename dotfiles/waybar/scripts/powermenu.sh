@@ -15,7 +15,7 @@ shutdown="⏻ Shutdown"
 reboot=" Restart"
 lock=" Lock"
 suspend="  Sleep"
-logout=" Logout"
+logout=" Exit Hyprland"
 # Confirmation
 confirm_exit() {
 	rofi -dmenu\
