@@ -23,3 +23,5 @@ alias pacman-backup='pacman -Qqe | grep -v "$(pacman -Qqm)"'
 alias aur-backup='pacman -Qqm'
 alias pacman-restore='xargs pacman -S --needed --noconfirm'
 alias aur-restore='echo "NO RESTORE LINE YET"'
+
+alias lxappearance='GDK_BACKEND=x11 lxappearance'

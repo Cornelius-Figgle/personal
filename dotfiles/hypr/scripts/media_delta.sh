@@ -45,8 +45,15 @@ function bright {
 }
 
 function media {
-	# HELP
-	echo no
+	if [[ $offset = pause ]]; then
+		playerctl play-pause
+	elif [[ $offset = next ]]; then
+		playerctl next
+	elif [[ $offset = prev ]]; then
+		playerctl previous
+	else
+		exit 2
+	fi
 }
 
 # runner
