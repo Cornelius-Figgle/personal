@@ -3,7 +3,7 @@
 v1_archive/
 *.exe
 
-#powertoys :(
+# powertoys :(
 dotfiles/PowerToys/**/*log_*.*
 dotfiles/PowerToys/**/Logs/
 dotfiles/PowerToys/**/**/Logs/
@@ -17,3 +17,9 @@ dotfiles/PowerToys/PowerToys Run/Settings/ImageCache.json
 
 dotfiles/PowerToys/PowerToys Run/Settings.json
 dotfiles/PowerToys/PowerToys Run/Settings/
+
+# firefox
+dotfiles/.mozilla
+# !dotfiles/.mozilla/firefox/profiles.ini
+# !dotfiles/.mozilla/firefox/installs.ini
+# !dotfiles/.mozilla/firefox/nbtpj0wp.default-release/prefs.js
