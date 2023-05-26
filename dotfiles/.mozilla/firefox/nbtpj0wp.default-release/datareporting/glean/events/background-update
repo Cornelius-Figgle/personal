@@ -1,1 +1,3 @@
-{"timestamp":187309,"category":"nimbus_events","name":"exposure","extra":{"experiment":"use-additional-tiles-for-sponsored-shortcuts","feature_id":"newtab","branch":"control"}}
+{"timestamp":41929,"category":"nimbus_events","name":"enrollment","extra":{"branch":"control","experiment":"firefox-accounts-toolbar-button-badge","experiment_type":"rollout","enrollment_id":"81da7b50-b0c1-4f2e-9963-d08bb4b4dfe2"}}
+{"timestamp":42047,"category":"nimbus_events","name":"unenrollment","extra":{"reason":"recipe-not-seen","enrollment_id":"6d1f249d-9a45-4627-addc-c73bd562f5b2","experiment":"vpn-spotlight-modal-phase-1","branch":"treatment-d"}}
+{"timestamp":301933,"category":"nimbus_events","name":"exposure","extra":{"branch":"control","experiment":"use-additional-tiles-for-sponsored-shortcuts","feature_id":"newtab"}}

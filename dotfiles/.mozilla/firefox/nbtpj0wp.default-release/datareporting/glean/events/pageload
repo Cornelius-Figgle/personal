@@ -1,7 +1,3 @@
-{"timestamp":113913,"category":"perf","name":"page_load","extra":{"js_exec_time":"53","http_ver":"3","load_time":"633","fcp_time":"92","load_type":"NORMAL","response_time":"-12"},"execution_counter":64}
-{"timestamp":121314,"category":"perf","name":"page_load","extra":{"same_origin_nav":"false","fcp_time":"739","http_ver":"2","load_time":"1827","js_exec_time":"405","response_time":"351","load_type":"STOP"},"execution_counter":64}
-{"timestamp":220222,"category":"perf","name":"page_load","extra":{"load_type":"NORMAL","response_time":"109","fcp_time":"228","load_time":"1931","js_exec_time":"529","http_ver":"3"},"execution_counter":64}
-{"timestamp":247677,"category":"perf","name":"page_load","extra":{"load_type":"NORMAL","js_exec_time":"57","fcp_time":"197","response_time":"91","load_time":"547","http_ver":"3"},"execution_counter":64}
-{"timestamp":257897,"category":"perf","name":"page_load","extra":{"load_time":"1378","js_exec_time":"555","same_origin_nav":"true","fcp_time":"362","response_time":"234","load_type":"LINK","http_ver":"3"},"execution_counter":64}
-{"timestamp":262864,"category":"perf","name":"page_load","extra":{"load_type":"NORMAL","response_time":"97","fcp_time":"155","load_time":"1062","js_exec_time":"99","http_ver":"3"},"execution_counter":64}
-{"timestamp":266840,"category":"perf","name":"page_load","extra":{"js_exec_time":"39","response_time":"308","fcp_time":"999","load_time":"2616","http_ver":"1","load_type":"NORMAL"},"execution_counter":64}
+{"timestamp":90280,"category":"perf","name":"page_load","extra":{"load_type":"NORMAL","response_time":"-8","fcp_time":"466","js_exec_time":"334","http_ver":"2","load_time":"980"},"execution_counter":65}
+{"timestamp":124088,"category":"perf","name":"page_load","extra":{"http_ver":"2","same_origin_nav":"false","fcp_time":"2148","response_time":"128","load_time":"2231","js_exec_time":"1098","load_type":"LINK"},"execution_counter":65}
+{"timestamp":307795,"category":"perf","name":"page_load","extra":{"load_time":"2812","fcp_time":"229","js_exec_time":"517","response_time":"111","http_ver":"3","load_type":"NORMAL"},"execution_counter":65}
