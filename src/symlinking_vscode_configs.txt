@@ -21,10 +21,10 @@ operable program or batch file.
 C:\Users\Max.Harrison>move C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets T:\personal\dotfiles\vs-code\User
 Access is denied.
 
-C:\Users\Max.Harrison>move C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets c:\users\max.harrison\source\personal\dotfiles\vs-code\User
+C:\Users\Max.Harrison>move C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets t:\source\personal\dotfiles\vs-code\User
         1 dir(s) moved.
 
-C:\Users\Max.Harrison>mklink /D C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets c:\users\max.harrison\source\personal\dotfiles\vs-code\User\snippets
-symbolic link created for C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets <<===>> c:\users\max.harrison\source\personal\dotfiles\vs-code\User\snippets
+C:\Users\Max.Harrison>mklink /D C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets t:\source\personal\dotfiles\vs-code\User\snippets
+symbolic link created for C:\Users\Max.Harrison\AppData\Roaming\Code\User\snippets <<===>> t:\source\personal\dotfiles\vs-code\User\snippets
 
 C:\Users\Max.Harrison>
