@@ -1,2 +1,2 @@
 command = "/bin/bash"
-args = ["/home/max/.config/waybar/scripts/launcher.sh"]
+args = ["/home/max/source/personal/src/deltas/launcher.sh"]
