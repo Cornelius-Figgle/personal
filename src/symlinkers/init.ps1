@@ -15,7 +15,7 @@ try {
     # note: if file not found
     try {
         # note: copy in main config
-        . "T:\source\personal\dotfiles\pwsh\config.ps1"
+        . "T:\personal\dotfiles\pwsh\config.ps1"
     } catch [System.Exception] {
         # note: if file still not found
         throw

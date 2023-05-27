@@ -7,13 +7,13 @@ $env:PYTHONIOENCODING="utf-8"
 
 Function prompt { "$($( get-item $PWD ).FullName.Replace($HOME, '~')) $ " }
 
-Function pip-alias-fn { (python3 -m pip @args) }
-New-Alias -Name pip -Value pip-alias-fn
-Function venv-alias-fn { (python3 -m venv @args) }
-New-Alias -Name venv -Value venv-alias-fn
-Function python-alias-fn { (python3 @args) }
-New-Alias -Name python -Value python-alias-fn
-New-Alias -Name py -Value python-alias-fn
+# Function pip-alias-fn { (python3 -m pip @args) }
+# New-Alias -Name pip -Value pip-alias-fn
+# Function venv-alias-fn { (python3 -m venv @args) }
+# New-Alias -Name venv -Value venv-alias-fn
+# Function python-alias-fn { (python3 @args) }
+# New-Alias -Name python -Value python-alias-fn
+# New-Alias -Name py -Value python-alias-fn
 
 # section: functions / aliases
 

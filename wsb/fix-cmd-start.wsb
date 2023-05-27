@@ -3,7 +3,7 @@
   <Networking>Enable</Networking>
   <MappedFolders>
     <MappedFolder>
-      <HostFolder>t:\source\personal\wsb</HostFolder>
+      <HostFolder>C:\Users\Max.Harrison\source\personal\wsb</HostFolder>
       <SandboxFolder>C:\Users\WDAGUtilityAccount\scripts</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
