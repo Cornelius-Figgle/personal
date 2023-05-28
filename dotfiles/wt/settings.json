@@ -35,6 +35,15 @@
             "keys": "ctrl+w"
         },
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -59,24 +68,8 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "toggleFocusMode",
             "keys": "ctrl+shift+h"
-        },
-        {
-            "command": 
-            {
-                "action": "quakeMode"
-            },
-            "keys": "win+`"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+`"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -168,6 +168,13 @@
                 "hidden": false,
                 "icon": "C:\\Users\\Max.Harrison\\scoop\\apps\\git\\current\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash"
+            },
+            {
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Debian  bash -c 'cd $HOME; exec bash'",
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Cava WSL",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
