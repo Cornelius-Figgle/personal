@@ -42,7 +42,7 @@
     "custom/power-menu": {
         "format": "⏻",
         "tooltip-format": "Power Menu",
-        "on-click": "sh ~/.config/waybar/scripts/powermenu.sh",
+        "on-click": "sh ~/source/personal/src/deltas/powermenu.sh",
     },
 
     "cpu": {
@@ -66,8 +66,8 @@
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
         "interval" : 0.2,
-        "on-scroll-down": "~/.config/hypr/media_delta.sh bright down 50",
-        "on-scroll-up": "~/.config/hypr/media_delta.sh bright up 50",
+        "on-scroll-down": "~/source/personal/src/deltas/media_delta.sh bright down 50",
+        "on-scroll-up": "~/source/personal/src/deltas/media_delta.sh bright up 50",
         "on-click": "",
     },
     "network": {
@@ -105,7 +105,7 @@
           "warning": 30,
           "critical": 15
       },
-      "on-double-click": "sh ~/.config/waybar/scripts/power-profiles",
+      "on-double-click": "sh ~/source/personal/src/deltas/power-profiles",
       "max-length": 20,
       "format": "{icon} {capacity}%",
       "format-warning": "{icon} {capacity}%",
