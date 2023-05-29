@@ -35,15 +35,6 @@
             "keys": "ctrl+w"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -68,15 +59,17 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+h"
-        },
-        {
             "command": 
             {
-                "action": "newTab"
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "keys": "ctrl+t"
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+h"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "quakeMode"
             },
             "keys": "win+`"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -155,7 +155,7 @@
                     "size": 12.0
                 },
                 "guid": "{6c33bb5a-b731-4d35-b206-89dbd7f8d3e2}",
-                "hidden": false,
+                "hidden": true,
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "Adm Cmd",
@@ -182,6 +182,13 @@
                 "hidden": false,
                 "name": "cava-wsl",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu",
+                "guid": "{3926813f-5114-48b5-872e-64a551e2b8fe}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Ubuntu"
             }
         ]
     },
