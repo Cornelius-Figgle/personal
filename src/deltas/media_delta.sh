@@ -56,7 +56,7 @@ function bright {
 		exit 2
 	fi
 
-	notify-send " Brightness " " $(expr $(brightnessctl g) \* 100 / 937)%"
+	notify-send -i /usr/share/icons/Win11-dark/status/24/display-brightness-symbolic.svg " Brightness " " $(expr $(brightnessctl g) \* 100 / 937)%"
 }
 
 function media {
