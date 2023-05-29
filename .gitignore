@@ -3,6 +3,8 @@
 v1_archive/
 *.exe
 
+dotfiles/hypr/memos.sh
+
 # powertoys :(
 dotfiles/PowerToys/**/*log_*.*
 dotfiles/PowerToys/**/Logs/
