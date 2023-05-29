@@ -58,7 +58,7 @@
     },
     "disk": {
         "interval": 1,
-        "format": " {}%",
+        "format": " {percentage_used}%",
         "tooltip-format": "{percentage_free}% free on {path}",
     },
     "backlight": {
