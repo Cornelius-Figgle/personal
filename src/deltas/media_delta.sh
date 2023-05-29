@@ -1,15 +1,17 @@
 #!/bin/bash
 
+# note: clear notify space
+killall dunst
 
-# cli args
-op=$1  # {vol|mute|mic|bright|media}
-offset=$2  # {up|down|toggle|pause|next|prev}
-value=$3  # <any>
+# note: cli args
+op=$1  # args: {vol|mute|mic|bright|media}
+offset=$2  # args: {up|down|toggle|pause|next|prev}
+value=$3  # args: <any>
 
-# vars
+# note: vars
 sink=@DEFAULT_SINK@
 
-# main logic
+# note: main functions
 function vol {
 	if [[ $offset = up ]]; then
 		pactl set-sink-volume $sink "+${value}%"
@@ -18,30 +20,43 @@ function vol {
 	else
 		exit 2
 	fi
+
+	cur_vol=$(pactl get-sink-volume $sink | grep -o ...% | head -1 | awk '{$1=$1};1')
+	notify-send -i /usr/share/icons/Win11-dark/status/24/volume-level-high.svg " Volume " " $( echo $cur_vol ) "
 }
 
 function mute {
-	# always just toggles it, no matter what $offset is
+	# note: always just toggles it, no matter what $offset is
 	pactl set-sink-mute $sink toggle
+
+	if [ $(pactl get-sink-mute @DEFAULT_SINK@ | grep -o -e "yes" -e "no") = yes ]; then
+		notify-send -i /usr/share/icons/Win11-dark/status/24/audio-volume-muted-symbolic.svg " Muted "
+	else
+		notify-send -i /usr/share/icons/Win11-dark/status/24/volume-level-high.svg " Unmuted "
+	fi
 }
 
 function mic {
-	# always just toggles it, no matter what $offset is
+	# note: always just toggles it, no matter what $offset is
 	pactl set-sink-input-mute $sink toggle
+
+	#if [ $(pactl get-sink-input-mute @DEFAULT_SINK@ | grep -o -e "yes" -e "no") = yes ]; then
+    #	notify-send -i /usr/share/icons/Win11-dark/status/24/audio-input-microphone-muted.svg " Mic Muted "
+    #else
+	#    notify-send -i /usr/share/icons/Win11-dark/status/24/audio-input-microphone-none-panel.svg " Mic Unmuted "
+    #fi
 }
 
 function bright {
-	device=/sys/class/backlight/intel_backlight/brightness
-	cur_value=$(cat $device)
 	if [[ $offset = up ]]; then
-		value=$(($cur_value+$value))
-        echo $value > $device
+		brightnessctl s 5%+
 	elif [[ $offset = down ]]; then
-        value=$(($cur_value-$value))
-    	echo $value > $device
+        brightnessctl s 5%-
 	else
 		exit 2
 	fi
+
+	notify-send " Brightness " " $(expr $(brightnessctl g) \* 100 / 937)%"
 }
 
 function media {
@@ -56,5 +71,5 @@ function media {
 	fi
 }
 
-# runner
-$op  # calls the function with the name $op
+# note: runner
+$op  # note: calls the function with the name $op

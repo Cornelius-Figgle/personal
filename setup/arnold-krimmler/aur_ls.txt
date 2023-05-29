@@ -1,0 +1,16 @@
+bashmount
+cava
+chromium-widevine
+hyprpicker-git
+imgur.sh
+mellowplayer
+pam-fprint-grosshack
+peaclock
+rofi-lbonn-wayland-git
+spicetify-cli
+spotify
+swaylock-effects-git
+visual-studio-code-bin
+waybar-hyprland-git
+wev
+yay-git
