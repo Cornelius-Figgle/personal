@@ -6,4 +6,6 @@ export EDITOR="nano"
 export PYTHONIOENCODING="utf-8"
 eval "$(thefuck --alias)"
 
+export ProgressPreference='SilentlyContinue'
+
 PS1='\w \$ '
