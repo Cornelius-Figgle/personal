@@ -22,7 +22,7 @@ function vol {
 	fi
 
 	cur_vol=$(pactl get-sink-volume $sink | grep -o ...% | head -1 | awk '{$1=$1};1')
-	notify-send -i /usr/share/icons/Win11-dark/status/24/volume-level-high.svg " Volume " " $( echo $cur_vol ) "
+	notify-send -i ~/.local/share/icons/Win11-dark/status/24/volume-level-high.svg " Volume " " $( echo $cur_vol ) "
 }
 
 function mute {
@@ -30,9 +30,9 @@ function mute {
 	pactl set-sink-mute $sink toggle
 
 	if [ $(pactl get-sink-mute @DEFAULT_SINK@ | grep -o -e "yes" -e "no") = yes ]; then
-		notify-send -i /usr/share/icons/Win11-dark/status/24/audio-volume-muted-symbolic.svg " Muted "
+		notify-send -i ~/.local/share/icons/Win11-dark/status/24/audio-volume-muted-symbolic.svg " Muted "
 	else
-		notify-send -i /usr/share/icons/Win11-dark/status/24/volume-level-high.svg " Unmuted "
+		notify-send -i ~/.local/share/icons/Win11-dark/status/24/volume-level-high.svg " Unmuted "
 	fi
 }
 
@@ -41,9 +41,9 @@ function mic {
 	pactl set-sink-input-mute $sink toggle
 
 	#if [ $(pactl get-sink-input-mute @DEFAULT_SINK@ | grep -o -e "yes" -e "no") = yes ]; then
-    #	notify-send -i /usr/share/icons/Win11-dark/status/24/audio-input-microphone-muted.svg " Mic Muted "
+    #	notify-send -i ~/.local/share/icons/Win11-dark/status/24/audio-input-microphone-muted.svg " Mic Muted "
     #else
-	#    notify-send -i /usr/share/icons/Win11-dark/status/24/audio-input-microphone-none-panel.svg " Mic Unmuted "
+	#    notify-send -i ~/.local/share/icons/Win11-dark/status/24/audio-input-microphone-none-panel.svg " Mic Unmuted "
     #fi
 }
 
@@ -56,12 +56,17 @@ function bright {
 		exit 2
 	fi
 
-	notify-send -i /usr/share/icons/Win11-dark/status/24/display-brightness-symbolic.svg " Brightness " " $(expr $(brightnessctl g) \* 100 / 937)%"
+	notify-send -i ~/.local/share/icons/Win11-dark/status/24/display-brightness-symbolic.svg " Brightness " " $(expr $(brightnessctl g) \* 100 / 937)%"
 }
 
 function media {
 	if [[ $offset = pause ]]; then
 		playerctl play-pause
+		if [ $(playerctl status) = Playing ]; then
+			notify-send " Paused "
+		elif [ $(playerctl status) = Paused ]; then
+			notify-send " Playing "
+		fi
 	elif [[ $offset = next ]]; then
 		playerctl next
 	elif [[ $offset = prev ]]; then
