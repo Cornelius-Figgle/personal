@@ -13,6 +13,7 @@ firefox
 foot
 fortune-mod
 fprintd
+freerdp
 git
 github-cli
 gnome-keyring
