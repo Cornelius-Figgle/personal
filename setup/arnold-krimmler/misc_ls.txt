@@ -1,0 +1,17 @@
+# /opt
+
+https://github.com/Roshanpaudel111/Arch-Hyprland  # dots
+https://github.com/hyprwm/contrib  # screenshots etc
+https://github.com/paulkaefer/cowsay-files (run `make install` after) # cowsay extras
+https://github.com/dasJ/spotifywm && make  # spotify
+
+# ~/source
+https://github.com/Cornelius-Figgle/personal
+https://github.com/Cornelius-Figgle/docs
+
+# cargo
+cargo install --git=https://github.com/nate-sys/hypr-empty
+
+# pip
+python3 -m ensurepip
+python3 -m pip install glances[all]
