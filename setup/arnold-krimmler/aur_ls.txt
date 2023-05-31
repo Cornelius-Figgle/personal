@@ -6,6 +6,7 @@ imgur.sh
 mellowplayer
 pam-fprint-grosshack
 peaclock
+pipes-rs-git
 rofi-lbonn-wayland-git
 spicetify-cli
 spotify

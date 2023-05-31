@@ -21,3 +21,5 @@
 	credential-manager = credential-manager-core
 [http]
 	postBuffer = 157286400
+[safe]
+	directory = T:/source/personal

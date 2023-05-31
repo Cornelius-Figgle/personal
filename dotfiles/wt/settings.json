@@ -4,16 +4,16 @@
     "actions": 
     [
         {
-            "command": "openNewTabDropdown",
-            "keys": "ctrl+shift+t"
-        },
-        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+shift+t"
         },
         {
             "command": "paste",
@@ -24,6 +24,10 @@
             "keys": "ctrl+f"
         },
         {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
             "command": 
             {
                 "action": "newWindow"
@@ -31,8 +35,13 @@
             "keys": "ctrl+n"
         },
         {
-            "command": "closePane",
-            "keys": "ctrl+w"
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
         },
         {
             "command": "unbound",
@@ -59,24 +68,8 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "toggleFocusMode",
             "keys": "ctrl+shift+h"
-        },
-        {
-            "command": 
-            {
-                "action": "quakeMode"
-            },
-            "keys": "win+`"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+`"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -170,25 +170,41 @@
                 "name": "Git Bash"
             },
             {
-                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Debian",
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu",
+                "guid": "{3926813f-5114-48b5-872e-64a551e2b8fe}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Ubuntu"
+            },
+            {
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "name": "Arch",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
                 "name": "Debian",
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d cava-wsl bash -c 'cd $HOME; exec bash'",
                 "guid": "{7fc4c3e0-fb7c-50e4-8eee-27cbf6ab2e81}",
                 "hidden": false,
                 "name": "cava-wsl",
                 "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu",
-                "guid": "{3926813f-5114-48b5-872e-64a551e2b8fe}",
-                "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-                "name": "Ubuntu"
             }
         ]
     },
