@@ -5,7 +5,9 @@
 # i hate git sometimes
 
 # Make sure Windows Terminal have been installed.
-$TerminalPath = "C:\Users\Max.Harrison\AppData\Local\Microsoft\Windows Terminal"  # old: c:\users\max.harrison\appdata\local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe";
+$TerminalPath = "c:\users\max.harrison\scoop\apps\windows-terminal\current\settings"
+# old: "C:\Users\Max.Harrison\AppData\Local\Microsoft\Windows Terminal"  
+# old: c:\users\max.harrison\appdata\local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe";
 if(!(Test-Path $TerminalPath)) {
     Throw "Windows Terminal have not been installed."
 }
