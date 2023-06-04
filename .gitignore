@@ -20,6 +20,9 @@ dotfiles/PowerToys/PowerToys Run/Settings/ImageCache.json
 dotfiles/PowerToys/PowerToys Run/Settings.json
 dotfiles/PowerToys/PowerToys Run/Settings/
 
+dotfiles/PowerToys/UpdateState.json
+dotfiles/PowerToys/settings-telemetry.json
+
 # firefox
 dotfiles/.mozilla
 # !dotfiles/.mozilla/firefox/profiles.ini
