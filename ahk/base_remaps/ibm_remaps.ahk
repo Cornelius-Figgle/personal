@@ -27,8 +27,6 @@ Ins::AppsKey  ; context menus (use `mod+Ins` for normal insert)
 
 CapsLock::Return
 
-LAlt & Tab::AltTab
-
 ; ===== numpad -> media keys =================================================
 
 NumpadHome::Volume_Down
