@@ -1,18 +1,33 @@
+/* note: padding is inner offset, margin is outer */
+/* note: offset are (top left bottom right) */
+
 * {
-	font-family: JetBrainsMono Nerd FOnt;
+	font-family: JetBrainsMono Nerd Font;
 	font-size: 14px;
 	font-weight: 900;
 }
 
-window#waybar {
+window#waybar {  /* note: bg of the bar */
 	background-color: rgba(68, 80, 80, 0.5);
-	/* color: #ffffff; */
 	transition-property: background-color;
 	transition-duration: .5s;
 	border-radius: 10px;
 }
 
+
+
+/* note: list of all modules :( */
+#network,
+#battery,
 #clock,
 #custom-power-menu {
-	color: #ffffff;
+	color: #959AA5;  /* note: text colour */
+	background-color: #1e1e1e; /* old: 2E3137 */
+	border-radius: 10px;
+	padding: 10px 5px;
+	margin: 2.5px 5px;
+}
+
+#custom-power-menu {
+	margin: 2.5px 5px 5px 5px;
 }

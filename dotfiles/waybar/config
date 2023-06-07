@@ -1,13 +1,30 @@
 {
 	"position": "left",
 	// "height": 0,  // auto height
-	"width": 50, // auto width
+	"width": 60, // auto width
 	"margin": "10 10 10 10",
-	"spacing": 5,
+	// "spacing": 5,
 
-	"modules-right": ["clock", "custom/power-menu"],
+	"modules-right": [
+		"network",
+		"battery",
+		"clock",
+		"custom/power-menu"
+	],
 
 
+
+	"network": {
+    "format-wifi": "WIFI\n{signalStrength}%",
+    "format-ethernet": "ETH",
+    "tooltip-format": "{ipaddr}/{cidr} via {ifname}",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "DISCON",
+	},
+	"battery": {
+		"format": "{capacity}%",
+		"on-click": "~/source/personal/src/deltas/power-profiles",
+	},
 	"clock": {
 		"format": "{:%H\n%M}",
 	},
