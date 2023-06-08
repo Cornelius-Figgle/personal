@@ -42,8 +42,8 @@
           2186
         ],
         "columns-percentage": [
-          6900,
-          3100
+          6895,
+          3105
         ],
         "cell-child-map": [
           [
@@ -103,6 +103,29 @@
           [
             0,
             1
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{7FD24DBA-9016-4D5A-8718-1A09E1E3836F}",
+      "name": "full 16:9",
+      "type": "grid",
+      "info": {
+        "rows": 1,
+        "columns": 1,
+        "rows-percentage": [
+          10000
+        ],
+        "columns-percentage": [
+          10000
+        ],
+        "cell-child-map": [
+          [
+            0
           ]
         ],
         "show-spacing": true,

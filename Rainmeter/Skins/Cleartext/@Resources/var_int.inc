@@ -1,6 +1,6 @@
 [Variables]
 
-name_lastgroup_sint=g_colors
+name_lastgroup_sint=g_text
 
 ; --- ADAPTIVE HIDE
 color_btn_adaptivehide_sint=128,128,128,255
