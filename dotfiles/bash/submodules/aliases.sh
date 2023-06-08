@@ -1,5 +1,6 @@
-
 alias cls='clear'
+
+alias winfetch='pwsh -c winfetch'  # note: pwsh has weird module loading bars so we call it into pwsh where these are disabled (I couldn't work out how to do it in git-bash)
 
 function svpush () {
 	git add .
