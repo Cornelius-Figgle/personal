@@ -10,4 +10,4 @@ FILE="$HOME/.config/rofi/colors.rasi"
 #sed -i -e "s/ac: .*/ac:   ${AC}FF;/g" $FILE
 #sed -i -e "s/se: .*/se:   ${SE}FF;/g" $FILE
 
-rofi -modi emoji -show emoji -theme ~/.config/rofi/emoji.rasi
+rofi -modi emoji -show emoji -theme ~/.config/rofi/emoji.rasi -emoji-format {emoji}
