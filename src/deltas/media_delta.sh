@@ -13,16 +13,19 @@ sink=@DEFAULT_SINK@
 
 # note: main functions
 function vol {
+	cur_vol=$(pactl get-sink-volume $sink | grep -o ...% | head -1 | awk '{$1=$1};1' | sed 's/.\{1\}$//')
+
 	if [[ $offset = up ]]; then
-		pactl set-sink-volume $sink "+${value}%"
+		if [[ $(( $(( $cur_vol + $value )) < 100 )) ]]; then
+			pactl set-sink-volume $sink "+${value}%"
+		fi
 	elif [[ $offset = down ]]; then
 		pactl set-sink-volume $sink "-${value}%"
 	else
 		exit 2
 	fi
 
-	cur_vol=$(pactl get-sink-volume $sink | grep -o ...% | head -1 | awk '{$1=$1};1')
-	notify-send -i ~/.local/share/icons/Win11-dark/status/24/volume-level-high.svg " Volume " " $( echo $cur_vol ) "
+	notify-send -i ~/.local/share/icons/Win11-dark/status/24/volume-level-high.svg " Volume " " $( echo $cur_vol )% "
 }
 
 function mute {
@@ -49,9 +52,9 @@ function mic {
 
 function bright {
 	if [[ $offset = up ]]; then
-		brightnessctl s 5%+
+		brightnessctl s $value%+
 	elif [[ $offset = down ]]; then
-        brightnessctl s 5%-
+		brightnessctl s $value%-
 	else
 		exit 2
 	fi

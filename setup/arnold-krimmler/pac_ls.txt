@@ -14,6 +14,7 @@ foot
 fortune-mod
 fprintd
 freerdp
+fzf
 git
 github-cli
 gnome-keyring
@@ -36,6 +37,7 @@ linux-firmware
 lolcat
 lxappearance-gtk3
 man-db
+mpv
 nano
 neofetch
 neovim
@@ -67,4 +69,7 @@ wireplumber
 wtype
 xdg-desktop-portal-hyprland
 xorg-xwininfo
+youtube-dl
+yt-dlp
+ytfzf
 zram-generator
