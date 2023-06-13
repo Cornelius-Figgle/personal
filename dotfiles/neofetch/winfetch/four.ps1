@@ -1,5 +1,7 @@
 # ===== WINFETCH CONFIGURATION =====
 
+$image = "~/source/personal/dotfiles/neofetch/four/4.png"
+
 # $image = "~/winfetch.png"
 # $noimage = $true
 
