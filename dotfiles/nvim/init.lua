@@ -35,6 +35,39 @@ I hope you enjoy your Neovim journey,
 
 P.S. You can delete this when you're done too. It's your config now :)
 --]]
+
+vim.cmd [[
+    augroup ChangeBackgroudColour
+        autocmd colorscheme * :hi Normal guibg=none ctermbg=none
+        autocmd colorscheme * :hi LineNr guibg=none ctermbg=none 
+        autocmd colorscheme * :hi Folded guibg=none ctermbg=none 
+        autocmd colorscheme * :hi NonText guibg=none ctermbg=none 
+        autocmd colorscheme * :hi SpecialKey guibg=none ctermbg=none 
+        autocmd colorscheme * :hi VertSplit guibg=none ctermbg=none 
+        autocmd colorscheme * :hi SignColumn guibg=none ctermbg=none
+        autocmd colorscheme * :hi EndOfBuffer guibg=none ctermbg=none
+        autocmd colorscheme * :hi NormalNC guibg=none ctermbg=none
+        autocmd colorscheme * :hi NormalSB guibg=none ctermbg=none
+        autocmd colorscheme * :hi Comment guibg=none ctermbg=none
+        autocmd colorscheme * :hi Constant guibg=none ctermbg=none
+        autocmd colorscheme * :hi Special guibg=none ctermbg=none
+        autocmd colorscheme * :hi Identifier guibg=none ctermbg=none
+        autocmd colorscheme * :hi Statement guibg=none ctermbg=none
+        autocmd colorscheme * :hi PreProc guibg=none ctermbg=none
+        autocmd colorscheme * :hi Type guibg=none ctermbg=none
+        autocmd colorscheme * :hi Underlined guibg=none ctermbg=none
+        autocmd colorscheme * :hi Todo guibg=none ctermbg=none
+        autocmd colorscheme * :hi String guibg=none ctermbg=none
+        autocmd colorscheme * :hi Function guibg=none ctermbg=none
+        autocmd colorscheme * :hi Conditional guibg=none ctermbg=none
+        autocmd colorscheme * :hi Repeat guibg=none ctermbg=none
+        autocmd colorscheme * :hi Operator guibg=none ctermbg=none
+        autocmd colorscheme * :hi Structure guibg=none ctermbg=none
+        autocmd colorscheme * :hi CursorLineNr guibg=none ctermbg=none
+        autocmd colorscheme * :hi StatusLine guibg=none ctermbg=none
+    augroup END
+]]
+
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
@@ -203,9 +236,6 @@ require('lazy').setup({
   --
   --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
   { import = 'custom.plugins' },
-  {
-    'xiyaowong/transparent.nvim',
-  }
 }, {})
 
 -- [[ Setting options ]]
