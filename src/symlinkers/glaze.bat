@@ -1,1 +1,2 @@
-mklink /D c:\users\max.harrison\.glazewm c:\users\max.harrison\source\personal\dotfiles\glazewm
+rmdir c:\users\max.harrison\.glaze-wm
+mklink /D c:\users\max.harrison\.glaze-wm c:\users\max.harrison\source\personal\dotfiles\glaze-wm
