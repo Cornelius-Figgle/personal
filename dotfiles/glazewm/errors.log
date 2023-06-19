@@ -1,0 +1,22 @@
+2023-06-19 20:47:00
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. (Line: 165, Col: 36, Idx: 4856) - (Line: 165, Col: 74, Idx: 4894): While parsing a block mapping, did not find expected key.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.DeserializeUserConfig(String userConfigPath) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 112
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 53
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 38
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Bootstrapper.Startup.Run() in C:\Users\larsb\repos\GlazeWM\GlazeWM.Bootstrapper\Startup.cs:line 57
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"X":0,"Y":0,"Width":0,"Height":0,"__type":"RootContainer","FocusIndex":0,"Children":[]}
+
+2023-06-19 20:49:18
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. (Line: 167, Col: 5, Idx: 4904) - (Line: 167, Col: 5, Idx: 4904): While scanning a simple key, could not find expected ':'.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.DeserializeUserConfig(String userConfigPath) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 112
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 53
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 38
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in C:\Users\larsb\repos\GlazeWM\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Bootstrapper.Startup.Run() in C:\Users\larsb\repos\GlazeWM\GlazeWM.Bootstrapper\Startup.cs:line 57
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"X":0,"Y":0,"Width":0,"Height":0,"__type":"RootContainer","FocusIndex":0,"Children":[]}
+
