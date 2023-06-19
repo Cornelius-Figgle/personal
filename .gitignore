@@ -5,7 +5,7 @@ v1_archive/
 
 dotfiles/hypr/memos.sh
 
-dotfiles/glazewm/errors.log
+dotfiles/glaze-wm/errors.log
 
 # powertoys :(
 dotfiles/PowerToys/**/*log_*.*
