@@ -35,15 +35,6 @@
             "keys": "ctrl+n"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -68,15 +59,17 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+h"
-        },
-        {
             "command": 
             {
-                "action": "newTab"
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "keys": "ctrl+t"
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+h"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "quakeMode"
             },
             "keys": "win+`"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -173,13 +173,16 @@
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Debian --cd ~",
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
-                "name": "Debian"
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d cava-wsl --cd ~",
                 "guid": "{7fc4c3e0-fb7c-50e4-8eee-27cbf6ab2e81}",
                 "hidden": false,
-                "name": "cava-wsl"
+                "name": "cava-wsl",
+                "source": "Windows.Terminal.Wsl",
+                "useAtlasEngine": true
             },
             {
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu --cd ~",
