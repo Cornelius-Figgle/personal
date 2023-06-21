@@ -164,6 +164,7 @@
             },
             {
                 "commandline": "%userprofile%\\scoop\\apps\\git\\current\\bin\\bash.exe -i -l",
+                "experimental.retroTerminalEffect": false,
                 "guid": "{590e2079-13a0-4073-91b9-f0120e958deb}",
                 "hidden": false,
                 "icon": "C:\\Users\\Max.Harrison\\scoop\\apps\\git\\current\\mingw64\\share\\git\\git-for-windows.ico",
@@ -181,8 +182,7 @@
                 "guid": "{7fc4c3e0-fb7c-50e4-8eee-27cbf6ab2e81}",
                 "hidden": false,
                 "name": "cava-wsl",
-                "source": "Windows.Terminal.Wsl",
-                "useAtlasEngine": true
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu --cd ~",
