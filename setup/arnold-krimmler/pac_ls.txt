@@ -23,6 +23,7 @@ grim
 grub
 gst-plugin-pipewire
 gtk-engine-murrine
+helix
 hyprland
 hyprpaper
 imagemagick
