@@ -13,7 +13,6 @@ cursorcolumn = true
 auto-completion = true
 auto-format = true
 auto-save = false
-# idle-timout = 400
 completion-trigger-len = 3
 completion-replace = true
 auto-info = true
