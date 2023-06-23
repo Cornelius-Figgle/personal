@@ -41,7 +41,6 @@ man-db
 mpv
 nano
 neofetch
-neovim
 noto-fonts-emoji
 ntfs-3g
 otf-font-awesome
