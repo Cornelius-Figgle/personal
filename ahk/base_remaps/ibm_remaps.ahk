@@ -19,7 +19,7 @@ TraySetIcon(path_base . "icons\ibm.ico")
 
 ; ===== main remaps ==========================================================
 
-#'::DllCall("LockWorkStation")  ; allows us to `Win+l` without being blocked by system
+#\::DllCall("LockWorkStation")  ; allows us to `Win+l` without being blocked by system
 *LAlt::RWin  ; no windows key on the Model M
 
 LControl & RAlt::Alt  ; `AltGr` becomes `LAlt` for us
