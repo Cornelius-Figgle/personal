@@ -4,7 +4,7 @@ alias winfetch='pwsh -c winfetch'  # note: pwsh has weird module loading bars so
 
 function svpush () {
 	git add .
-	git commit -m '$*'
+	git commit -m "$*"
 	git push
 }
 
