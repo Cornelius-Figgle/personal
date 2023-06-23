@@ -35,15 +35,6 @@
             "keys": "ctrl+n"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -68,15 +59,17 @@
             "keys": "win+ctrl+t"
         },
         {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+h"
-        },
-        {
             "command": 
             {
-                "action": "newTab"
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             },
-            "keys": "ctrl+t"
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+h"
         },
         {
             "command": 
@@ -84,6 +77,13 @@
                 "action": "quakeMode"
             },
             "keys": "win+`"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -163,7 +163,6 @@
                 "useAcrylic": false
             },
             {
-                "backgroundImage": "desktopWallpaper",
                 "commandline": "%userprofile%\\scoop\\apps\\git\\current\\bin\\bash.exe -i -l",
                 "experimental.retroTerminalEffect": false,
                 "guid": "{590e2079-13a0-4073-91b9-f0120e958deb}",
