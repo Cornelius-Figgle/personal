@@ -11,12 +11,6 @@ path_base := "C:\Users\Max.Harrison\source\personal\ahk\"
 
 ; ===== main macros ==========================================================
 
-*F1:: {
-	; opens help file for currently running ahk version
-	SplitPath(A_AhkPath, , &AhkDir)
-	Run(AhkDir . "\AutoHotkey.chm", , "Max")
-}
-
 *F4::!F4  ; quicker close
 
 *F9::Run("control mmsys.cpl sounds")  ; sound control panel
