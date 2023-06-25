@@ -26,6 +26,8 @@ bar:
       default_workspace_background: "transparent"
   components_center:
     - type: "window title"
+    - type: "text"
+      text: " • hi??"  # future: make this show music info?
   components_right:
     - type: "tiling direction"
       label_horizontal: "⮂"
