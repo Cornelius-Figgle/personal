@@ -20,12 +20,16 @@ TraySetIcon(path_base . "icons\ibm.ico")
 ; ===== main remaps ==========================================================
 
 #\::DllCall("LockWorkStation")  ; allows us to `Win+l` without being blocked by system
-*LAlt::RWin  ; no windows key on the Model M
 
-LControl & RAlt::Alt  ; `AltGr` becomes `LAlt` for us
+; *LAlt::RWin  ; no windows key on the Model M
+; LControl & RAlt::Alt  ; `AltGr` becomes `LAlt` for us
+
+*Capslock::Send "{LWin down}"
+*Capslock Up::Send "{LWin up}"
+
 Ins::AppsKey  ; context menus (use `mod+Ins` for normal insert)
 
-CapsLock::Return
+; CapsLock::Return
 
 ; ===== numpad -> media keys =================================================
 
