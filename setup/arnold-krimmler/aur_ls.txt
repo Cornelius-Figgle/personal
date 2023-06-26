@@ -2,6 +2,7 @@ bashmount
 cava
 chocolate-doom
 chromium-widevine
+doom1-wad
 hyprpicker-git
 imgur.sh
 mellowplayer
