@@ -37,6 +37,7 @@ linux
 linux-firmware
 lolcat
 lxappearance-gtk3
+ly
 man-db
 mpv
 nano
@@ -55,6 +56,7 @@ rofi-emoji
 rustup
 scdoc
 slurp
+supertuxkart
 tmux
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd

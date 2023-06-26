@@ -1,5 +1,6 @@
 bashmount
 cava
+chocolate-doom
 chromium-widevine
 hyprpicker-git
 imgur.sh
@@ -15,3 +16,4 @@ visual-studio-code-bin
 waybar-hyprland-git
 wev
 yay-git
+zmusic
