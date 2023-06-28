@@ -8,6 +8,8 @@ dotfiles/hypr/memos.sh
 dotfiles/glaze-wm/errors.log
 
 # powertoys :(
+dotfiles/PowerToys/settings-placement.json
+
 dotfiles/PowerToys/**/*log_*.*
 dotfiles/PowerToys/**/Logs/
 dotfiles/PowerToys/**/**/Logs/
@@ -19,8 +21,8 @@ dotfiles/PowerToys/PowerToys Run/Settings/QueryHistory.json
 dotfiles/PowerToys/PowerToys Run/Settings/UserSelectedRecord.json
 dotfiles/PowerToys/PowerToys Run/Settings/ImageCache.json
 
-dotfiles/PowerToys/PowerToys Run/settings.json
-dotfiles/PowerToys/PowerToys Run/Settings/
+# dotfiles/PowerToys/PowerToys Run/settings.json
+# dotfiles/PowerToys/PowerToys Run/Settings/
 
 dotfiles/PowerToys/UpdateState.json
 dotfiles/PowerToys/settings-telemetry.json
