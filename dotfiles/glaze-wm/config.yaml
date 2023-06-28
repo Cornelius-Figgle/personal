@@ -26,8 +26,8 @@ bar:
       default_workspace_background: "transparent"
   components_center:
     - type: "window title"
-    - type: "text"
-      text: " • hi??"  # future: make this show music info?
+   # - type: "text"
+   #   text: " • hi??"  # future: make this show music info?
   components_right:
     - type: "tiling direction"
       label_horizontal: "⮂"
@@ -40,15 +40,21 @@ bar:
       margin: "0 4px 0 0"
       padding: "0 8px"
     - type: "clock"
+      time_formatting: "yyyy-MM-dd"
+      margin: "0 0 0 10px"
+    - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "yyyy-MM-dd T HH:mm:ss"
-      margin: "0 0 0 10px"
+      time_formatting: "HH:mm:ss"
+      margin: "0 5px 0 10px"
 
 workspaces:
   - name: "1"
+    bind_to_monitor: 2
   - name: "2"
+  #  bind_to_monitor: 1
   - name: "3"
+    bind_to_monitor: 1
   - name: "4"
   - name: "5"
   - name: "6"
