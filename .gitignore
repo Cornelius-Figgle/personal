@@ -22,7 +22,7 @@ dotfiles/PowerToys/PowerToys Run/Settings/UserSelectedRecord.json
 dotfiles/PowerToys/PowerToys Run/Settings/ImageCache.json
 
 dotfiles/PowerToys/PowerToys Run/Settings/
-# dotfiles/PowerToys/PowerToys Run/settings.json
+!dotfiles/PowerToys/PowerToys Run/settings.json
 !dotfiles/PowerToys/PowerToys Run/Settings/PowerToysRunSettings.json
 
 dotfiles/PowerToys/UpdateState.json
