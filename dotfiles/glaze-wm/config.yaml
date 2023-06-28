@@ -39,9 +39,9 @@ bar:
       background: "#ffffff33"
       margin: "0 4px 0 0"
       padding: "0 8px"
-    - type: "clock"
-      time_formatting: "yyyy-MM-dd"
-      margin: "0 0 0 10px"
+   # - type: "clock"
+   #   time_formatting: "yyyy-MM-dd"
+   #   margin: "0 0 0 10px"
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings

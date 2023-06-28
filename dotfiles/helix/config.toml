@@ -93,3 +93,20 @@ max-wrap = 20
 max-indent-retain = 40
 wrap-indicator = "↪"
 wrap-at-text-width = false
+
+
+
+[keys.normal]
+C-s = ":w"
+C-h = ":open ~/.config/helix/config.toml"
+C-r = ":config-reload"
+C-v = ":clipboard-paste-after"
+C-c = ":clipboard-yank"
+C-z = "undo"
+C-y = "redo"
+
+[keys.insert]
+C-v = ":clipboard-paste-after"
+C-c = ":clipboard-yank"
+C-z = "undo"
+C-y = "redo"
