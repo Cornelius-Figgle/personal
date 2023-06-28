@@ -19,7 +19,7 @@ dotfiles/PowerToys/FancyZones/applied-layouts.json
 
 dotfiles/PowerToys/PowerToys Run/LogsModuleInterface/
 
-dotfiles/PowerToys/PowerToys Run/Settings/
+dotfiles/PowerToys/PowerToys Run/Settings/*
 !dotfiles/PowerToys/PowerToys Run/settings.json
 !dotfiles/PowerToys/PowerToys Run/Settings/PowerToysRunSettings.json
 
