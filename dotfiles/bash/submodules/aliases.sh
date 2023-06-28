@@ -14,6 +14,7 @@ if [ $HOSTNAME = mimic3 ]; then
 fi
 
 alias glances='glances --percpu --disable-irix --separator --programs'
+alias rdp='xfreerdp /v:NightCrawler /u:max.harrison /sec:tls'
 
 # alias pip='python3 -m pip'
 # alias venv='python3 -m venv'
