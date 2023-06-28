@@ -21,9 +21,9 @@ dotfiles/PowerToys/PowerToys Run/Settings/QueryHistory.json
 dotfiles/PowerToys/PowerToys Run/Settings/UserSelectedRecord.json
 dotfiles/PowerToys/PowerToys Run/Settings/ImageCache.json
 
+dotfiles/PowerToys/PowerToys Run/Settings/
 # dotfiles/PowerToys/PowerToys Run/settings.json
 !dotfiles/PowerToys/PowerToys Run/Settings/PowerToysRunSettings.json
-dotfiles/PowerToys/PowerToys Run/Settings/
 
 dotfiles/PowerToys/UpdateState.json
 dotfiles/PowerToys/settings-telemetry.json
