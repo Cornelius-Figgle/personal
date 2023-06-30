@@ -307,5 +307,6 @@
     "AutoHotkey2.AutoLibInclude": "All",
     "AutoHotkey2.InterpreterPath": "\"C:\\Users\\Max.Harrison\\scoop\\apps\\autohotkey\\current\\v2\\AutoHotkey64.exe\"",
     "tabnine.experimentalAutoImports": true,
-    "workbench.colorTheme": "Monokai Dimmed"
+    "workbench.colorTheme": "Monokai Dimmed",
+    "githubPullRequests.fileListLayout": "tree"
 }

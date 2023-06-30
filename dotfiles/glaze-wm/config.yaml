@@ -136,12 +136,12 @@ keybindings:
   - command: "tiling direction toggle"
     binding: "Alt+V"
 
-  # Change focus between floating / tiling windows.
-  - command: "focus mode toggle"
-    binding: "Alt+Space"
-
   # Change the focused window to be floating / tiling.
   - command: "toggle floating"
+    binding: "Alt+Space"
+  
+  # Change focus between floating / tiling windows.
+  - command: "focus mode toggle"
     binding: "Alt+Shift+Space"
 
   # Change the focused window to be maximized / unmaximized.
@@ -166,7 +166,7 @@ keybindings:
 
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
-  - command: "exec wt"
+  - command: "exec %userprofile%/scoop/apps/windows-terminal/current/wt.exe"
     binding: "Alt+Q"
 
   # python.exe launcher for powershell
