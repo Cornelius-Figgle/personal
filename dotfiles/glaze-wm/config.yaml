@@ -68,13 +68,25 @@ window_rules:
   # the WM as admin.
   - command: "ignore"
     match_process_name: "Taskmgr"
-  
+
   - command: "ignore"
     match_process_name: "mstsc"
+
+  - command: "ignore"
+    match_process_name: "WindowsSandboxClient"
+
+  - command: "ignore"
+    match_process_name: "WindowsSandbox"
 
   # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
   - command: "set floating"
     match_class_name: "#32770"
+
+  - command: "set floating"
+    match_process_name: "Taskmgr"
+
+  - command: "set floating"
+    match_process_name: "AutoHotkeyUX"
 
   # Some applications (eg. Steam) have borders that extend past the normal border size.
   - command: "resize borders 0px -7px -7px -7px"
