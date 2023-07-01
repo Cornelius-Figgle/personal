@@ -3,7 +3,9 @@
 $ProgressPreference='SilentlyContinue'
 
 $env:PYTHONIOENCODING="utf-8"
-# iex "$(thefuck --alias)"
+iex "$(thefuck --alias)"
+
+$env:WSL_UTF8=1
 
 Function prompt { "$($( get-item $PWD ).FullName.Replace($HOME, '~')) $ " }
 

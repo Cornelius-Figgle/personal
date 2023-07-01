@@ -9,3 +9,5 @@ eval "$(thefuck --alias)"
 export ProgressPreference='SilentlyContinue'
 
 PS1='\w \$ '
+
+export WSL_UTF8=1
