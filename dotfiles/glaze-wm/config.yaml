@@ -178,6 +178,14 @@ keybindings:
   - command: "reload config"
     binding: "Alt+Shift+R"
 
+  # Force kill explorer
+  - command: "exec taskkill /IM explorer.exe /F"
+    binding: "Alt+Shift+P"
+
+  # overwrite Windows hotkeys? (when `explorer` has been killed)
+  - command: "exec explorer %userprofile%"
+    binding: "LWin+E"
+
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
   - command: "exec %userprofile%/scoop/apps/windows-terminal/current/wt.exe"
