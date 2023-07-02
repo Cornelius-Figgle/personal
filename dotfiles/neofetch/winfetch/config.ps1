@@ -35,9 +35,6 @@
 # Make the logo blink
 # $blink = $true
 
-# Display all built-in info segments.
-# $all = $true
-
 # Add a custom info line
 # function info_custom_time {
 #     return @{
@@ -47,64 +44,54 @@
 # }
 
 # Configure which disks are shown
-# $ShowDisks = @("C:", "D:")
-# Show all available disks
+$ShowDisks = @("C:", "D:", "T:", "V:")
 # $ShowDisks = @("*")
 
 # Configure which package managers are shown
-# disabling unused ones will improve speed
-# $ShowPkgs = @("winget", "scoop", "choco")
+$ShowPkgs = @("winget", "scoop", "pip")
 
-# Use the following option to specify custom package managers.
-# Create a function with that name as suffix, and which returns
-# the number of packages. Two examples are shown here:
-# $CustomPkgs = @("cargo", "just-install")
+# Use the following option to specify custom package managers
+$CustomPkgs = @("cargo", "pip")
+# Create a function with that name as suffix, and which returns the number
+# of packages
 # function info_pkg_cargo {
-#     return (cargo install --list | Where-Object {$_ -like "*:" }).Length
+#      return (cargo install --list | Where-Object {$_ -like "*:" }).Length
 # }
-# function info_pkg_just-install {
-#     return (just-install list).Length
-# }
+function info_pkg_pip {
+     return (pip freeze).Length
+}
 
 # Configure how to show info for levels
-# Default is for text only.
-# 'bar' is for bar only.
-# 'textbar' is for text + bar.
-# 'bartext' is for bar + text.
-# $cpustyle = 'bar'
-# $memorystyle = 'textbar'
-# $diskstyle = 'bartext'
-# $batterystyle = 'bartext'
+# 'text' is for 'text' only
+# 'bar' is for 'bar' only
+# 'textbar' is for 'text' then 'bar'
+# 'bartext' is for 'bar' then 'text'
+$cpustyle = 'text'
+$memorystyle = 'text'
+$diskstyle = 'text'
+$batterystyle = 'text'
 
-
-# Remove the '#' from any of the lines in
-# the following to **enable** their output.
+# title, dashes, os, computer, kernel, motherboard, custom_time, uptime,
+# ps_pkgs, pkgs, pwsh, resolution, terminal, theme, cpu, gpu, cpu_usage, 
+# memory, disk, battery, locale, weather, local_ip, public_ip, blank, colorbar
 
 @(
     "title"
     "dashes"
     "os"
     "computer"
-    "kernel"
-    "motherboard"
-    # "custom_time"  # use custom info line
     "uptime"
-    # "ps_pkgs"  # takes some time
+    "dashes"
     "pkgs"
     "pwsh"
     "resolution"
     "terminal"
-    # "theme"
+    "dashes"
     "cpu"
     "gpu"
-    # "cpu_usage"
     "memory"
+    "dashes"
     "disk"
-    # "battery"
-    # "locale"
-    # "weather"
-    # "local_ip"
-    # "public_ip"
     "blank"
     "colorbar"
 )
