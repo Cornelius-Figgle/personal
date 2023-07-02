@@ -182,6 +182,9 @@ keybindings:
   - command: "exec taskkill /IM explorer.exe /F"
     binding: "Alt+Shift+P"
 
+  - command: "exec explorer"
+    binding: "LWin+Shift+P"
+
   # overwrite Windows hotkeys? (when `explorer` has been killed)
   - command: "exec explorer %userprofile%"
     binding: "LWin+E"
