@@ -23,3 +23,5 @@
 	postBuffer = 157286400
 [safe]
 	directory = T:/source/personal
+[init]
+	defaultBranch = main
