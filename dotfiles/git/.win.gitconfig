@@ -1,6 +1,6 @@
 [core]
 	autocrlf = true
-	editor = code --wait
+	editor = helix
 	symlinks = true
 [credential "https://github.com"]
 	helper = 
