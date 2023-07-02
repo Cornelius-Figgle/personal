@@ -1,0 +1,2 @@
+del "C:\Users\Max.Harrison\scoop\apps\autohotkey\current\Compiler\upx.exe"
+mklink "C:\Users\Max.Harrison\scoop\apps\autohotkey\current\Compiler\upx.exe" "C:\Users\Max.Harrison\scoop\apps\upx\current\upx.exe"
