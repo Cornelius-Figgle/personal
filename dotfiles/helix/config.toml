@@ -88,7 +88,7 @@ layout = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
 min-width = 3
 
 [editor.soft-wrap]
-enable = true
+enable = false
 max-wrap = 20
 max-indent-retain = 40
 wrap-indicator = "↪"
@@ -98,15 +98,10 @@ wrap-at-text-width = false
 
 [keys.normal]
 C-s = ":w"
-C-h = ":open ~/.config/helix/config.toml"
-C-r = ":config-reload"
-C-v = ":clipboard-paste-after"
-C-c = ":clipboard-yank"
-C-z = "undo"
-C-y = "redo"
+r = ":config-reload"
+p = ":clipboard-paste-after"
+y = ":clipboard-yank"
 
 [keys.insert]
-C-v = ":clipboard-paste-after"
-C-c = ":clipboard-yank"
-C-z = "undo"
-C-y = "redo"
+p = ":clipboard-paste-after"
+y = ":clipboard-yank"
