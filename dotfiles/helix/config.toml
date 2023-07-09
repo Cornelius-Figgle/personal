@@ -101,7 +101,3 @@ C-s = ":w"
 r = ":config-reload"
 p = ":clipboard-paste-after"
 y = ":clipboard-yank"
-
-[keys.insert]
-p = ":clipboard-paste-after"
-y = ":clipboard-yank"

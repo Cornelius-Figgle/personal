@@ -1,5 +1,3 @@
-# section: env vars
-
 $ProgressPreference='SilentlyContinue'
 
 $env:PYTHONIOENCODING="utf-8"
@@ -9,6 +7,8 @@ $env:WSL_UTF8=1
 
 Function prompt { "$($( get-item $PWD ).FullName.Replace($HOME, '~')) $ " }
 
+New-Alias -Name ahk -Value autohotkey
+
 # Function pip-alias-fn { (python3 -m pip @args) }
 # New-Alias -Name pip -Value pip-alias-fn
 # Function venv-alias-fn { (python3 -m venv @args) }
@@ -16,8 +16,6 @@ Function prompt { "$($( get-item $PWD ).FullName.Replace($HOME, '~')) $ " }
 # Function python-alias-fn { (python3 @args) }
 # New-Alias -Name python -Value python-alias-fn
 # New-Alias -Name py -Value python-alias-fn
-
-# section: functions / aliases
 
 Function glances-alias-fn { (glances --percpu --disable-irix --separator --programs @args) }
 # New-Alias -Name glances -Value glances-alias-fn

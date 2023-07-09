@@ -1,6 +1,6 @@
 {
-  "PreviousHotkey": "Alt \u002B Space",
-  "Hotkey": "Win \u002B R",
+  "PreviousHotkey": "Win \u002B R",
+  "Hotkey": "Alt \u002B R",
   "UseCentralizedKeyboardHook": false,
   "SearchQueryResultsWithDelay": true,
   "SearchInputDelayFast": 0,
@@ -20,7 +20,7 @@
   "WindowLeft": 200,
   "WindowTop": 208,
   "MaxResultsToShow": 6,
-  "ActivateTimes": 167,
+  "ActivateTimes": 195,
   "CustomPluginHotkeys": [],
   "DontPromptUpdateMsg": false,
   "EnableUpdateLog": false,
