@@ -9,12 +9,13 @@ function svpush () {
 }
 
 if [ $HOSTNAME = mimic3 ]; then
-    alias ter='/mnt/p/00\ Max/mimic/ter_start.sh'
-    alias mc='/mnt/p/00\ Max/mimic/mc_start.sh'
+	alias ter='/mnt/p/00\ Max/mimic/ter_start.sh'
+	alias mc='/mnt/p/00\ Max/mimic/mc_start.sh'
 fi
 
 alias glances='glances --percpu --disable-irix --separator --programs'
-alias rdp='xfreerdp /v:NightCrawler /u:max.harrison /sec:tls'
+alias rdp='xfreerdp -v NightCrawler -d FULLIMAGE -u max.harrison --sec tls \
+	--disable-wallpaper --disable-themes --disable-fonts --disable-aero --disable-window-drag --disable-menu-anims'
 
 # alias pip='python3 -m pip'
 # alias venv='python3 -m venv'
