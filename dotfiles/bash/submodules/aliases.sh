@@ -15,7 +15,8 @@ fi
 
 alias glances='glances --percpu --disable-irix --separator --programs'
 alias rdp='xfreerdp -v NightCrawler -d FULLIMAGE -u max.harrison --sec tls \
-	--disable-wallpaper --disable-themes --disable-fonts --disable-aero --disable-window-drag --disable-menu-anims'
+	--disable-wallpaper --disable-themes --disable-fonts --disable-aero --disable-window-drag --disable-menu-anims \
+	-f'
 
 # alias pip='python3 -m pip'
 # alias venv='python3 -m venv'
