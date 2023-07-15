@@ -78,6 +78,9 @@ window_rules:
     match_process_name: "WindowsSandboxClient"
 
   - command: "ignore"
+    match_process_name: "VirtualBox"
+  
+  - command: "ignore"
     match_process_name: "VirtualBoxVM"
 
   # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
